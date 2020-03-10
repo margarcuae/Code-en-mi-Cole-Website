@@ -7,7 +7,7 @@
 
             </figure>
     <!-- MENU - NAVEGADOR  -->
-    <nav class="menu">
+    <nav class="menu font-m">
         
         <ul>
             <li>
