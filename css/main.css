@@ -139,7 +139,15 @@ body{
     margin-top: 50px;
     padding-bottom: 30px;
 }
-.icon-facebook{
-    
+.icon-facebook{ 
     grid-column: 2;
+}
+
+.footer4{
+    color: #595850;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    padding-bottom: 50px;   
+    font-weight: bold;
 }

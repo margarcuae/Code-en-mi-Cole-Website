@@ -11,7 +11,7 @@
         
         <ul>
             <li>
-                <a href="home.php">HOME</a>
+                <a href="index.php">HOME</a>
             </li>
             <li>
                 <p>|</p>
