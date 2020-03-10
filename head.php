@@ -4,4 +4,4 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="css/main.css">
