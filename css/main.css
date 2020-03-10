@@ -6,6 +6,16 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.font-lato{
+    font-family: 'Lato', sans-serif;
+}
+
+.center{
+    
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 
 .logotipo{
