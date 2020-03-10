@@ -98,7 +98,7 @@ body{
 .footer2{
     margin-top: 15px;
     display: grid;
-    grid-template-columns: 100px repeat(3,1fr) 100px;
+    grid-template-columns: 10% repeat(3,1fr) 10%;
     justify-items: center;
     align-items: center;
 
