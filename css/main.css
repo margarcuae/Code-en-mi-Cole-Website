@@ -154,3 +154,7 @@ body{
 .f4-1{
     grid-column: 2;
 }
+.footer4 a{
+    text-decoration: none;
+    color: #595850;
+}

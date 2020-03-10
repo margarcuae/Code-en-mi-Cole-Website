@@ -66,7 +66,9 @@
         <p>Copyright © 2020 Code en mi Cole. All rights reserved.</p>
     </div>
     <div>
-        <p>Desarrollado por rocoto.tech</p>
+    <a href="https://rocoto.tech/" target="_blank">
+                    Desarrollado por rocoto.tech
+            </a>
     </div>
     <div>
         <p>Aviso legal | Política de privacidad | Política de cookies</p>
