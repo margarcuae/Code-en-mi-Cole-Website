@@ -15,10 +15,15 @@
             <button id="btn-saber" class="boton">
                 SABER MÁS
             </button>
+
+            <br>
+            <br>
+            <br>
+            <br>
             
         </div>
         <?php include("footer.php"); ?>
-    
+
     </body>
 </html>
 

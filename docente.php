@@ -64,6 +64,12 @@
 
         <div class="center" id="seccion3">
             <h2 id="title3" class="font-montserrat">LA CIENCIA DE LA COMPUTACIÓN IMPLICA: <br><br> <hr id="raya"> </h2>
+            <p class="font-lato" style="display: inline-block; width: 700px; font-size: 18pt; font-weight: lighter;">
+                Ciencia de la Computación es una de las áreas más increíbles que hay en el mundo. No solo son increíblementes expresivas, posibilitando un número infinito de combinaciones e ideas, si no que cuando son bien utilizadas, dan como resultado un producto útil y funcional que puede entretener e informar a las masas.
+                <br>
+                <br>
+                El arte de la Ciencia de la Computación comienza con un problema que necesita ser resuelto . Problemas de la Vida diaria, en el trabajo, en las intercomunicaciones, en todo. 
+            </p>
         </div>
 
 
@@ -108,12 +114,14 @@
         height:100px;
         clip-path: polygon(0 0,0 100%,100% 100%,100% 0,62% 0, 50% 30px,38% 0);
         background-color: #e6e6e6;
+        margin-bottom: -2px;
     }
 
     #seccion2{
         padding: 0px;
         background-color: #e6e6e6;
         margin:0;
+        padding-bottom: 50px;
     }
 
     #raya{
@@ -149,12 +157,12 @@
     #seccion3{
 
         width: 100%;
-        height: 500px;
         background-color: #ecd6d8;
         background-image:url('img/docentes-seccion2.png');
         background-size: 800px;
         background-repeat: no-repeat;
         background-position: right;
+
     }
 
 
