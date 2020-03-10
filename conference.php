@@ -12,7 +12,7 @@
                 Que ocurriría si le damos la oportunidad para que 50,000 niños peruanos tengan las herramientas para mejorar el mundo.
             </p>
 
-            <button class="boton">
+            <button id="btn-saber" class="boton">
                 SABER MÁS
             </button>
             
@@ -23,14 +23,20 @@
 
 <style>
     #csc-title{
-        font-size:35pt;
+        font-size:50pt;
         font-weight:bold;
         margin-top: 35pt;
     }
 
     #p-text{
+        margin-top: 100px;
         padding-left: 15% ;
         padding-right: 15% ;
         font-size: 16pt;    
     }
+
+    #btn-saber{
+        margin-top: 60px;
+    }
+
 </style>

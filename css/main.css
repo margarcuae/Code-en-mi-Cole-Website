@@ -47,7 +47,7 @@ body{
     font-size: 11px;
     padding-bottom: 10px;
 }
-.menu a,p{
+.menu a{
     color:#808080;
     text-decoration: none;
     padding: 0 5px 0 5px;
@@ -71,4 +71,5 @@ body{
   display: inline-block;
   font-size: 18px;
   border-radius: 40px;
+  margin: 5px 0;
 }
