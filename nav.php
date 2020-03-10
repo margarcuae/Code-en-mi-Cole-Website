@@ -14,31 +14,31 @@
                 <a href="home.php">HOME</a>
             </li>
             <li>
-                <a>|</a>
+                <p>|</p>
             </li>
             <li>
                 <a href="quehacemos.php">QUÉ HACEMOS</a>
             </li>
             <li>
-                <a>|</a>
+                <p>|</p>
             </li>   
             <li>
                 <a href="nosotros.php">NOSOTROS</a>
             </li>
             <li>
-                <a>|</a>
+                <p>|</p>
             </li>
             <li>
                 <a href="eventos.php">EVENTOS</a>
             </li>
             <li>
-                <a>|</a>
+                <p>|</p>
             </li>
             <li>
                 <a href="blog.php">BLOG</a>
             </li>
             <li>
-                <a>|</a>
+                <p>|</p>
             </li>
             <li>
                 <a href="blog.php">CONTACTO</a>
