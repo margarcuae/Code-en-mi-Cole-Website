@@ -132,10 +132,10 @@ body{
 }
 .footer3{
     display: grid;
-    grid-template-columns: 480px repeat(5,1fr) 4800px;
+    grid-template-columns: 40% repeat(5,1fr) 40%;
     justify-items: center;
     align-items: center;
-    grid-gap: 35px;
+    
     margin-top: 50px;
     padding-bottom: 30px;
 }
