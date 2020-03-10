@@ -46,3 +46,5 @@
         </ul>
     </nav>
 </header>
+
+<?php include("barrasocial.php"); ?>

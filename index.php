@@ -5,7 +5,7 @@
 </head>
 <body>
     <?php include("nav.php"); ?>
-    <?php include("barrasocial.php"); ?>
+    
     
     <?php include("footer.php"); ?>
     
