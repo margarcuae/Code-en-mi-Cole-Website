@@ -17,9 +17,8 @@
             </p>
         </div>
 
-        <div id="barra"><div>
-            
-            <div class="center" id="seccion2">
+        <div id="barra"></div>  
+        <div class="center" id="seccion2">
             <h2 id="title2" class="font-montserrat">LA CIENCIA DE LA COMPUTACIÓN IMPLICA: <br><br> <hr id="raya"> </h2>
             
 
