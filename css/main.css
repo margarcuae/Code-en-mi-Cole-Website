@@ -11,23 +11,17 @@ body{
 }
 
 
-
 .center{
     
     margin: 0 auto;
     text-align: center;
 }
 
-
-
 .logotipo{
     display: inline-block;
     margin-left: 40px;
     margin-top: 3px;
     }
-
-
-
 
     /*
     BARRA DE NAVEGACION
