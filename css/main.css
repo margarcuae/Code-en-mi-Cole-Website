@@ -1,31 +1,30 @@
 body{
     margin: 0;
 }
-
-.font-montserrat{
-    font-family: 'Montserrat', sans-serif;
-}
-
 .font-lato{
     font-family: 'Lato', sans-serif;
 }
-
-
+.font-montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
 .center{
     
     margin: 0 auto;
     text-align: center;
 }
 
+
+
+    /*
+    BARRA DE NAVEGACION
+    */
+    
 .logotipo{
     display: inline-block;
     margin-left: 40px;
     margin-top: 3px;
     }
 
-    /*
-    BARRA DE NAVEGACION
-    */
 
 .menu{
     /* position: fixed;/ */
@@ -50,14 +49,14 @@ body{
 .menu a{
     color:#808080;
     text-decoration: none;
-    padding: 0 5px 0 5px;
+    padding: 43px 5px 10px 5px;
 
 }
 
 .menu a:hover {
     color: white;
     background-color: #009999;
-    padding: 43px 2px 10px 2px;
+    
   }
 
 
