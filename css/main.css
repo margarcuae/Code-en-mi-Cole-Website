@@ -10,6 +10,8 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+
+
 .center{
     
     margin: 0 auto;
@@ -41,4 +43,16 @@ body{
 .menu a{
     color:#808080;
     text-decoration: none;
+}
+
+.boton{
+  background-color: #3fa8f5;
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 40px;
 }
