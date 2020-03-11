@@ -12,6 +12,7 @@ body{
     text-align: center;
 }
 
+
     /*
     BARRA DE NAVEGACION
     */
@@ -19,7 +20,8 @@ body{
 .logotipo{
     display: inline-block;
     margin-left: 40px;
-    margin-top: 3px;
+    margin-top: 7px;
+    margin-bottom: 3px;
     }
 
 
@@ -204,4 +206,19 @@ body{
 	padding-left: 2rem;
 	border-radius: 0 1rem 1rem 0;
 	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+
+
+/*
+    HOME
+*/
+
+
+.fondo{
+    background-image:url('../img/home/home1.png') ;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    
 }
