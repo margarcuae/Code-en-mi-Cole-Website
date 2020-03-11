@@ -291,6 +291,7 @@ body{
     align-items: center;
     padding-right: 10%;
     padding-left: 10%;
+    text-align: center;
 
     grid-template-areas: 
     'hometitle hometitle hometitle'
