@@ -8,3 +8,23 @@
         </ul>
     </div>
 </div>
+
+
+<section class="home2" >
+    <div class="home-title" >
+    <h3>¿QUÉ OCURRE?</h3>
+    </div>
+    <div class="home-foto1">
+        FOTO 1
+    </div>
+    <div class="home-foto2">
+        FOTO 2
+    </div>
+    <div class="home-foto3">
+        FOTO 3
+    </div>
+</section>
+
+<section>
+    
+</section>

@@ -264,3 +264,38 @@ body{
 
     100%{margin-top: 0;}
 }
+
+
+/*
+    HOME 2
+*/
+
+
+.home-title{
+    grid-area: hometitle;
+}
+.home-foto1{
+    grid-area: homef;
+}
+.home-foto2{
+    grid-area: homefoto2;
+}
+.home-foto3{
+    grid-area: homefoto3;
+}
+
+.home2{
+    background-color: #f3f3f3;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+
+    grid-template-areas: 
+    'hometitle hometitle hometitle'
+    'homef homefoto2 homefoto3';
+}
+
+
+
