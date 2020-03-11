@@ -12,7 +12,7 @@
 
 <section class="home2" >
     <div class="home-title" >
-    <h3>¿QUÉ OCURRE?</h3>
+    <h2>¿QUÉ OCURRE?</h2>
     </div>
     <div class="home-foto1">
         FOTO 1
@@ -25,6 +25,20 @@
     </div>
 </section>
 
-<section>
-    
+
+
+
+<section class="home3" >
+    <div class="h3Title font-montserrat">
+        <h2>¿QUÉ HACEMOS PARA SOLUCIONARLO?</h2>
+    </div>
+    <div class="h3Img1">
+        <img src="img/home/home-recurso1.png" alt="" width="50px">
+    </div>
+    <div class="h3Texto font-lato">
+        <p>Formamos niños y jóvenes  en Ciencia de la Computación desde la escuela</p>
+    </div>
+    <div class="h3Img2">
+    <img src="img/home/home-recurso2.png" alt=""  width="30px">
+    </div>
 </section>

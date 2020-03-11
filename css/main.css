@@ -297,5 +297,37 @@ body{
     'homef homefoto2 homefoto3';
 }
 
+.h3Title{
+    grid-area: h3Title;
+    color: #3bbbb0;
+    font-weight: bold;
+
+}
+.h3Img1{
+    grid-area: h3Img1;
+}
+.h3Img2{
+    grid-area: h3Img2;
+}
+.h3Texto{
+    grid-area: h3Texto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+.home3{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+
+    grid-template-areas: 
+    'h3Img1 h3Title h3Img2'
+    'h3Img1 h3Texto h3Img2'
+    ;
+}
 
 
