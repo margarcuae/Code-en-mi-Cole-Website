@@ -6,8 +6,12 @@
     <body>
         <?php include("nav.php"); ?>
         
-        <div style="background-color: black; height: 10%;">
-
+        <div class="center" style="background-color: black;">
+            <video width="70%"  autoplay muted>
+                <source src="videos/videohoradelcodigo.mp4" type="video/mp4">
+                    Tu navegador no soporta Videos  
+            </video> 
+        </div>
         </div>
         <div class="center " style="padding-top:45px; margin:0">
             <img src="img/horacod-logo.png" alt="" width="500px"> 
