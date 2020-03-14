@@ -15,12 +15,12 @@
     <h2>¿QUÉ OCURRE?</h2>
     </div>
     <div class="home-foto1">
-        <img src="img/home/home-recurso4.png" alt="" width="200px">
+        <img src="img/home/home-recurso4.png" alt="" width="250px">
     </div>
     <div class="home-foto2">
-    <img src="img/home/home-recurso5.png" alt="" width="200px">    </div>
+    <img src="img/home/home-recurso5.png" alt="" width="250px">    </div>
     <div class="home-foto3">
-    <img src="img/home/home-recurso6.png" alt="" width="200px">    </div>
+    <img src="img/home/home-recurso6.png" alt="" width="250px">    </div>
 </section>
 
 
@@ -52,29 +52,22 @@
         <div class="h4Cont1 h4blanco">
             <div class="h4img1"></div>
             <div class="filahome" >
-                <p>&#60;Colegios&#62;</p>
-                <div>
-                    <img src="img/home/icon4.png" alt="" width="80px">
-                </div>
+              <img src="img/home/icon/iconletra-01.png" alt="" width="250px">
             </div>
         </div>
 
         <div class="h4Cont2 h4blanco">
-        <div class="h4img2"></div>
+            <div class="h4img2"></div>
             <div class="filahome">
-                <p>&#60;Adecademia&#62;</p>
-                <div>
-                <img src="img/home/icon5.png" alt="" width="80px" >
-                </div>
+            <img src="img/home/icon/iconletra-02.png" alt="" width="250px">
+            </div>
             </div>
         </div>
 
         <div class="h4Cont3 h4blanco">
         <div class="h4img3"></div>
             <div class="filahome">
-                <p>&#60;Workshops&#62;</p>
-                <div>
-                <img src="img/home/icon6.png" alt="" width="80px">
+            <img src="img/home/icon/iconletra-03.png" alt="" width="250px">
                 </div>
             </div>
         </div>
@@ -84,9 +77,7 @@
         <div class="h4Cont4 h4blanco">
         <div class="h4img4"></div>
             <div class="filahome">
-                <p>&#60;Programas Sociales&#62;</p>
-                <div>
-                <img src="img/home/icon7.png" alt="" width="80px" >
+            <img src="img/home/icon/iconletra-04.png" alt="" width="250px">
                 </div>
             </div>
         </div>
@@ -95,9 +86,7 @@
         <div class="h4img5"></div>
 
             <div class="filahome" >
-                <p>&#60;Programa formación docentes</p>
-                <div>
-                <img src="img/home/icon8.png" alt="" width="80px" >
+            <img src="img/home/icon/iconletra-05.png" alt="" width="250px">
                 </div >
                 
             </div>
