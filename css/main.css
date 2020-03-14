@@ -385,6 +385,19 @@ background-color: #58becc;
 .h4Cont1, .h4Cont2, .h4Cont3, .h4Cont4, .h4Cont5{
     border-radius: 0 0 25px 25px;
 }
+.h-info{
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.42);
+    -webkit-transition: opacity 0.5s;
+    opacity: 0 ;
+    
+}
+.h4img1:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
 
 
 
@@ -421,4 +434,116 @@ background-color: #58becc;
     background-size: cover;
     background-position: center;
     height: 230px;
+}
+
+
+
+
+
+
+
+
+
+
+.home5{
+    display: grid;
+    background-image: url(../img/home/home-recurso7.png);
+    background-size: contain;
+    background-position: center;
+    height: 190px;
+    justify-items: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.home5 h2{
+    margin-top: 0;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.home6{
+    background-color: #3cbcb3;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.h6-fondo{
+    background-image: url(../img/home/home-foto6.png);
+    background-size: cover;
+    background-position: center;
+}
+.h6-contenido{
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-bottom: 50px;
+    padding-top: 50x;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+}
+.h6-title{
+    grid-column: 1/span 2;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+
+.h6-m2{
+    
+    justify-self: end;
+    grid-row: 1 /span 2;
+   
+}
+.h6-m2 img{
+    width: 60px;
+ 
+}
+.h6-n1{
+
+    color: #fbe819;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    grid-column: 2 / -1;
+}
+.h6-d1{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 20px;
+    grid-column: 2/-1;
+}
+
+.h6-d1 p{
+    margin: 0;
+}
+
+.h6-minicont{
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    grid-column-gap: 10px;
+}
+
+.home6 hr{
+    width: 70px;
+        border-width:1px;
+        margin-top: 0;
+        margin-bottom: 0;
+}
+.h6-title h2{
+    margin-bottom: 10px;
+    margin-top: 50px;
 }

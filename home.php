@@ -50,15 +50,17 @@
         </div>
 
         <div class="h4Cont1 h4blanco">
-            <div class="h4img1"></div>
-            <div class="filahome" >
+            <div class="h4img1">
+                <div class="h-info" ></div>
+            </div>
+            <div class="h-img-over" >
               <img src="img/home/icon/iconletra-01.png" alt="" width="250px">
             </div>
         </div>
 
         <div class="h4Cont2 h4blanco">
             <div class="h4img2"></div>
-            <div class="filahome">
+            <div class="h-img-over">
             <img src="img/home/icon/iconletra-02.png" alt="" width="250px">
             </div>
             </div>
@@ -66,7 +68,7 @@
 
         <div class="h4Cont3 h4blanco">
         <div class="h4img3"></div>
-            <div class="filahome">
+            <div class="h-img-over">
             <img src="img/home/icon/iconletra-03.png" alt="" width="250px">
                 </div>
             </div>
@@ -76,7 +78,7 @@
     <section class="home4-2">
         <div class="h4Cont4 h4blanco">
         <div class="h4img4"></div>
-            <div class="filahome">
+            <div class="h-img-over">
             <img src="img/home/icon/iconletra-04.png" alt="" width="250px">
                 </div>
             </div>
@@ -85,7 +87,7 @@
         <div class="h4Cont5 h4blanco">
         <div class="h4img5"></div>
 
-            <div class="filahome" >
+            <div class="h-img-over" >
             <img src="img/home/icon/iconletra-05.png" alt="" width="250px">
                 </div >
                 
@@ -93,4 +95,129 @@
         </div>
     </section>
 
+</section>
+
+
+
+
+<section class="home5" >
+        <h2 class="font-lato" >Transformando generaciones en creadores tecnológicos</h2>
+    
+</section>
+
+
+
+<section class="home6" >
+    <div class="h6-contenido">
+        <div class="h6-title">
+            <h2 class="font-montserrat" >NUESTRO IMPACTO</h2>
+            <hr>
+        </div>
+        <div class="h6-minicont">
+            <div class="h6-m2">
+                <img src="img/home/icon1.png" alt="">
+            </div>  
+            <div class="h6-n1">
+                +500
+            </div>
+            <div class="h6-d1" >
+                <p>Estudiantes alcanzados</p>
+            </div>
+        </div>
+
+        <div class="h6-minicont">
+            <div class="h6-m2">
+                <img src="img/home/icon1.png" alt="">
+            </div>  
+            <div class="h6-n1">
+                +500
+            </div>
+            <div class="h6-d1">
+                <p>Organizaciones involucradas</p>
+            </div>
+        </div>
+
+        <div class="h6-minicont">
+            <div class="h6-m2">
+                <img src="img/home/icon1.png" alt="">
+            </div>  
+            <div class="h6-n1">
+                +500
+            </div>
+            <div class="h6-d1">
+                <p>Estudiantes con mayores habilidades tecnológicas</p>
+            </div>
+        </div>
+
+        <div class="h6-minicont">
+            <div class="h6-m2">
+                <img src="img/home/icon1.png" alt="">
+            </div>  
+            <div class="h6-n1">
+                +500
+            </div>
+            <div class="h6-d1">
+                <p>Voluntarios involucrados</p>
+            </div>
+        </div>
+        
+        <div class="h6-minicont">
+        <div class="h6-m2">
+                <img src="img/home/icon1.png" alt="">
+            </div>  
+            <div class="h6-n1">
+                +500
+            </div>
+            <div class="h6-d1">
+                <p>Colegios beneficiados con el programa</p>
+            </div>
+        </div>
+
+        <div class="h6-minicont">
+        <div class="h6-m2">
+                <img src="img/home/icon1.png" alt="">
+            </div>  
+            <div class="h6-n1">
+                +500
+            </div>
+            <div class="h6-d1">
+                <p>Docentes capacitados</p>
+            </div>
+        </div>
+    </div>
+    <div class="h6-fondo">
+
+    </div>
+</section>
+
+
+
+
+<section class="home7" > 
+    <div>
+        <div>
+
+        </div>
+        <div>
+            
+        </div>
+    </div>
+
+    <div>
+        <div>
+
+        </div>
+        <div>
+            
+        </div>
+    </div>
+
+    <div>
+        <div>
+
+        </div>
+        <div>
+            
+        </div>
+    </div>
 </section>
