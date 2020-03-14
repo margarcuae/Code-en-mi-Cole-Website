@@ -51,30 +51,30 @@
 
         <div class="h4Cont1 h4blanco">
             <div class="h4img1"></div>
-            <div>
+            <div class="filahome" >
                 <p>&#60;Colegios&#62;</p>
                 <div>
-                    <img src="" alt="">
+                    <img src="img/home/icon4.png" alt="" width="80px">
                 </div>
             </div>
         </div>
 
         <div class="h4Cont2 h4blanco">
         <div class="h4img2"></div>
-            <div>
+            <div class="filahome">
                 <p>&#60;Adecademia&#62;</p>
                 <div>
-                    <img src="" alt="">
+                <img src="img/home/icon5.png" alt="" width="80px" >
                 </div>
             </div>
         </div>
 
         <div class="h4Cont3 h4blanco">
         <div class="h4img3"></div>
-            <div>
+            <div class="filahome">
                 <p>&#60;Workshops&#62;</p>
                 <div>
-                    <img src="" alt="">
+                <img src="img/home/icon6.png" alt="" width="80px">
                 </div>
             </div>
         </div>
@@ -83,10 +83,10 @@
     <section class="home4-2">
         <div class="h4Cont4 h4blanco">
         <div class="h4img4"></div>
-            <div>
+            <div class="filahome">
                 <p>&#60;Programas Sociales&#62;</p>
                 <div>
-                    <img src="" alt="">
+                <img src="img/home/icon7.png" alt="" width="80px" >
                 </div>
             </div>
         </div>
@@ -94,11 +94,12 @@
         <div class="h4Cont5 h4blanco">
         <div class="h4img5"></div>
 
-            <div>
-                <p>&#60;Programa de formación de docente&#62;</p>
+            <div class="filahome" >
+                <p>&#60;Programa formación docentes</p>
                 <div>
-                    <img src="" alt="">
-                </div>
+                <img src="img/home/icon8.png" alt="" width="80px" >
+                </div >
+                
             </div>
         </div>
     </section>

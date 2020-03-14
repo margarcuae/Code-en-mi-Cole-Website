@@ -348,29 +348,22 @@ background-color: #58becc;
 .home4 h2{
     color: white;
 }
-.h4Title{
-    grid-area: h4title;
-}
-.h4Cont1{
-    grid-area: h4cont1;
-}
-.h4Cont2{
-    grid-area: h4cont2;
-}
-.h4Cont3{
-    grid-area: h4cont3;
-}
+
 
 .home4-1{
     display: grid;
     justify-items: center;
     align-items: center;
-    grid-template-areas: 
-    'h4title h4title h4title'
-    'h4cont1 h4cont2 h4cont3';
+    grid-template-columns: repeat(3,1fr);
     grid-gap: 40px;
     margin-bottom: 20px;
 }
+
+.h4Title{
+    grid-column: 1/span 3;
+}
+
+
 
 .home4-2{
     display: grid;
@@ -380,6 +373,7 @@ background-color: #58becc;
     grid-gap: 40px;
     margin-left: 15%;
     margin-right: 15%;
+    padding-bottom: 60px;
 
 }
 
@@ -387,6 +381,27 @@ background-color: #58becc;
     background-color: white;
     width: 100%;
     text-align: center;
+}
+.h4Cont1, .h4Cont2, .h4Cont3, .h4Cont4, .h4Cont5{
+    border-radius: 0 0 25px 25px;
+}
+.filahome{
+    display: grid;
+    
+    
+    grid-template-columns: repeat(2,1fr);
+    margin: 10px 0;
+    font-size: 28px;
+}
+.filahome p{
+    justify-self: right;
+    align-self: center;
+
+
+}
+.filahome div{
+    justify-self: center;
+    align-self: center;
 }
 
 
