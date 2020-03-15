@@ -9,8 +9,8 @@
     <?php include("nav.php"); ?>
 
     <div class="font-lato" id="seccion1">
-        <h1>Academia</h1>
-        <p id="navega">Qué hacemos ? <span style="margin: 0 30px;">></span> Academia</p>
+        <h1>Workshops</h1>
+        <p id="navega">Qué hacemos ? <span style="margin: 0 30px;">></span> Workshops</p>
     </div>
 
 
