@@ -7,7 +7,7 @@
         <?php include("nav.php"); ?>
         
         <div class="center" style="background-color: black;">
-            <video id="video"   autoplay muted>
+            <video id="video"   autoplay muted loop>
                 <source src="videos/videohoradelcodigo.mp4" type="video/mp4">
                     Tu navegador no soporta Videos  
             </video> 
