@@ -16,10 +16,6 @@
                 SABER MÁS
             </button>
 
-            <br>
-            <br>
-            <br>
-            <br>
             
         </div>
         <?php include("footer.php"); ?>
@@ -44,6 +40,33 @@
 
     #btn-saber{
         margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+
+
+    @media screen and (max-width: 600px) {
+        #csc-title{
+            font-size:20pt;
+            font-weight:bold;
+            margin-top:25pt;
+        }
+
+
+        #p-text{
+            margin-top: 30px;
+            padding-left: 15% ;
+            padding-right: 15% ;
+            font-size: 13pt;    
+        }
+
+
+        #btn-saber{
+           margin-top: 10px;
+           margin-bottom: 30px;
+        }
+
+
     }
 
 </style>
