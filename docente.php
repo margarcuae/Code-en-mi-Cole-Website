@@ -6,7 +6,7 @@
     <body>
         <?php include("nav.php"); ?>
         <div class="center" width="100%">
-            <img src="img/docente.png" alt="Conferencia" width="30%" >
+            <img id="imagen-n1" src="img/docente.png" alt="Conferencia" width="30%" >
             <h1 id="csc-title" class="font-lato">Programa de Formación Docente<br> <span style="color:blue"> en Ciencia de la Computación </span> </h1>
             <p id="p-text" class="font-lato">
                Buscamos docentes de educación básica regular de nivel inicial, primario y secundario para dictar capacitaciones presenciales sobre Ciencia de la Computación y su pedagogía. La capacitación posee una duración de 120 horas totales, distribuidas en tres meses.
@@ -177,6 +177,55 @@
         width: 500px;
         font-size: 16pt;
         font-weight: lighter;  
+    }
+
+
+    @media screen and (max-width: 600px) {
+
+        #imagen-n1{
+            width: 60%;
+        }
+        #csc-title{
+            font-size:25pt;
+            margin-top: 35pt;
+        }
+
+        #subsec{
+            grid-template-columns: 1fr;
+            row-gap: 15px   ;
+        }
+
+        #seccion3 {
+            height: 600px;
+            background-position-x: 80%;
+            background-position-y: 350px;   
+        }
+
+        #p-text{
+            margin-top: 10px;
+            font-size: 12pt;
+        }
+
+        #p-sec3{
+            margin-left: auto;
+            margin-right: auto;
+            width: 85%;
+            font-size: 11pt;
+        }
+
+        #barra{
+            height: 40px;
+        }
+
+        .small-paragraph{
+            padding: 8px 15px;
+            margin-top: 0px;
+        }
+
+        .small-title{
+            padding-top: 20px;
+        }
+
     }
 
 
