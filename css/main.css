@@ -583,16 +583,20 @@ background-color: #58becc;
     justify-self: center;
     
 }
+
+.h7-fonfoverde img{
+    height: 70px;
+}
 .h7-grid2{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    align-items: center;
+    background-color: white;
+    display: flex;  
+    
 }
 .h7-fondoblanco{
-    background-color: white;
-    grid-column: 2/-1;
+    display: grid;
+    justify-content: center;
+    
 }
-
 
 .h7-fondo1{
     background-image: url(../img/home/home-foto6.png);
@@ -611,4 +615,12 @@ background-color: #58becc;
     background-size: cover;
     background-position: center;
     height: 250px;
+}
+
+.h7-colorb{
+    color: #3bbbb0;
+    font-weight: bold;
+}
+.h7-b{
+    font-weight: bold;
 }

@@ -210,8 +210,8 @@
                         <img src="img/home/icon1.png" alt="">
                     </div>
                     <div class="h7-fondoblanco">
-                        <p>Hora del código</p>
-                        <p>#HourOfCode!</p>
+                        <p class="font-lato h7-b">Hora del código</p>
+                        <p class="font-montserrat h7-colorb">#HourOfCode!</p>
                     </div>
                 </div>
             </div>
@@ -224,8 +224,8 @@
                     <img src="img/home/icon1.png" alt="">
                 </div>
                 <div class="h7-fondoblanco">
-                    <p>Computer Science</p>
-                    <p>education conference</p>
+                    <p class="font-lato h7-b">Computer Science</p>
+                    <p class="font-montserrat h7-colorb">education conference</p>
                 </div>                
             </div>
         </div>
@@ -239,8 +239,8 @@
                     <img src="img/home/icon1.png" alt="">
                 </div>
                 <div class="h7-fondoblanco">
-                    <p>Encuentro de organizaciones</p>
-                    <p>educativas innovadoras</p>
+                    <p class="font-lato h7-b" >Encuentro de organizaciones</p>
+                    <p class="font-montserrat h7-colorb">educativas innovadoras</p>
                 
                 </div>
                 
