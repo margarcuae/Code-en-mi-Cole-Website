@@ -7,26 +7,28 @@
         <?php include("nav.php"); ?>
         
         <div class="center" style="background-color: black;">
-            <video width="65%"   autoplay muted>
+            <video id="video"   autoplay muted>
                 <source src="videos/videohoradelcodigo.mp4" type="video/mp4">
                     Tu navegador no soporta Videos  
             </video> 
         </div>
-        </div>
+
+      
         <div class="center " style="padding-top:45px; margin:0">
-            <img src="img/horacod-logo.png" alt="" width="500px"> 
+            <img id="img1" src="img/horacod-logo.png" alt="" width="500px"> 
         </div>
+        
         <div id="secc1" class="center font-lato">
-            <p style="padding:7% 15%">
+            <p id="p-la-hora" >
                 La Hora del Código es un movimiento global impulsado por Code.org, que llega a millones de estudiantes en más de 180 países, en el que alumnos y personas de todas las edades aprenden los principios básicos de la programación.
             </p>
         </div>
         <div id="secc2">
             <div>
-                <iframe width="720" height="412" src="https://www.youtube.com/embed/nKIu9yen5nc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="video2" width="720" height="412" src="https://www.youtube.com/embed/nKIu9yen5nc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div style="display: flex; justify-content: center; align-content: center;">
-                <img src="img/hourofcode.png" alt="" height="412">
+                <img id="img2" src="img/hourofcode.png" alt="" >
             </div>
         </div>
 
@@ -73,6 +75,14 @@
     p{  
        margin: 0;
     }
+
+    #video{
+        width: 65%;
+    }
+    #p-la-hora{
+        padding:7% 15%;
+    }
+
     #secc1{
         background-color: #33cccc;
         color: white;
@@ -133,6 +143,10 @@
         
     }
 
+    #img2{
+        height:412px;
+    }
+
     .cuadrito2:hover{
         text-align: center;
         padding: 10px 5px;
@@ -166,6 +180,55 @@
 
     #c3{
         background-color: green;
+    }
+
+
+    @media screen and (max-width: 600px) {
+
+        #p-la-hora{
+            padding:5% 10%;
+        }
+
+        #video{
+            width:100%;
+        }
+
+        #video2{
+            width: 100%;
+            height: auto;
+        }
+
+        #img1{
+            width:80%;
+        }
+
+        #secc2{
+           grid-template-columns: 1fr;     
+        }
+
+        #barra{
+            grid-template-columns: 1fr 1fr;     
+            margin: 0 8%;
+        }
+
+        .cuadrito{
+            font-size: 9pt;
+        }
+
+        #img2{
+            width: 80%;
+            height: auto;
+        }
+
+        #secc1{
+            font-size: 1.2em;
+        }
+
+        #secc3{
+            grid-template-columns: 1fr;
+            row-gap: 15px   ;
+        }
+
     }
 
 
