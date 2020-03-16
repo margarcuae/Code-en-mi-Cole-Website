@@ -177,7 +177,7 @@
         <div class="h6-m2">
                 <img src="img/home/icon1.png" alt="">
             </div>  
-            <div class="h6-n1">
+            <div class="h6-n1 ">
                 +500
             </div>
             <div class="h6-d1">
@@ -193,31 +193,59 @@
 
 
 
-<section class="home7" > 
-    <div>
-        <div>
+<section class="home7" >
+    <div class ="h7-margin">
 
-        </div>
+    
+        <h2  class="font-montserrat">EVENTOS </h2>
+    <div class="h7-fondocolor">
+
+        
         <div>
-            
+            <div class="h7-fondo1">
+
+            </div>
+            <div class="h7-grid2" >
+                    <div class="h7-fonfoverde">
+                        <img src="img/home/icon1.png" alt="">
+                    </div>
+                    <div class="h7-fondoblanco">
+                        <p>Hora del código</p>
+                        <p>#HourOfCode!</p>
+                    </div>
+                </div>
+            </div>
+
+        <div >
+            <div class="h7-fondo2">
+            </div>
+            <div class="h7-grid2">
+                <div class="h7-fonfoverde">
+                    <img src="img/home/icon1.png" alt="">
+                </div>
+                <div class="h7-fondoblanco">
+                    <p>Computer Science</p>
+                    <p>education conference</p>
+                </div>                
+            </div>
+        </div>
+
+        <div >
+            <div class="h7-fondo3">
+
+            </div>
+            <div class="h7-grid2">
+                <div class="h7-fonfoverde">
+                    <img src="img/home/icon1.png" alt="">
+                </div>
+                <div class="h7-fondoblanco">
+                    <p>Encuentro de organizaciones</p>
+                    <p>educativas innovadoras</p>
+                
+                </div>
+                
+            </div>
         </div>
     </div>
-
-    <div>
-        <div>
-
-        </div>
-        <div>
-            
-        </div>
-    </div>
-
-    <div>
-        <div>
-
-        </div>
-        <div>
-            
-        </div>
     </div>
 </section>

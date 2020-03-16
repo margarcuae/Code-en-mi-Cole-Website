@@ -547,3 +547,68 @@ background-color: #58becc;
     margin-bottom: 10px;
     margin-top: 50px;
 }
+
+
+.home7{
+    background-color: #f6f6f6;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+}
+.home7 p{
+    margin: 0;
+}
+.h7-margin{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.h7-margin h2{
+    font-size: 20px;
+    color: #1078ff;
+    font-weight: bold;
+}
+.h7-fondocolor{
+    background-color: #4ed3ee;
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    padding: 10px;
+   
+    border: 10px solid  #1078ff;
+
+}
+.h7-fonfoverde{
+    background-color: #38cfcd;
+    justify-self: center;
+    
+}
+.h7-grid2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+.h7-fondoblanco{
+    background-color: white;
+    grid-column: 2/-1;
+}
+
+
+.h7-fondo1{
+    background-image: url(../img/home/home-foto6.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.h7-fondo2{
+    background-image: url(../img/home/home-foto8.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.h7-fondo3{
+    background-image: url(../img/home/home-foto10.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
