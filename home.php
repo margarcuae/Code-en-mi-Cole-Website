@@ -207,7 +207,11 @@
             </div>
             <div class="h7-grid2" >
                     <div class="h7-fonfoverde">
+                        <center>
+
+                        
                         <img src="img/home/icon1.png" alt="">
+                        </center>
                     </div>
                     <div class="h7-fondoblanco">
                         <p class="font-lato h7-b">Hora del código</p>
@@ -221,7 +225,9 @@
             </div>
             <div class="h7-grid2">
                 <div class="h7-fonfoverde">
+                    <center>
                     <img src="img/home/icon1.png" alt="">
+                    </center>
                 </div>
                 <div class="h7-fondoblanco">
                     <p class="font-lato h7-b">Computer Science</p>
@@ -236,7 +242,9 @@
             </div>
             <div class="h7-grid2">
                 <div class="h7-fonfoverde">
-                    <img src="img/home/icon1.png" alt="">
+                    <center>
+                     
+                    <img src="img/home/icon1.png" alt=""> </center>
                 </div>
                 <div class="h7-fondoblanco">
                     <p class="font-lato h7-b" >Encuentro de organizaciones</p>
