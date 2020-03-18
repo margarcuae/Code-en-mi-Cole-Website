@@ -580,23 +580,27 @@ background-color: #58becc;
 }
 .h7-fonfoverde{
     background-color: #38cfcd;
-    justify-self: center;
+    grid-area: "h7-fv";
+    
     
 }
-
+.h7-fondoblanco{
+    grid-area: "h7-fb"; 
+    padding-left: 10px;   
+}
 .h7-fonfoverde img{
     height: 70px;
 }
 .h7-grid2{
     background-color: white;
-    display: flex;  
+    display: grid;  
+    grid-template-areas: 
+    "h7-fv h7-fb h7-fb h7-fb h7-fb h7-fb"
+    ;
+    align-items: center;
     
 }
-.h7-fondoblanco{
-    display: grid;
-    justify-content: center;
-    
-}
+
 
 .h7-fondo1{
     background-image: url(../img/home/home-foto6.png);
