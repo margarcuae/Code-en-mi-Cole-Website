@@ -15,7 +15,12 @@
 
 
     <div class="center" id="seccion2">
-        <h2 id="title2" class="font-montserrat">POR QUÉ REALIZAMOS WORKSHOPS? <br><br> <hr id="raya"> </h2>
+        <h2 id="title1" class="font-montserrat">POR QUÉ REALIZAMOS WORKSHOPS? <br><br> <hr id="raya"> </h2>
+        <div id="seccion1-2">
+            <div><img class="img-secc1-2" src="img/workshop/w1.png" alt=""></div>
+            <div><img class="img-secc1-2" src="img/workshop/w2.png" alt=""></div>
+            <div><img class="img-secc1-2" src="img/workshop/w3.png" alt=""></div>
+        </div>
         <div id="barra"></div>  
     </div>
 
@@ -52,6 +57,10 @@
         font-weight: normal;
     }
 
+    .img-secc1-2{
+      height: 280px;
+    }
+
     #seccion1 {
         position: relative;
         padding-top: 30px;
@@ -65,6 +74,12 @@
 
     #seccion2{
         background-color:#ececec;
+    }
+
+    #title1{
+        margin: 0px;
+        padding-top: 60px;
+        color:#1078ff;
     }
 
     #title2{
@@ -88,24 +103,31 @@
         clip-path: polygon(0 0,0 100%,100% 100%,100% 0,62% 0, 50% 30px,38% 0);
         background-color: white;
         margin-bottom: -2px;
-    }  
-
-   
+    } 
     
-.carousel {
-  margin: 40px 7% 50px 7%;
-  background: #021921;
-}
 
-.carousel-cell {
-  margin-right: 20px;
-  overflow: hidden;
-}
+    #seccion1-2{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin: 0 8.5% 50px;
+      column-gap: 30px;
 
-.carousel-cell img {
-  display: block;
-  height: 200px;
-}
+    }
+        
+    .carousel {
+      margin: 40px 7% 50px 7%;
+      background: #021921;
+    }
+
+    .carousel-cell {
+      margin-right: 20px;
+      overflow: hidden;
+    }
+
+    .carousel-cell img {
+      display: block;
+      height: 200px;
+    }
 
 @media screen and ( min-width: 768px ) {
   .carousel-cell img {

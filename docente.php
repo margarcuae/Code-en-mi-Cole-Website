@@ -187,7 +187,7 @@
         }
         #csc-title{
             font-size:25pt;
-            margin-top: 35pt;
+            margin: 35pt 15px 0 15px;
         }
 
         #subsec{

@@ -203,4 +203,55 @@
         -moz-box-shadow: 13px 17px 31px -4px rgba(0,0,0,0.55);
         box-shadow: 13px 17px 31px -4px rgba(0,0,0,0.55);
     }
+
+
+
+    @media screen and (max-width: 600px) {
+
+        #seccion2 {
+            
+            grid-template-columns: 1fr;
+            margin: 50px 10% 0 10%;
+            row-gap: 25px;
+            
+          
+        }
+
+        #seccion3{
+            grid-template-areas:
+            'texto1' 'foto1' 
+            'texto2' 'foto2' 
+            'texto3' 'foto3' ;
+            grid-template-columns: 1fr;
+            padding: 40px 8%;  
+            row-gap: 40px;
+        }
+
+        #seccion4{
+            grid-template-columns: 1fr;
+        }
+
+        #cuadrito{
+            height: 400px;
+            width: 270px;
+            -webkit-box-shadow: 13px 17px 31px -4px rgba(0,0,0,0.55);
+            -moz-box-shadow: 13px 17px 31px -4px rgba(0,0,0,0.55);
+            box-shadow: 13px 17px 31px -4px rgba(0,0,0,0.55);
+        }
+
+        .center-cropped{
+            height: 280px;
+            width: 300px;
+        }
+
+
+        h1{
+            font-size: 40px;
+        }
+
+        #seccion1{
+            height: 200px;
+        }
+
+    }
 </style>
