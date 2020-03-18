@@ -15,8 +15,6 @@
             <button id="btn-saber" class="boton">
                 SABER MÁS
             </button>
-
-            
         </div>
         <?php include("footer.php"); ?>
 

@@ -9,10 +9,11 @@
         <?php include("nav.php"); ?>
 
 
-    <div class="jumbotron">
-        <div class="container font-lato">
-            <h1 class="title-jumbotron">Colegios</h1>
-        </div>
+ 
+
+    <div class="font-lato" id="seccion1">
+        <h1>Colegios</h1>
+        <p id="navega">Qué hacemos ? <span style="margin: 0 30px;">></span> Colegios</p>
     </div>
 
 
@@ -123,32 +124,23 @@
     </div>
 
 
-    <div class="solicitar-programa">
+    <div id="seccion4" class="font-montserrat">
+            <div>
+                <p style="font-size: 1.4rem ;">Te gustaría recibir un taller de inducción gratuito? <br> Escríbenos y nos pondremos en contacto contigo.</p>
+                <img src="img/academia/programador.png" alt="" height="300px">
+            </div>
+            <div>
+                <div id="cuadrito">
+                    <p style="font-size: 1rem; font-weight: bold; padding-top: 25px; margin:0"> 
+                        PREINSCRÍBETE A LA ACADEMIA
+                    </p>
+                    <iframe src="" frameborder="0">
 
-
-        <div class="item1">
-            <p class="font-montserrat">
-                ¿Te gustaría que desarrollemos nuestro programa en tu colegio?<br>
-                Escribenos  y nos pondremos en contacto contigo
-            </p>
-            <img class="img-rec-18" src="img/colegios/recurso18.png"/>
-        </div>
-  
-        <div class="solicitar-card">
-            <p class="font-montserrat">
-                Solicitar el Programa
-            <p class="font-montserrat">
-
-            <div style="display:flex;  justify-content:center;">
-                <div style="background-color:black; width:80% ; height:300px;" >
-                    <p class="font-lato" style="color:white;">Incluir Form</p>
+                        
+                    </iframe>
                 </div>
             </div>
-
-            <button class="button-gradient"> Enviar </button>            
         </div>
-  
-    </div>
 
     </div>
         <?php include("footer.php"); ?>
@@ -157,6 +149,44 @@
 </html>
 
 <style>
+h1 {
+        font-size: 4.5rem;
+    }
+
+
+
+#seccion1 {
+        position: relative;
+        padding-top: 30px;
+        padding-left: 55px;
+        font-weight: bold;
+        height: 250px;
+        background-image: url('img/colegios/recurso12.png');
+        background-repeat: no-repeat;
+        color: white;
+    }
+
+
+
+#seccion4 {
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin: 30px 10%;
+column-gap: 30px;
+flex-direction: column;
+justify-items: center;
+text-align: center;
+}
+
+#cuadrito{
+    height: 400px;
+    width: 400px;
+    -webkit-box-shadow: 13px 17px 31px -4px rgba(0,0,0,0.55);
+    -moz-box-shadow: 13px 17px 31px -4px rgba(0,0,0,0.55);
+    box-shadow: 13px 17px 31px -4px rgba(0,0,0,0.55);
+}
+
 
 .button-gradient{
     
@@ -352,13 +382,6 @@
     padding-left: 60px;
 }
 
-.jumbotron { 
-    padding: 100px; /* fills out the jumbotron */
-
-    background-image:url('img/colegios/recurso12.png');
-    background-size: 120% auto;
-    background-position: center;
-}
 
 .container {
   width: 1170px; /* specify a width */
