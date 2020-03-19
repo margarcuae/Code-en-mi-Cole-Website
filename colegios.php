@@ -1,7 +1,7 @@
 <html>
     <head>
     <?php include("head.php"); ?>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     </head>
 
@@ -71,7 +71,7 @@
             <h2 class="font-lato">GALERÍA</h2> 
             <hr id="line-hr" width="60">
 
-            <div id="gallery">
+            <div id="gallery-1" class="gallery">
                 <div class="photo" id="photo-l">
                     <img src="img/colegios/recurso15.png">
                 </div>
@@ -82,8 +82,27 @@
                     <img src="img/colegios/recurso17.png">
                 </div>
             </div>
+            
 
+            <div id="gallery-2" class="gallery">
+                <div class="photo" id="photo-l">
+                    <img src="img/colegios/recurso17.png">
+                </div>
+                <div class="photo" id="photo-c">
+                    <img src="img/colegios/recurso16.png">
+                </div>
+                <div class="photo" id="photo-r">
+                    <img src="img/colegios/recurso15.png">
+                </div>
+            </div>
+
+            
+            <div class="dots-group">
+                <span  class="dot" id="1" onclick="currentSlide(1)" ></span>
+                <span class="dot" id="2" onclick="currentSlide(2)"></span>
+            </div>
         </div>
+       
 
         <div id="seccion5" class="font-montserrat">
             <div>
@@ -278,6 +297,7 @@ h1 {
     /* Seccion 4 */
     #seccion4{
         text-align: center;
+        margin-bottom: 80px;
     }
     #seccion4 h2{
         color: #1078FF;
@@ -294,7 +314,7 @@ h1 {
 
     /* Monitor de PC*/
     @media screen and (min-width: 601px) {
-    #gallery{
+    .gallery{
         display: grid;
         grid-template-columns: 1fr 1.2fr 1fr;
         grid-template-rows: 1fr;
@@ -303,14 +323,11 @@ h1 {
         align-items: center;
         margin-left: 100px;
         margin-right: 100px;
-        
     }
 
-    #gallery img{
+    .gallery img{
         height: 100%;    
         margin: auto; 
-                  
-        
     }
 
     #photo-l{
@@ -328,10 +345,30 @@ h1 {
         height: 270px;
         overflow: hidden;
     }
+
+    .dots-group{
+        margin-top: 30px;
+
+    }
+
+    .dot {
+        height: 15px;
+        width: 15px;
+        background-color: coral;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    .dot:hover{
+
+      background-color: purple;
+
+    }
+
 }
     /* Smatphone */
     @media screen and (max-width: 600px) {
-        #gallery{
+        .gallery{
             margin-top: 50px;
             margin-bottom: 50px;
             display: grid;
@@ -359,13 +396,29 @@ h1 {
             overflow: hidden;
         }
 
-        #gallery img{
+        .gallery img{
             height: 100%;    
-        margin: auto; 
+            margin: auto; 
             
         }
     }
 </style>
+
+<script>
+
+$(document).ready(function(){
+  $(".gallery").hide();
+  $("#gallery-1").show();
+});
+
+$(document).ready(function(){
+    $(".dot").click(function(evt){
+        var gallery_id="#gallery-"+$(this).attr("id");
+        $(".gallery").hide("slow");
+        $(gallery_id).show("slow");
+    });
+});
+</script>
 
 <style>
 /* Seccion 5 */
