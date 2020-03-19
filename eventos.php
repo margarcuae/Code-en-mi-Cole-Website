@@ -5,8 +5,54 @@
 
     <body>
         <?php include("nav.php"); ?>
+        <div id="seccion1">
+            <img src="img/events.png" alt="Eventos" width="70%" >
+
+            <h1 id="csc-title" class="font-lato">Encuentro de Organizaciones<br> Educativas Innovadoras</h1>
+            
+            <p class="font-lato">
+            En Latinoamérica y el Perú se vienen desarrollando diferentes iniciativas que impulsan cambios que la 
+            educación y la formación necesitan para transformarse en la era digital. El reto que asumimos es convocar estas iniciativas. Conocerlas, integrarlas y fortalecerlas, para construir juntos: una nueva era.            
+            </p>
+        </div>
+
+        <div id="seccion2">
+            <h2 class="font-montserrat">
+                GALERIA
+            </h2>     
+
+            <hr id="line-hr" width="60">
+
+            <div id="gallery">
+                <div id="photo">
+                    <img src="img/galery1.jpeg">
+                </div>
+                <div id="photo">
+                    <img src="img/galery2.jpeg">
+                </div>
+                <div id="photo">
+                    <img src="img/galery3.jpeg">
+                </div>
+                <div id="photo">
+                    <img src="img/galery4.jpeg">
+                </div>
+                <div id="photo">
+                    <img src="img/galery5.jpeg">
+                </div>
+                <div id="photo">
+                    <img src="img/galery6.jpeg">
+                </div>
+            </div>
+
+            <div class="dots-group">
+                <span  class="dot" id="1" onclick="currentSlide(1)" ></span>
+                <span class="dot" id="2" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
         
-        
+
+
+<!--
         <div class="center" width="100%">
             <img src="img/events.png" alt="Eventos" width="70%" >
             <h1 id="csc-title" class="font-lato">Encuentro de Organizaciones<br> Educativas Innovadoras</h1>
@@ -100,10 +146,144 @@
             </div>
 
         </div>
-
+-->
         <?php include("footer.php"); ?>
     </body>
 </html>
+
+<style>
+/**  seccion 1 **/
+#seccion1{
+    text-align: center;
+    
+}
+
+#seccion1 p{
+    margin-top: 10px;
+    padding-left: 15% ;
+    padding-right: 15% ;
+    font-size: 15pt;  
+    
+}
+
+#seccion1 h1{
+    font-size:40pt;
+    font-weight:bold;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 600px) {
+}
+</style>
+
+
+<style>
+/**  seccion 1 **/
+#seccion2{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#seccion2 h2{
+    margin-top: 70px;
+    font-weight:bold;
+    color: #1D4E9B;
+}
+
+@media screen and (min-width: 601px) {
+    
+    #gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        align-items: center;
+        margin: 50px 100px 50px 100px;
+        
+    }
+
+    #gallery img{
+        height: 100%;    
+        margin: auto; 
+    }
+
+
+    #photo{
+        height: 300px;
+        overflow: hidden;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    
+    #gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        align-items: center;
+        margin: 50px 30 50px 30px;
+    }
+
+    #gallery img{
+        height: 100%;    
+        margin: auto; 
+    }
+
+
+    #photo{
+        height: 300px;
+        overflow: hidden;
+    }
+
+
+}
+
+
+.dots-group{
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: coral;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot:hover{
+
+    background-color: purple;
+
+}
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
 
 
 <style>
@@ -256,3 +436,4 @@
     }
 </script>
 
+-->
