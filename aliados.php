@@ -4,9 +4,13 @@
     -webkit-transform: translateX(0);
             transform: translateX(0);
   }
+  99% {
+    -webkit-transform: translateX(calc(-300px * 21));
+            transform: translateX(calc(-300px * 21));
+  }
   100% {
-    -webkit-transform: translateX(calc(-250px * 7));
-            transform: translateX(calc(-250px * 7));
+    -webkit-transform: translateX(calc(0));
+            transform: translateX(calc(0));
   }
 }
 
@@ -15,20 +19,22 @@
     -webkit-transform: translateX(0);
             transform: translateX(0);
   }
+  99% {
+    -webkit-transform: translateX(calc(-300px * 21));
+            transform: translateX(calc(-300px * 21));
+  }
   100% {
-    -webkit-transform: translateX(calc(-250px * 7));
-            transform: translateX(calc(-250px * 7));
+    -webkit-transform: translateX(calc(0));
+            transform: translateX(calc(0));
   }
 }
 .slider {
-  background: transparent;
   height: 100px;
- 
-  overflow: hidden;
+overflow:hidden;
   position: relative;
   
-  margin-right:5%;
-  margin-left:5%;
+  margin-right:3%;
+  margin-left:3%;
 }
 .slider::before, .slider::after {
   background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
@@ -49,22 +55,20 @@
   top: 0;
 }
 .slider .slide-track {
-  -webkit-animation: scroll 40s linear infinite;
-          animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 60s linear infinite;
+          animation: scroll 60s linear infinite;
   display: flex;
-  width: calc(250px * 31);
+  
 }
 .slider .slide {
   height: 100px;
-  margin-left:20px;
+  margin-left:50px;
 }
 </style>
 
 <div class="slider">
 	<div class="slide-track">
-		<div class="slide">
-			<img src="img/home/aliados/1.png" height="70"  alt="" />
-		</div>
+		
 		<div class="slide">
 			<img src="img/home/aliados/2.png" height="70" alt="" />
 		</div>
@@ -76,6 +80,9 @@
 		</div>
 		<div class="slide">
 		<img src="img/home/aliados/5.png" height="70"/>
+		</div>
+		<div class="slide">
+			<img src="img/home/aliados/1.png" height="70"  alt="" />
 		</div>
 		<div class="slide">
 		<img src="img/home/aliados/6.png" height="70"/>
@@ -156,6 +163,12 @@
 		</div>
 		<div class="slide">
 		<img src="img/home/aliados/31.png" height="70"/>
+		</div>
+		<div class="slide">
+			<img src="img/home/aliados/1.png" height="70"  alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/home/aliados/2.png" height="70" alt="" />
 		</div>
 	</div>
 </div>

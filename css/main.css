@@ -657,10 +657,8 @@ background-color: #58becc;
     color: #878787;
     font-size: 20px;
 }
-.h8-line hr{
-    width: 40px;
-    color: #009c97;
-}
+
+
 .h8-contenidogen{
     position: relative;
 }
@@ -670,4 +668,31 @@ background-color: #58becc;
 }
 #valores{
     margin-top: -300px;
+}
+
+.cursor{
+    cursor: all-scroll;
+}.subtitle hr{
+    width: 40px;
+    color: #009c97;
+}
+
+.subtitle{
+    color: #009c97;
+}
+
+.home10{
+    background-color: #1078ff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.home10 p{
+    margin:0;
+}
+
+.home11-contenido{
+    background-image: url(../img/home/home-recurso8.png);
 }

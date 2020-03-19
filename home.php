@@ -263,15 +263,15 @@
 
 <section class="home8">
 
-    <center class="font-montserrat h8-line">
+    <center class="font-montserrat subtitle">
         <h2>NOSOTROS</h2>
         <hr>
     </center>
     <div class="h8-subtitle font-montserrat">
 
-        <h3 onclick="proposito()"> PROPÓSITO</h3>
-        <h3 onclick="historia()" >HISTORIA</h3>
-        <h3 onclick="valores()">VALORES</h3>
+        <h3 class="cursor" onclick="proposito()"> PROPÓSITO</h3>
+        <h3 class="cursor" onclick="historia()" >HISTORIA</h3>
+        <h3 class="cursor" onclick="valores()">VALORES</h3>
 
     </div>
 
@@ -349,3 +349,56 @@ function proposito() {
 }
 
 </script>
+
+
+<section class="home9">
+<center class="font-montserrat subtitle" >
+<h2 >ALIADOS ESTRATÉGICOS
+</h2> <hr>
+</center>
+
+
+
+<?php include("aliados.php"); ?>
+
+</section>
+
+
+
+
+
+
+<section class="home10 font-lato" > 
+    <center>
+        <p>
+            Y tú estas listo para ser creador ? 
+        </p>
+    </center>
+
+</section>
+
+
+
+
+<section class="home11">
+<center class="font-montserrat subtitle" >
+<h2 >ÚNETE
+</center>
+
+<div class="h11-contenido">
+    <div>
+        <button>Solicitar el programa</button>
+        <button>Preinscribete en la academia</button>
+        <button>Quiero ser voluntario</button>
+        <button>Quiero ser sponsor</button>
+
+    </div>
+
+    <div>
+        <img src="img/home/home-foto12.png" alt="">
+    </div>
+</div>
+
+
+</section>
+
