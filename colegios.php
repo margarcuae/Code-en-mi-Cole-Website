@@ -68,6 +68,20 @@
         </div>
 
         <div id="seccion4">
+            <h2 class="font-lato">GALERÍA</h2> 
+            <hr id="line-hr" width="60">
+
+            <div id="gallery">
+                <div class="photo" id="photo-l">
+                    <img src="img/colegios/recurso15.png">
+                </div>
+                <div class="photo" id="photo-c">
+                    <img src="img/colegios/recurso16.png">
+                </div>
+                <div class="photo" id="photo-r">
+                    <img src="img/colegios/recurso17.png">
+                </div>
+            </div>
 
         </div>
 
@@ -258,6 +272,99 @@ h1 {
         font-size: 0.8rem;
     }
 }
+</style>
+
+<style>
+    /* Seccion 4 */
+    #seccion4{
+        text-align: center;
+    }
+    #seccion4 h2{
+        color: #1078FF;
+        font-weight: 700;
+        font-weight: 700;
+        text-align:center;
+        margin-top: 50px;
+    }
+    
+    #seccion4 hr{
+        border: 0.4pt solid #1D4E9B;    
+        margin-bottom:2%;
+    }
+
+    /* Monitor de PC*/
+    @media screen and (min-width: 601px) {
+    #gallery{
+        display: grid;
+        grid-template-columns: 1fr 1.2fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 0px;
+        align-items: center;
+        margin-left: 100px;
+        margin-right: 100px;
+        
+    }
+
+    #gallery img{
+        height: 100%;    
+        margin: auto; 
+                  
+        
+    }
+
+    #photo-l{
+        height: 270px;
+        overflow: hidden;
+    }
+
+    #photo-c{
+        height: 300px;
+        overflow: hidden;
+        
+    }
+
+    #photo-r{
+        height: 270px;
+        overflow: hidden;
+    }
+}
+    /* Smatphone */
+    @media screen and (max-width: 600px) {
+        #gallery{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap:5px;   
+            margin-left: 10px;
+            margin-right: 10px;
+            overflow: hidden;
+        }
+        
+        #photo-l{
+        height: 300px;
+        overflow: hidden;
+        }
+
+        #photo-c{
+            height: 300px;
+            overflow: hidden;
+        }
+
+        #photo-r{
+            height: 300px;
+            overflow: hidden;
+        }
+
+        #gallery img{
+            height: 100%;    
+        margin: auto; 
+            
+        }
+    }
 </style>
 
 <style>
