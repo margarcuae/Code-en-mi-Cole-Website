@@ -32,31 +32,37 @@
 
         <div id="seccion3">
             <h2 class="font-lato">BENEFICIOS</h2> 
-            <div id="grid-bock">
-                <div class="white-block">
-                    <h4 class="font-montserrat" >Beneficios para los estudiantes</h4>
-                    <ul class="font-montserrat">
-                        <li>Certificado a nombre de Code en mi Cole y SUMATEC.</li>
-                        <li>Participación en la Feria Demo Day</li>
-                        <li>Asesoria en la elaboración de sus proyectos</li>
-                    </ul>
+            <div class="grid-block">
+                <div class="block">
+                    <div class="white-block">
+                        <h4 class="font-montserrat" >Beneficios para los estudiantes</h4>
+                        <ul class="font-montserrat">
+                            <li>Certificado a nombre de Code en mi Cole y SUMATEC.</li>
+                            <li>Participación en la Feria Demo Day</li>
+                            <li>Asesoria en la elaboración de sus proyectos</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="white-block">
-                    <h4 class="font-montserrat">Beneficios para la institución Educativa</h4>
-                    <ul class="font-montserrat">
-                        <li>Aumento de prestigio como institución Educativa de vanguardia</li>
-                        <li>Preparación para concursos de tecnología</li>
-                        <li>Los estudiantes aplican su aprendizaje logrado en las clases de matemáticas, algoritmos, etc.</li>
-                    </ul>
+                <div class="block">
+                    <div class="white-block">
+                        <h4 class="font-montserrat">Beneficios para la institución Educativa</h4>
+                        <ul class="font-montserrat">
+                            <li>Aumento de prestigio como institución Educativa de vanguardia</li>
+                            <li>Preparación para concursos de tecnología</li>
+                            <li>Los estudiantes aplican su aprendizaje logrado en las clases de matemáticas, algoritmos, etc.</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="white-block">
-                    <h4 class="font-montserrat" >Beneficios en su futuro</h4>
-                    <ul class="font-montserrat">
-                        <li>Entienden la abstracción, la lógica y los algoritomos.</li>
-                        <li>Los estudiantes serán capaces de evaluar y aplicar tecnologías de la información</li>
-                        <li>Estudiantes con conocimiento del funcionamiento externo e interno de la tecnología de modo que puedan ser capaces de crearla.</li>
-                        <li>Estudiantes con mejores habilidades de resolución de problemas, trabajo en equipo y creatividad.</li>
-                    </ul>
+                <div class="block">
+                    <div class="white-block">
+                        <h4 class="font-montserrat" >Beneficios en su futuro</h4>
+                        <ul class="font-montserrat">
+                            <li>Entienden la abstracción, la lógica y los algoritomos.</li>
+                            <li>Los estudiantes serán capaces de evaluar y aplicar tecnologías de la información</li>
+                            <li>Estudiantes con conocimiento del funcionamiento externo e interno de la tecnología de modo que puedan ser capaces de crearla.</li>
+                            <li>Estudiantes con mejores habilidades de resolución de problemas, trabajo en equipo y creatividad.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -177,6 +183,7 @@ h1 {
     background-image: url("img/colegios/recurso14.png");
     background-size: cover;
     background-position: center; 
+    margin-top: 3rem;
 }
 #seccion3 h2{
     color: #1078FF;
@@ -191,9 +198,42 @@ h1 {
 .white-block{
     background-color: white;
     box-shadow: 10px 10px 30px 2px #ACACAC;
+    text-align: center;
 }
     
+@media screen and (min-width: 601px) {
+    #seccion3{
+        padding: 10px 30px 0;
+    }
 
+    #seccion3 h2{
+        padding-left: 30%; 
+    }
+
+    .grid-block{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 0px;
+        padding: 0px 10px 50px 32% ;
+
+    }
+
+    .block{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+
+    .white-block{
+        padding: 10px 15px 15px 10px;
+        background-color: white;
+        box-shadow: 10px 10px 30px 2px #ACACAC;
+        
+    }
+
+}
 
 
 @media screen and (max-width: 600px) {
@@ -215,7 +255,7 @@ h1 {
         margin: 10px 15px 15px 10px ;
     }
     .white-block ul{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 }
 </style>
