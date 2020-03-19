@@ -558,14 +558,18 @@ background-color: #58becc;
 .home7 p{
     margin: 0;
 }
+
 .h7-margin{
     margin-left: 5%;
     margin-right: 5%;
 }
 .h7-margin h2{
-    font-size: 20px;
+    font-size: 25px;
     color: #1078ff;
     font-weight: bold;
+}
+.h7-margin hr{
+    margin-bottom: 20px;
 }
 .h7-fondocolor{
     background-color: #4ed3ee;
@@ -579,14 +583,16 @@ background-color: #58becc;
 
 }
 .h7-fonfoverde{
-    background-color: #38cfcd;
+    background-color: #24b9b7   ;
     grid-area: "h7-fv";
     
     
 }
 .h7-fondoblanco{
     grid-area: "h7-fb"; 
-    padding-left: 10px;   
+    padding-left: 20px;  
+    font-size: 23px; 
+    text-align: center;
 }
 .h7-fonfoverde img{
     height: 70px;
@@ -627,4 +633,41 @@ background-color: #58becc;
 }
 .h7-b{
     font-weight: bold;
+}
+
+
+
+.h8-subtitle{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+.h8-contenido{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    grid-gap: 5%;
+    color: #878787;
+    font-size: 20px;
+}
+.h8-line hr{
+    width: 40px;
+    color: #009c97;
+}
+.h8-contenidogen{
+    position: relative;
+}
+
+#historia{
+ margin-top: -300px;
+}
+#valores{
+    margin-top: -300px;
 }

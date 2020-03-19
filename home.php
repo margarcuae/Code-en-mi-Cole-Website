@@ -196,8 +196,11 @@
 <section class="home7" >
     <div class ="h7-margin">
 
-    
+    <center>
+   
         <h2  class="font-montserrat">EVENTOS </h2>
+        <hr width="35px">
+        </center>
     <div class="h7-fondocolor">
 
         
@@ -257,3 +260,92 @@
     </div>
     </div>
 </section>
+
+<section class="home8">
+
+    <center class="font-montserrat h8-line">
+        <h2>NOSOTROS</h2>
+        <hr>
+    </center>
+    <div class="h8-subtitle font-montserrat">
+
+        <h3 onclick="proposito()"> PROPÓSITO</h3>
+        <h3 onclick="historia()" >HISTORIA</h3>
+        <h3 onclick="valores()">VALORES</h3>
+
+    </div>
+
+<div class="h8-contenidogen">
+
+<div  id="proposito" class="h8-contenido font-lato" > 
+    <div>
+    <p>
+        PROPOSITO
+        Dar acceso al pensamiento y las habilidades de la ciencia de la computación,
+            con una formación de calidad  y aplicable para impulsar el desarrollo de los 
+            estudiantes, docentes y actores que intervienen en la educación
+        </p>
+    </div>
+    <div>
+        <img src="img/home/home-foto11.png" alt="" width="370px">
+    </div>
+
+</div>
+
+<div  class="h8-contenido font-lato" id="historia" style="visibility: hidden;">
+    <div>
+        <p>
+        HISTORIA
+        Dar acceso al pensamiento y las habilidades de la ciencia de la computación,
+            con una formación de calidad  y aplicable para impulsar el desarrollo de los 
+            estudiantes, docentes y actores que intervienen en la educación
+        </p>
+    </div>
+    <div>
+    <img src="img/home/home-foto11.png" alt="" width="370px">
+    </div>
+</div>
+
+<div  class=" h8-contenido font-lato" id="valores"  style="visibility: hidden;">
+    
+<div>
+        <p>
+            VALORES
+            Dar acceso al pensamiento y las habilidades de la ciencia de la computación,
+                con una formación de calidad  y aplicable para impulsar el desarrollo de los 
+                estudiantes, docentes y actores que intervienen en la educación
+            </p>
+    </div>
+    <div>
+    <img src="img/home/home-foto11.png" alt="" width="370px">
+    </div>
+
+</div>
+</div>
+</section>
+
+
+
+
+<script>
+function historia() {
+    document.getElementById("valores").style.visibility = "hidden";
+    document.getElementById("proposito").style.visibility = "hidden"; 
+    document.getElementById("historia").style.visibility = "visible";      
+}
+
+function valores() {
+    document.getElementById("valores").style.visibility = "visible";
+    document.getElementById("proposito").style.visibility = "hidden"; 
+    document.getElementById("historia").style.visibility = "hidden"; 
+      
+}
+
+function proposito() {
+    document.getElementById("valores").style.visibility = "hidden";
+    document.getElementById("proposito").style.visibility = "visible"; 
+    document.getElementById("historia").style.visibility = "hidden"; 
+      
+}
+
+</script>
