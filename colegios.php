@@ -7,8 +7,6 @@
 
     <body>
         <?php include("nav.php"); ?>
-
-
  
 
     <div class="font-lato" id="seccion1">
@@ -17,35 +15,34 @@
     </div>
 
 
-    <div class="grid-container">
-        <div class="item-foto">
-            <img class="image-md" src="img/colegios/recurso13.png">
-        </div>        
-        <div class="item-texto">
-            <div class="font-lato titulo-azul">
+
+    <div id="seccion2" class="font-lato">
+        <div >
+            <img class="image-md" src="img/colegios/recurso13.png"> 
+        </div>
+
+        <div>
+            <div class="font-lato titulo-azul">         
                 ¿POR QUE ENSEÑAR CIENCIA DE LA COMPUTACIÓN  DESDE LA ETAPA ESCOLAR?
             </div>
-            
-            <hr id="line-hr" width="60">
             <div class="text-gris">
-                <p class="font-lato ">
-                    Introducir a los estudiantes de forma temprana en las ciencias de la computación, 
-                    les permitirá disponer de conocimientos imprescindibles en el siglo XXI: fomentando sus habilidades de
-                    resolución de problemas, la lógica y la creatividad, fundamentales sea cual sea su futuro desarrollo profesional.
-                </P>
-            </div>
+                    <p class="font-lato ">
+                        Introducir a los estudiantes de forma temprana en las ciencias de la computación, 
+                        les permitirá disponer de conocimientos imprescindibles en el siglo XXI: fomentando sus habilidades de
+                        resolución de problemas, la lógica y la creatividad, fundamentales sea cual sea su futuro desarrollo profesional.
+                    </P>
+                </div>
         </div>
     </div>
 
 
     <div class="beneficios-container" >
-     
-
         <div class="cards" >
-
-
             <div class="parent" > 
-                <div class="div1" >
+                <div class="div1">  
+                    <h2 class="font-lato">BENEFICIOS</h2> 
+                </div>
+                <div class="div2" >
                     <h4 class="font-montserrat" >Beneficios para los estudiantes</h4>
                     <ul class="font-montserrat">
                         <li>Certificado a nombre de Code en mi Cole y SUMATEC.</li>
@@ -53,7 +50,7 @@
                         <li>Asesoria en la elaboración de sus proyectos</li>
                     </ul>
                 </div>
-                <div class="div2">
+                <div class="div3">
                     <h4 class="font-montserrat">Beneficios para la institución Educativa</h4>
                     <ul class="font-montserrat">
                         <li>Aumento de prestigio como institución Educativa de vanguardia</li>
@@ -62,7 +59,7 @@
                     </ul>
 
                 </div>
-                <div class="div3" >
+                <div class="div4" >
                     <h4 class="font-montserrat" >Beneficios en su futuro</h4>
                     <ul class="font-montserrat">
                         <li>Entienden la abstracción, la lógica y los algoritomos.</li>
@@ -71,14 +68,14 @@
                         <li>Estudiantes con mejores habilidades de resolución de problemas, trabajo en equipo y creatividad.</li>
                     </ul>
                 </div>
-                <div class="div4">
-                    <h2 class="font-lato">BENEFICIOS</h2> 
-                </div>
+                
 
             </div>
         </div>
     </div>
     
+
+
     <div>
         <h2 class="font-lato galeria-titulo">GALERÍA</h2> 
         <hr id="line-hr" width="60">
@@ -130,7 +127,7 @@
                 <img src="img/academia/programador.png" alt="" height="300px">
             </div>
             <div>
-                <div id="cuadrito">
+                <div id="block-shadow">
                     <p style="font-size: 1rem; font-weight: bold; padding-top: 25px; margin:0"> 
                         PREINSCRÍBETE A LA ACADEMIA
                     </p>
@@ -149,6 +146,9 @@
 </html>
 
 <style>
+
+
+
 h1 {
         font-size: 4.5rem;
     }
@@ -168,18 +168,30 @@ h1 {
 
 
 
-#seccion4 {
-
-display: grid;
-grid-template-columns: 1fr 1fr;
-margin: 30px 10%;
-column-gap: 30px;
-flex-direction: column;
-justify-items: center;
-text-align: center;
+    
+#seccion2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    margin: 100px 10% 0 10%;
+    column-gap: 50px;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
-#cuadrito{
+#seccion4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 10%;
+    column-gap: 30px;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+
+
+
+#block-shadow{
     height: 400px;
     width: 400px;
     -webkit-box-shadow: 13px 17px 31px -4px rgba(0,0,0,0.55);
@@ -247,7 +259,7 @@ text-align: center;
     font-size: 40;
     text-align:center;
 
-    margin-top: 5%;
+    margin-top: 50px;
 }
 
 .parent {
@@ -262,8 +274,17 @@ text-align: center;
     
 }
 
+.cards{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 90%;   
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
 
-.div1 { grid-area: 4 / 1 / 5 / 2; 
+
+.div2 { grid-area: 4 / 1 / 5 / 2; 
     background-color: white;
     box-shadow: 10px 10px 30px 2px #ACACAC;
     padding-top: 50px;
@@ -272,14 +293,14 @@ text-align: center;
     padding-left: 30px;    text-align: center;
 
 }
-.div2 { grid-area: 3 / 2 / 5 / 3;
+.div3 { grid-area: 3 / 2 / 5 / 3;
     background-color: white;
     box-shadow: 10px 10px 30px 2px #ACACAC;
     padding-right: 40px;
     padding-left: 30px;
     padding-top: 50px;
 }
-.div3 { grid-area: 2 / 3 / 5 / 4;
+.div4 { grid-area: 2 / 3 / 5 / 4;
     background-color: white;
     box-shadow: 10px 10px 30px 2px #ACACAC;
     padding-right: 40px;
@@ -288,7 +309,7 @@ text-align: center;
 
 }
 
-.div4 { grid-area: 1 / 1 / 2 / 4; }
+.div1 { grid-area: 1 / 1 / 2 / 4; }
 
 
 .parent h4{
@@ -311,7 +332,7 @@ text-align: center;
     display: flex;
     padding-left: 35%; 
     font-weight: 700;
-    font-size: 40;
+    font-size: ;
 
 }
 
@@ -321,14 +342,7 @@ text-align: center;
     background-position: center;    
 }
 
-.cards{
-    display: flex;
-    flex-direction: row-reverse;
-    height: 90%;   
-    display: flex;
-    align-items: center;
-    align-content: center;
-}
+
 
 #line-hr{
     border: 0.4pt solid #1078FF;        
@@ -336,43 +350,29 @@ text-align: center;
 
 .text-gris{
     color: #808080;
-    font-size: 25pt;
+    font-size: 20pt;
 }
 
 .titulo-azul{
     color: #1078FF;
     font-weight: 700;
-    font-size: 40;
+    font-size: 30;
 }
 
 .image-md{
     width: 60%;
 }
 
-.item-foto {
-  grid-area: item-foto;
-  
-}
-
-.item-texto {
-  grid-area: item-texto;
-}
 
 
-.grid-container {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    display: grid;
-    grid-template-areas: ' ... item-foto item-foto item-texto item-texto item-texto ... ... ';
-    grid-gap: 40px;
-    padding: 40px;
-}
 
-.grid-container > div {
-  text-align: center;
-  padding: 20px 0;
-}
 
+
+
+.titulos-peque {
+        font-size: 0.9rem;
+        color: #0066FF;
+    }
 
 .contenedor-portada-colegios{
     display: flex;
@@ -519,6 +519,101 @@ text-align: center;
         }
 
         
+</style>
+
+
+<style>
+/* Responsible design */
+@media screen and (max-width: 600px) {
+
+    
+#seccion1{
+    width: 100%;
+}
+
+/*  Section 2*/ 
+#seccion2 {
+    grid-template-columns: 1fr;
+    margin: 50px 10% 0 10%;
+    row-gap: 25px;
+}
+
+#seccion2 img{
+    width: 50%;
+}
+
+/* ----------- */
+
+
+/* Section 3 */
+
+
+
+.beneficios-container{
+
+}
+
+.parent {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.cards{
+
+
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 2 / 1 / 3 / 2; }
+.div3 { grid-area: 3 / 1 / 4 / 2; }
+.div4 { grid-area: 4 / 1 / 5 / 2; }
+
+/* ------------------ */
+
+
+
+
+
+
+
+#seccion3{
+    grid-template-areas:
+    'texto1' 'foto1' 
+    'texto2' 'foto2' 
+    'texto3' 'foto3' ;
+    grid-template-columns: 1fr;
+    padding: 40px 8%;  
+    row-gap: 40px;
+}
+
+#seccion4{
+    grid-template-columns: 1fr;
+}
+
+#block-shadow{
+    height: 400px;
+    width: 270px;
+    -webkit-box-shadow: 13px 17px 31px -4px rgba(0,0,0,0.55);
+    -moz-box-shadow: 13px 17px 31px -4px rgba(0,0,0,0.55);
+    box-shadow: 13px 17px 31px -4px rgba(0,0,0,0.55);
+}
+
+.center-cropped{
+    height: 280px;
+    width: 300px;
+}
+
+
+h1{
+    font-size: 40px;
+}
+
+
+}
+
 </style>
 
 <script>
