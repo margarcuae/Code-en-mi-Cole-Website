@@ -760,6 +760,14 @@ background-color: #58becc;
     color: #009c97;
 }
 
+
+@media screen and (max-width: 600px){
+    .h8-subtitle{
+        grid-gap: 0%;
+        margin: 0 7% 0 7%;
+    }
+}
+
 .home10{
     background-color: #1078ff;
     font-size: 30px;
@@ -791,13 +799,13 @@ background-color: #58becc;
 }
 .h11-cont1 button{
     background: rgba(0,102,255,1);
-background: -moz-linear-gradient(left, rgba(0,102,255,1) 0%, rgba(0,255,191,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,102,255,1)), color-stop(100%, rgba(0,255,191,1)));
-background: -webkit-linear-gradient(left, rgba(0,102,255,1) 0%, rgba(0,255,191,1) 100%);
-background: -o-linear-gradient(left, rgba(0,102,255,1) 0%, rgba(0,255,191,1) 100%);
-background: -ms-linear-gradient(left, rgba(0,102,255,1) 0%, rgba(0,255,191,1) 100%);
-background: linear-gradient(to right, rgba(0,102,255,1) 0%, rgba(0,255,191,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0066ff', endColorstr='#00ffbf', GradientType=1 );
+    background: -moz-linear-gradient(left, rgba(0,102,255,1) 0%, rgba(0,255,191,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,102,255,1)), color-stop(100%, rgba(0,255,191,1)));
+    background: -webkit-linear-gradient(left, rgba(0,102,255,1) 0%, rgba(0,255,191,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,102,255,1) 0%, rgba(0,255,191,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,102,255,1) 0%, rgba(0,255,191,1) 100%);
+    background: linear-gradient(to right, rgba(0,102,255,1) 0%, rgba(0,255,191,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0066ff', endColorstr='#00ffbf', GradientType=1 );
     border-radius: 20px;
     border:0px solid #18ab29;
     cursor:pointer;
@@ -817,3 +825,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0066ff', end
     width: 100%;
 }
 
+
+@media screen and (max-width: 600px){
+    .h11-contenido{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+    }
+    .h11-cont1{
+        grid-gap: 10px;
+    }
+    .h11-contenido img{
+        width: 100%;
+    }
+    .h11-cont1 button{
+        font-size:15px;
+
+    }
+}

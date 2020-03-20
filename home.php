@@ -414,4 +414,8 @@ function proposito() {
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.380761206224!2d-71.54248628507567!3d-16.405477442651637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424af631b383af%3A0x42aff66448d2a5cf!2sSalaverry%20301%2C%20Arequipa%2004001!5e0!3m2!1ses-419!2spe!4v1584647749292!5m2!1ses-419!2spe" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
+
+
+
+
 </section>
