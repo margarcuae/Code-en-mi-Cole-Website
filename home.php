@@ -210,9 +210,7 @@
             </div>
             <div class="h7-grid2" >
                     <div class="h7-fonfoverde">
-                        <center>
-
-                        
+                        <center>      
                         <img src="img/home/icon1.png" alt="">
                         </center>
                     </div>
@@ -382,15 +380,23 @@ function proposito() {
 
 <section class="home11">
 <center class="font-montserrat subtitle" >
-<h2 >ÚNETE
+<h2 >ÚNETE </h2> <hr>
 </center>
 
-<div class="h11-contenido">
-    <div>
-        <button>Solicitar el programa</button>
-        <button>Preinscribete en la academia</button>
-        <button>Quiero ser voluntario</button>
-        <button>Quiero ser sponsor</button>
+<div class="h11-contenido font-lato">
+    <div class="h11-cont1">
+        <div>
+            <button>Solicitar el programa</button>
+        </div>
+        <div>
+            <button>Preinscribete en la academia</button>
+        </div>
+        <div>
+            <button>Quiero ser voluntario</button>
+        </div>
+        <div>
+            <button>Quiero ser sponsor</button>
+        </div>
 
     </div>
 
@@ -402,3 +408,10 @@ function proposito() {
 
 </section>
 
+
+
+<section>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.380761206224!2d-71.54248628507567!3d-16.405477442651637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424af631b383af%3A0x42aff66448d2a5cf!2sSalaverry%20301%2C%20Arequipa%2004001!5e0!3m2!1ses-419!2spe!4v1584647749292!5m2!1ses-419!2spe" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+</section>

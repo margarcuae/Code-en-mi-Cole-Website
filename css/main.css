@@ -100,15 +100,12 @@ body{
 .footer2{
     margin-top: 15px;
     display: grid;
-    grid-template-columns: 10% repeat(3,1fr) 10%;
+    grid-template-columns: repeat(3,1fr);
     justify-items: center;
     align-items: center;
+    padding: 0 10%;
+}
 
-}
-.telefono{
-    grid-column: 2;
-    
-}
 
 .telefono div{
     display: inline-block;
@@ -132,33 +129,58 @@ body{
 .direccion div{
     display: inline-block;
 }
+
+
+
+@media screen and (max-width: 600px) {
+    .footer2{
+        grid-template-columns: repeat(1,1fr);
+        padding: 0 10%;
+        grid-gap: 10px;
+    }
+}
+
+
+
+
 .footer3{
     display: grid;
-    grid-template-columns: 40% repeat(5,1fr) 40%;
+    grid-template-columns:  repeat(5,1fr);
     justify-items: center;
     align-items: center;
     
     margin-top: 50px;
-    padding-bottom: 30px;
+    padding: 0 40% 30px 40%;
 }
-.icon-facebook{ 
-    grid-column: 2;
+
+@media screen and (max-width: 600px){
+    .footer3{
+        padding: 0 20% 30px 20%;
+    }
 }
+
 
 .footer4{
     color: #595850;
     display: grid;
-    grid-template-columns: 10% repeat(3,1fr) 10% ;
+    grid-template-columns: repeat(3,1fr) ;
     justify-items: center;
-    padding-bottom: 50px;   
+    padding:0 10%  50px 10%;   
     font-weight: bold;
+
 }
-.f4-1{
-    grid-column: 2;
-}
+
 .footer4 a{
     text-decoration: none;
     color: #595850;
+}
+
+@media screen and (max-width: 600px){
+    .footer4{
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        grid-gap: 15px;
+    }
 }
 
 
@@ -299,6 +321,16 @@ body{
     'homef homefoto2 homefoto3';
 }
 
+@media screen and (max-width: 600px) {
+    .home2{
+        grid-template-areas: 
+        'hometitle'
+        'homef'
+        'homefoto2'
+        'homefoto3';
+    }
+}
+
 .h3Title{
     grid-area: h3Title;
     color: #3bbbb0;
@@ -436,6 +468,19 @@ background-color: #58becc;
     height: 230px;
 }
 
+@media screen and (max-width: 600px) {
+    .home4-1{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 0 40px 0;
+    }
+    .h4Title{
+        grid-column: 1;
+    }
+    .home4-2{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0;
+    }
+}
 
 
 
@@ -635,7 +680,17 @@ background-color: #58becc;
     font-weight: bold;
 }
 
+@media screen and (max-width: 600px) {
+    .h7-fondocolor{
+        grid-template-columns: repeat(1,1fr);
+        font-size: 15px;
+    }
+    .h7-fondoblanco{
+        font-size: 15px;
+        text-align: center;
+    }
 
+}
 
 .h8-subtitle{
     display: grid;
@@ -685,7 +740,7 @@ background-color: #58becc;
     background-color: #1078ff;
     font-size: 30px;
     font-weight: bold;
-    padding: 20px 0;
+    padding: 40px 0;
     margin: 20px 0;
 }
 
@@ -693,6 +748,48 @@ background-color: #58becc;
     margin:0;
 }
 
-.home11-contenido{
+.h11-contenido{
     background-image: url(../img/home/home-recurso8.png);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 7% 5%;
+    justify-items: center;
 }
+
+
+.h11-cont1{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    justify-items: center;
+}
+.h11-cont1 button{
+    background: rgba(0,102,255,1);
+background: -moz-linear-gradient(left, rgba(0,102,255,1) 0%, rgba(0,255,191,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,102,255,1)), color-stop(100%, rgba(0,255,191,1)));
+background: -webkit-linear-gradient(left, rgba(0,102,255,1) 0%, rgba(0,255,191,1) 100%);
+background: -o-linear-gradient(left, rgba(0,102,255,1) 0%, rgba(0,255,191,1) 100%);
+background: -ms-linear-gradient(left, rgba(0,102,255,1) 0%, rgba(0,255,191,1) 100%);
+background: linear-gradient(to right, rgba(0,102,255,1) 0%, rgba(0,255,191,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0066ff', endColorstr='#00ffbf', GradientType=1 );
+    border-radius: 20px;
+    border:0px solid #18ab29;
+    cursor:pointer;
+    padding:10px 60px;
+	text-decoration:none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+    
+}
+
+.h11-contenido img{
+    width: 600px;
+}
+.h11-cont1 div{
+    width: 100%;
+}
+
