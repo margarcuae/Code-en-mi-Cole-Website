@@ -335,6 +335,7 @@ body{
     grid-area: h3Title;
     color: #3bbbb0;
     font-weight: bold;
+    text-align: center;
 
 }
 .h3Img1{
@@ -347,6 +348,7 @@ body{
     grid-area: h3Texto;
     font-weight: bold;
     font-size: 20px;
+    text-align: center;
 }
 
 
@@ -513,6 +515,14 @@ background-color: #58becc;
     font-weight: bold;
     text-align: center;
 }
+@media screen and (max-width: 600px) {
+    .home5{
+        background-size: cover;
+    }
+    .home5 h2{
+        font-size: 25px;
+    }
+}
 
 
 
@@ -592,7 +602,21 @@ background-color: #58becc;
     margin-bottom: 10px;
     margin-top: 50px;
 }
+@media screen and (max-width: 600px) {
+    .home6{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .h6-fondo{
+        height: 300px;
+    }
+    .h6-contenido{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .h6-title{
+        grid-column: 1;
 
+    }
+}
 
 .home7{
     background-color: #f6f6f6;
