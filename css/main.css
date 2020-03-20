@@ -73,6 +73,12 @@ body{
 
 
 
+@media screen and (max-width: 600px) {
+    .header{
+        position: fixed;
+    }
+}
+
 
     /*
     FOOTER
@@ -133,6 +139,7 @@ body{
 
 
 @media screen and (max-width: 600px) {
+    
     .footer2{
         grid-template-columns: repeat(1,1fr);
         padding: 0 10%;
@@ -715,7 +722,9 @@ background-color: #58becc;
     }
 
 }
-
+.h8-contenidogen{
+    margin-bottom: 10px;
+}
 .h8-subtitle{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -762,10 +771,26 @@ background-color: #58becc;
 
 
 @media screen and (max-width: 600px){
-    .h8-subtitle{
-        grid-gap: 0%;
-        margin: 0 7% 0 7%;
+    .h8-contenidogen{
+        margin-bottom: 50px;
     }
+    .h8-subtitle{
+        grid-gap: 2%;
+        margin: 0 5% 0 5%;
+    }
+    .h8-contenido{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 5%;
+    }
+    .h8-contenido img{
+        width: 100%;
+    }
+    #historia{
+        margin-top: -482px;
+       }
+       #valores{
+           margin-top: -482px;
+       }
 }
 
 .home10{
