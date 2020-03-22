@@ -1,3 +1,4 @@
+<?php /* Template Name: Eventos */ ?>
 <html>
     <head>
     <?php include("head.php"); ?>

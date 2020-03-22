@@ -1,3 +1,4 @@
+<?php /* Template Name: Colegios */ ?>
 <html>
     <head>
     <?php include("head.php"); ?>

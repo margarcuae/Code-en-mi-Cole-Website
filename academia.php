@@ -1,3 +1,5 @@
+<?php /* Template Name: Academia */ ?>
+
 <html>
 
 <head>
@@ -8,17 +10,17 @@
     <?php include("nav.php"); ?>
     <div class="font-lato" id="seccion1">
         <h1>Academia</h1>
-        <p id="navega">Qué hacemos ? <span style="margin: 0 30px;">></span> Academia</p>
+        <p id="navega">Qué hacemos ? <span style="margin: 0 30px;"></span> Academia</p>
     </div>
 
     <div id="seccion2" class="font-lato">
-        <div class="titulos-peque"><img src="img/academia/conoce.png" alt="">
+        <div class="titulos-peque"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/academia/conoce.png" alt="">
             <h2>CONOCE</h2>
         </div>
-        <div class="titulos-peque"><img src="img/academia/aprende.png" alt="">
+        <div class="titulos-peque"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/academia/aprende.png" alt="">
             <h2>APRENDE</h2>
         </div>
-        <div class="titulos-peque"><img src="img/academia/crea.png" alt="">
+        <div class="titulos-peque"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/academia/crea.png" alt="">
             <h2>CREA</h2>
         </div>
     </div>
@@ -28,9 +30,9 @@
     </p>
 
     <div id="seccion3">
-        <div style="grid-area: foto1;"><img src="img/academia/foto1.png" class="center-cropped" alt=""></div>
-        <div style="grid-area: foto2;"><img src="img/academia/foto2.png" class="center-cropped" alt=""></div>
-        <div style="grid-area: foto3;"><img src="img/academia/foto3.png" class="center-cropped" alt=""></div>
+        <div style="grid-area: foto1;"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/academia/foto1.png" class="center-cropped" alt=""></div>
+        <div style="grid-area: foto2;"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/academia/foto2.png" class="center-cropped" alt=""></div>
+        <div style="grid-area: foto3;"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/academia/foto3.png" class="center-cropped" alt=""></div>
 
         <div style="grid-area: texto1;">
             <h2 class="font-montserrat titulo-sec3">PENSAMIENTO COMPUTACIONAL</h2>
@@ -76,7 +78,7 @@
     <div id="seccion4" class="font-montserrat">
         <div>
             <p style="font-size: 1.4rem ;">Te gustaría recibir un taller de inducción gratuito? <br> Escríbenos y nos pondremos en contacto contigo.</p>
-            <img src="img/academia/programador.png" alt="" height="300px">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/img/academia/programador.png" alt="" height="300px">
         </div>
         <div>
             <div id="cuadrito">
@@ -114,7 +116,7 @@
         padding-left: 55px;
         font-weight: bold;
         height: 250px;
-        background-image: url('img/academia/background.png');
+        background-image: url('<?php echo get_bloginfo('template_directory'); ?>/img/academia/background.png');
         background-repeat: no-repeat;
         color: white;
     }
