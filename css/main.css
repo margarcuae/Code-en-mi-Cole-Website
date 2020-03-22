@@ -21,6 +21,10 @@ body{
  position: fixed;
  background-color: white;
  width: 100%;
+ top: 0;
+ visibility:visible;
+z-index:99;
+overflow:hidden;
 }
 
 .logotipo{
@@ -251,6 +255,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 69px;
 
 }
 .contenedor-portada{

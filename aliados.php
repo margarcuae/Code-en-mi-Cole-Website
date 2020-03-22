@@ -1,3 +1,4 @@
+
 <style>
 @-webkit-keyframes scroll {
   0% {
@@ -65,6 +66,7 @@ overflow:hidden;
   margin-left:50px;
 }
 </style>
+
 
 <div class="slider">
 	<div class="slide-track">
