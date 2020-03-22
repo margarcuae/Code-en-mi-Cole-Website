@@ -278,8 +278,7 @@
 <div  id="proposito" class="h8-contenido font-lato" > 
     <div>
     <p>
-        PROPOSITO
-        Dar acceso al pensamiento y las habilidades de la ciencia de la computación,
+            Dar acceso al pensamiento y las habilidades de la ciencia de la computación,
             con una formación de calidad  y aplicable para impulsar el desarrollo de los 
             estudiantes, docentes y actores que intervienen en la educación
         </p>
@@ -290,7 +289,7 @@
 
 </div>
 
-<div  class="h8-contenido font-lato" id="historia" style="visibility: hidden;">
+<div  class="h8-contenido font-lato" id="historia" style="display: none;">
     <div>
         <p>
         HISTORIA
@@ -304,15 +303,13 @@
     </div>
 </div>
 
-<div  class=" h8-contenido font-lato" id="valores"  style="visibility: hidden;">
+<div  class=" h8-contenido font-lato" id="valores"  style="display: none;">
     
 <div>
-        <p>
-            VALORES
-            Dar acceso al pensamiento y las habilidades de la ciencia de la computación,
-                con una formación de calidad  y aplicable para impulsar el desarrollo de los 
-                estudiantes, docentes y actores que intervienen en la educación
-            </p>
+        <p> <b> Trascedentales:</b>Creemos en las personas y para nosotros cualquier persona puede aprender.</p>
+        <p><b>Innovadores: </b>Nuestra cultural inovadora es una grata consecuencia.</p>
+        <p><b>Compromiso: </b>Con nuestros colaboradores y clientes.</p>
+        <p><b>Solidaridad:</b>Para llevar la oportunidad tecnológica a más personas.</p>
     </div>
     <div>
     <img src="img/home/home-foto11.png" alt="" width="370px">
@@ -327,22 +324,22 @@
 
 <script>
 function historia() {
-    document.getElementById("valores").style.visibility = "hidden";
-    document.getElementById("proposito").style.visibility = "hidden"; 
-    document.getElementById("historia").style.visibility = "visible";      
+    document.getElementById("valores").style.display = "none";
+    document.getElementById("proposito").style.display = "none"; 
+    document.getElementById("historia").style.display = "grid";      
 }
 
 function valores() {
-    document.getElementById("valores").style.visibility = "visible";
-    document.getElementById("proposito").style.visibility = "hidden"; 
-    document.getElementById("historia").style.visibility = "hidden"; 
+    document.getElementById("valores").style.display = "grid";
+    document.getElementById("proposito").style.display = "none"; 
+    document.getElementById("historia").style.display = "none"; 
       
 }
 
 function proposito() {
-    document.getElementById("valores").style.visibility = "hidden";
-    document.getElementById("proposito").style.visibility = "visible"; 
-    document.getElementById("historia").style.visibility = "hidden"; 
+    document.getElementById("valores").style.display = "none";
+    document.getElementById("proposito").style.display = "grid"; 
+    document.getElementById("historia").style.display = "none"; 
       
 }
 

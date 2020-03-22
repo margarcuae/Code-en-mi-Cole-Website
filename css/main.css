@@ -738,6 +738,17 @@ background-color: #58becc;
     margin-right: 25%;
     margin-left: 25%;
 }
+.h8-subtitle h3{
+    padding: 3px 10px;
+    border-radius: 15px;
+    color: #1078ff;
+}
+
+.h8-subtitle h3:hover{
+    background-color: #00979c;
+    color: white;
+}
+
 .h8-contenido{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -745,21 +756,18 @@ background-color: #58becc;
     align-items: center;
     margin-left: 15%;
     margin-right: 15%;
-    text-align: center;
+    text-align: justify;
     grid-gap: 5%;
     color: #878787;
     font-size: 20px;
 }
-
-
-
-
-#historia{
- margin-top: -300px;
+.h8-contenido p{
+    margin:0;
 }
-#valores{
-    margin-top: -300px;
-}
+
+
+
+
 
 .cursor{
     cursor: all-scroll;
@@ -788,12 +796,7 @@ background-color: #58becc;
     .h8-contenido img{
         width: 100%;
     }
-    #historia{
-        margin-top: -482px;
-       }
-       #valores{
-           margin-top: -482px;
-       }
+
 }
 
 .home10{
