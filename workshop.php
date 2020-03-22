@@ -1,3 +1,4 @@
+<?php /* Template Name: Workshop */ ?>
 <html>
 
 <head>

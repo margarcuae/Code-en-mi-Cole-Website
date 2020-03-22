@@ -1,3 +1,4 @@
+<?php /* Template Name: Docente */ ?>
 <html>
     <head>
     <?php include("head.php"); ?>

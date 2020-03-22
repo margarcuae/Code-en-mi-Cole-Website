@@ -2,7 +2,7 @@
     <header class="header">
         <figure class="logotipo">
             <a href="index.php">
-                <img src="img/codecole.png" alt="" width="130">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/codecole.png" alt="" width="130">
             </a>
 
             </figure>

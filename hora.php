@@ -1,3 +1,5 @@
+<?php /* Template Name: Hora */ ?>
+
 <html>
     <head>
     <?php include("head.php"); ?>

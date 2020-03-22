@@ -1,3 +1,4 @@
+<?php /* Template Name: Conferencia */ ?>
 <html>
     <head>
     <?php include("head.php"); ?>
