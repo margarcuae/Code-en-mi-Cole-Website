@@ -9,14 +9,14 @@
     <!-- MENU - NAVEGADOR  -->
     <nav class="menu font-montserrat">
         
-        <ul>
+        <ul class="menu2">
             <li>
                 <a href="index.php">HOME</a>
             </li>
             <li>
                 <p>|</p>
             </li>
-            <li>
+            <li class="submenu"> 
                 <a href="quehacemos.php">QUÉ HACEMOS</a>
             </li>
             <li>

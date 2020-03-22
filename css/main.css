@@ -16,23 +16,23 @@ body{
     /*
     BARRA DE NAVEGACION
     */
-    
+.header{
+ display: flex;
+ position: fixed;
+ background-color: white;
+ width: 100%;
+}
+
 .logotipo{
-    display: inline-block;
     margin-left: 40px;
     margin-top: 7px;
     margin-bottom: 3px;
+    margin-right: 36%;
     }
 
-
 .menu{
-    /* position: fixed;/ */
     font-size: 16px;
-    display: inline-block;
-    position: absolute;
     padding-top: 17px;    
-    right: 20px;
-    /* border: solid 1px; */
 }
 
 .menu li{
@@ -41,14 +41,15 @@ body{
     
 }
 .menu p{
-
     font-size: 11px;
-    padding-bottom: 10px;
 }
 .menu a{
     color:#808080;
     text-decoration: none;
     padding: 43px 5px 10px 5px;
+}
+.menu ul{
+    margin-bottom: 0;
 }
 
 .menu a:hover {
@@ -74,9 +75,7 @@ body{
 
 
 @media screen and (max-width: 600px) {
-    .header{
-        position: fixed;
-    }
+    
 }
 
 
@@ -252,6 +251,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .contenedor-portada{
     display: flex;
@@ -747,9 +747,7 @@ background-color: #58becc;
 }
 
 
-.h8-contenidogen{
-    position: relative;
-}
+
 
 #historia{
  margin-top: -300px;

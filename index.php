@@ -4,10 +4,13 @@
     <?php include("head.php"); ?>
 </head>
 <body>
+
     <?php include("nav.php"); ?>
-    <?php include("home.php"); ?>
+
+
+ <?php include("home.php"); ?> 
     
-    <?php include("footer.php"); ?>
+<?php include("footer.php"); ?> 
     
 </body>
 </html>
