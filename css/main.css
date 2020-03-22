@@ -24,50 +24,53 @@ body{
  top: 0;
  visibility:visible;
 z-index:99;
-overflow:hidden;
+
 }
 
 .logotipo{
     margin-left: 40px;
     margin-top: 7px;
     margin-bottom: 3px;
-    margin-right: 36%;
+    margin-right: 41%;
     }
 
 .menu{
     font-size: 16px;
-    padding-top: 17px;    
+    
 }
 
-.menu li{
-    display: inline-block;
-    margin-left: 15px;
-    
+.menu ul{
+        margin: 0;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
 }
 .menu p{
-    font-size: 11px;
-}
-.menu a{
-    color:#808080;
-    text-decoration: none;
-    padding: 43px 5px 10px 5px;
-}
-.menu ul{
-    margin-bottom: 0;
+    margin: 0;
 }
 
-.menu a:hover {
-    color: white;
+.menu li a, .menu p{
+    display: block;
+    padding: 35px 10px 15px 10px ;
+    text-decoration: none;
+    color: #808080;
+}
+.menu a:hover{
     background-color: #009999;
-    
-  }
+    color: white;
+}
+.menu li{
+    flex-grow: 1;
+}
+
 
 
 .boton{
   background-color: #3fa8f5;
   border: none;
   color: white;
-  padding: 10px 40px;
+   padding: 10px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -76,10 +79,55 @@ overflow:hidden;
   margin: 5px 0;
 }
 
+#btn-menu,#btn-close{
+    display: none   ;
+}
+
+.header label{
+    display: none;
+    align-self: center;
+}
+
+
+.si-responsive{
+    display: none;
+}
+
 
 
 @media screen and (max-width: 600px) {
+    .logotipo{
+        margin-right: 45%;
+    }
+    .header label{
+        display: block;
+    }
+    .menu {
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        margin-left: -100%;
+        transition: all 0.5s;
+
+    }
+    .menu ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu a {
+        width: 100%;
+    }
+    .no-responsive{
+        display: none;
+    }
     
+    #btn-menu:checked ~ .menu{
+        margin-left: 0;
+    }
+    .si-responsive{
+        display: block;
+    }
+   
 }
 
 
@@ -242,6 +290,11 @@ overflow:hidden;
 
 
 
+@media screen and (max-width: 600px) {
+    .social-bar{
+        display: none;
+    }
+}
 /*
     HOME
 */
@@ -255,7 +308,7 @@ overflow:hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 69px;
+    
 
 }
 .contenedor-portada{

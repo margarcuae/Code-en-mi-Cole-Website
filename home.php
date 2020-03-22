@@ -292,10 +292,7 @@
 <div  class="h8-contenido font-lato" id="historia" style="display: none;">
     <div>
         <p>
-        HISTORIA
-        Dar acceso al pensamiento y las habilidades de la ciencia de la computación,
-            con una formación de calidad  y aplicable para impulsar el desarrollo de los 
-            estudiantes, docentes y actores que intervienen en la educación
+        Programa educativo en Ciencia de la Computación a nivel escolar, donde alumnos aprenden a programar y crear tecnología. Ganadores de Startup Perú 5G y del Tren del Emprendimiento
         </p>
     </div>
     <div>
