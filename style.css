@@ -53,19 +53,54 @@ Author: Rocoto Tech
 }
 
 .blog-title h1{
+    font-size: 40pt;
+    font-weight: bold;
+    margin-top: 0;
     font-family: 'Lato', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color : #1D4E9B;
+
 }
+
+
 .blog-title p{
     font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 15pt;
 }
 
 
 .blog-section-2 h2{
     font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: black;
 }
+
+.blog-section-2 a:visited{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.wp-show-posts-entry-meta {
+    text-align: center;
+}
+
+.wpsp-read-more{
+    width: 100%;
+    text-align: center ;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+
+
 
 .blog-section-2 h3{
     font-family: 'Lato', sans-serif;
+    
 }
 
 .blog-section-2 p{
