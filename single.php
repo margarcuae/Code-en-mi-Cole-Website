@@ -25,10 +25,14 @@
             </div>
         </div>
             
+           
         <div>
             <div class="single-section-2">
                 <h2>RECIENTES</h2>
-                <?php if ( function_exists( 'wpsp_display' ) ) wpsp_display( 23 ); ?>    
+                <div class="single-grid-rows">
+                    <?php /* For Local */  // if ( function_exists( 'wpsp_display' ) ) wpsp_display( 30 ); ?>
+                    <?php /* For Deployed */  if ( function_exists( 'wpsp_display' ) ) wpsp_display( 42 ); ?>
+                </div>
             </div>
         </div>        
     </div>

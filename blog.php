@@ -13,7 +13,8 @@
                 <p>ÚLTIMAS ENTRADAS</p>
             </div>    
             <div class="blog-section-2">
-                <?php if ( function_exists( 'wpsp_display' ) ) wpsp_display( 23 ); ?>
+                <?php //if ( function_exists( 'wpsp_display' ) ) wpsp_display( 23 ); ?>
+                <?php if ( function_exists( 'wpsp_display' ) ) wpsp_display( 30 ); ?>
             </div>
         </div>
                 
