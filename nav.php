@@ -1,7 +1,7 @@
  
     <header class="header">
         <figure class="logotipo">
-            <a href="index.php">
+            <a href="/">
                 <img src="<?php echo get_bloginfo('template_directory'); ?>/img/codecole.png" alt="" width="130">
             </a>
 
@@ -13,37 +13,37 @@
         <nav class="menu font-montserrat">
         <ul class="menu2">
             <li>
-                <a href="index.php">HOME</a>
+                <a href="/">HOME</a>
             </li>
             <li class="no-responsive">
                 <p>|</p>
             </li>
             <li class="submenu"> 
-                <a href="quehacemos.php">QUÉ HACEMOS</a>
+                <a href="/quehacemos">QUÉ HACEMOS</a>
             </li>
             <li class="no-responsive">
                 <p>|</p>
             </li>   
             <li>
-                <a href="nosotros.php">NOSOTROS</a>
+                <a href="/nosotros">NOSOTROS</a>
             </li>
             <li class="no-responsive">
                 <p>|</p>
             </li>
             <li >
-                <a href="eventos.php">EVENTOS</a>
+                <a href="/eventos">EVENTOS</a>
             </li>
             <li class="no-responsive">
                 <p>|</p>
             </li>
             <li>
-                <a href="blog.php">BLOG</a>
+                <a href="/blog">BLOG</a>
             </li>
             <li class="no-responsive">
                 <p>|</p>
             </li>
             <li>
-                <a href="blog.php">CONTACTO</a>
+                <a href="/contacto">CONTACTO</a>
             </li>
             <li class ="si-responsive">
                 <input type="checkbox" id="btn-close" onclick="cambiar()" >
