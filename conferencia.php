@@ -7,7 +7,7 @@
     <body>
         <?php include("nav.php"); ?>
         <div class="center" width="100%">
-            <img src="img/conference.png" alt="Conferencia" width="70%" >
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/img/conference.png" alt="Conferencia" width="70%" >
             <h1 id="csc-title" class="font-lato">Computer Science<br>Education Conference</h1>
             <p id="p-text" class="font-lato">
                 Que ocurriría si le damos la oportunidad para que 50,000 niños peruanos tengan las herramientas para mejorar el mundo.

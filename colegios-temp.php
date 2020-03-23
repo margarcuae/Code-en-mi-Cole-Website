@@ -18,7 +18,7 @@
 <!--
     <div id="seccion2" class="font-lato">
         <div >
-            <img class="image-md" src="img/colegios/recurso13.png"> 
+            <img class="image-md" src="<?php echo get_bloginfo('template_directory'); ?>/img/colegios/recurso13.png"> 
         </div>
 
         <div>
@@ -86,13 +86,13 @@
         <div class="mySlides fade">
             <div class="grid-container-gallery">
                 <div class="grid-item parent">
-                    <img src="img/galery1.jpeg">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery1.jpeg">
                 </div>
                 <div class="grid-item">
-                    <img src="img/galery2.jpeg">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery2.jpeg">
                 </div>
                 <div class="grid-item">
-                    <img src="img/galery3.jpeg">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery3.jpeg">
                 </div>  
             </div>
         </div>
@@ -100,13 +100,13 @@
         <div class="mySlides fade">
         <div class="grid-container-gallery">
                 <div class="grid-item parent">
-                    <img src="img/galery4.jpeg">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery4.jpeg">
                 </div>
                 <div class="grid-item">
-                    <img src="img/galery5.jpeg">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery5.jpeg">
                 </div>
                 <div class="grid-item">
-                    <img src="img/galery3.jpeg">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery3.jpeg">
                 </div>  
   
             </div>
@@ -124,7 +124,7 @@
     <div id="seccion4" class="font-montserrat">
             <div>
                 <p style="font-size: 1.4rem ;">Te gustaría recibir un taller de inducción gratuito? <br> Escríbenos y nos pondremos en contacto contigo.</p>
-                <img src="img/academia/programador.png" alt="" height="300px">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/academia/programador.png" alt="" height="300px">
             </div>
             <div>
                 <div id="block-shadow">
@@ -158,7 +158,7 @@ h1 {
         padding-left: 55px;
         font-weight: bold;
         height: 250px;
-        background-image: url('img/colegios/recurso12.png');
+        background-image: url('<?php echo get_bloginfo('template_directory'); ?>/img/colegios/recurso12.png');
         background-repeat: no-repeat;
         color: white;
     }

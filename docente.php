@@ -7,7 +7,7 @@
     <body>
         <?php include("nav.php"); ?>
         <div class="center" width="100%">
-            <img id="imagen-n1" src="img/docente.png" alt="Conferencia" width="30%" >
+            <img id="imagen-n1" src="<?php echo get_bloginfo('template_directory'); ?>/img/docente.png" alt="Conferencia" width="30%" >
             <h1 id="csc-title" class="font-lato">Programa de Formación Docente<br> <span style="color:blue"> en Ciencia de la Computación </span> </h1>
             <p id="p-text" class="font-lato">
                Buscamos docentes de educación básica regular de nivel inicial, primario y secundario para dictar capacitaciones presenciales sobre Ciencia de la Computación y su pedagogía. La capacitación posee una duración de 120 horas totales, distribuidas en tres meses.
@@ -26,7 +26,7 @@
             <div id="subsec">
                 
                 <div >
-                    <img class="img-small" src="img/docente-r1.png" >
+                    <img class="img-small" src="<?php echo get_bloginfo('template_directory'); ?>/img/docente-r1.png" >
                     <div style="display: inline-block; vertical-align: middle;">
                         <h3 class="font-lato small-title">Pensamiento Computacional</h3>
                         <p class="font-lato small-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -34,7 +34,7 @@
                 </div>
 
                 <div>
-                    <img class="img-small" src="img/docente-r2.png" >
+                    <img class="img-small" src="<?php echo get_bloginfo('template_directory'); ?>/img/docente-r2.png" >
                     <div style="display: inline-block; vertical-align: middle;">
                         <h3 class="font-lato small-title">Programación</h3>
                         <p class="font-lato small-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -42,7 +42,7 @@
                 </div>
 
                 <div>
-                    <img class="img-small" src="img/docente-r3.png" >
+                    <img class="img-small" src="<?php echo get_bloginfo('template_directory'); ?>/img/docente-r3.png" >
                     <div style="display: inline-block; vertical-align: middle;">
                         <h3 class="font-lato small-title">Algoritmos</h3>
                         <p class="font-lato small-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -50,7 +50,7 @@
                 </div>
 
                 <div>
-                    <img class="img-small" src="img/docente-r4.png" >
+                    <img class="img-small" src="<?php echo get_bloginfo('template_directory'); ?>/img/docente-r4.png" >
                     <div style="display: inline-block; vertical-align: middle;">
                         <h3 class="font-lato small-title">Redes de Computadoras</h3>
                         <p class="font-lato small-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -159,7 +159,7 @@
 
         width: 100%;
         background-color: #ecd6d8;
-        background-image:url('img/docentes-seccion2.png');
+        background-image:url('<?php echo get_bloginfo('template_directory'); ?>/img/docentes-seccion2.png');
         background-size: 800px;
         background-repeat: no-repeat;
         background-position-x:60%;

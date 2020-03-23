@@ -16,7 +16,7 @@
 
         <div id="seccion2">
             <div>
-                <img src="img/colegios/recurso13.png"> 
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/colegios/recurso13.png"> 
             </div>
     
             <div>
@@ -74,26 +74,26 @@
 
             <div id="gallery-1" class="gallery">
                 <div class="photo" id="photo-l">
-                    <img src="img/colegios/recurso15.png">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/colegios/recurso15.png">
                 </div>
                 <div class="photo" id="photo-c">
-                    <img src="img/colegios/recurso16.png">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/colegios/recurso16.png">
                 </div>
                 <div class="photo" id="photo-r">
-                    <img src="img/colegios/recurso17.png">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/colegios/recurso17.png">
                 </div>
             </div>
             
 
             <div id="gallery-2" class="gallery">
                 <div class="photo" id="photo-l">
-                    <img src="img/colegios/recurso17.png">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/colegios/recurso17.png">
                 </div>
                 <div class="photo" id="photo-c">
-                    <img src="img/colegios/recurso16.png">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/colegios/recurso16.png">
                 </div>
                 <div class="photo" id="photo-r">
-                    <img src="img/colegios/recurso15.png">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/colegios/recurso15.png">
                 </div>
             </div>
 
@@ -108,7 +108,7 @@
         <div id="seccion5" class="font-montserrat">
             <div>
                 <p style="font-size: 1.2rem ;">Te gustaría recibir un taller de inducción gratuito? <br> Escríbenos y nos pondremos en contacto contigo.</p>
-                <img src="img/academia/programador.png" alt="" height="300px">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/academia/programador.png" alt="" height="300px">
             </div>
             <div>
                 <div id="block-shadow">
@@ -154,7 +154,7 @@ h1 {
         padding-left: 55px;
         font-weight: bold;
         height: 250px;
-        background-image: url('img/colegios/recurso12.png');
+        background-image: url('<?php echo get_bloginfo('template_directory'); ?>/img/colegios/recurso12.png');
         background-repeat: no-repeat;
         color: white;
     }
