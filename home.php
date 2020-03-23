@@ -108,7 +108,7 @@
 
 
 <section class="home6" >
-    <div class="h6-contenido">
+    <div class="h6-contenido" id="home6">
         <div class="h6-title">
             <h2 class="font-montserrat" >NUESTRO IMPACTO</h2>
             <hr>
@@ -119,7 +119,7 @@
             </div>  
             <div class="h6-n1">
                 <p>+</p>
-                <p>500</p>
+                <p id="estudiantesal" class="odometer">0</p>
             </div>
             <div class="h6-d1" >
                 <p>Estudiantes alcanzados</p>
@@ -131,7 +131,8 @@
                 <img src="img/home/icon1.png" alt="">
             </div>  
             <div class="h6-n1">
-                +500
+            <p>+</p>
+                <p id="organizaciones" class="odometer">0</p>
             </div>
             <div class="h6-d1">
                 <p>Organizaciones involucradas</p>
@@ -143,7 +144,8 @@
                 <img src="img/home/icon1.png" alt="">
             </div>  
             <div class="h6-n1">
-                +500
+            <p>+</p>
+                <p id="estudiantes" class="odometer">0</p>
             </div>
             <div class="h6-d1">
                 <p>Estudiantes con mayores habilidades tecnológicas</p>
@@ -155,7 +157,8 @@
                 <img src="img/home/icon1.png" alt="">
             </div>  
             <div class="h6-n1">
-                +500
+            <p>+</p>
+                <p id="voluntarios" class="odometer">0</p>
             </div>
             <div class="h6-d1">
                 <p>Voluntarios involucrados</p>
@@ -167,7 +170,8 @@
                 <img src="img/home/icon1.png" alt="">
             </div>  
             <div class="h6-n1">
-                +500
+            <p>+</p>
+                <p id="colegios" class="odometer">0</p>
             </div>
             <div class="h6-d1">
                 <p>Colegios beneficiados con el programa</p>
@@ -179,7 +183,8 @@
                 <img src="img/home/icon1.png" alt="">
             </div>  
             <div class="h6-n1 ">
-                +500
+            <p>+</p>
+                <p id="docentes" class="odometer">0</p>
             </div>
             <div class="h6-d1">
                 <p>Docentes capacitados</p>
@@ -190,7 +195,6 @@
 
     </div>
 </section>
-
 
 
 
