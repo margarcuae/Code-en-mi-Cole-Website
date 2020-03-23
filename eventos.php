@@ -7,7 +7,7 @@
     <body>
         <?php include("nav.php"); ?>
         <div id="seccion1">
-            <img src="img/events.png" alt="Eventos" width="70%" >
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/img/events.png" alt="Eventos" width="70%" >
 
             <h1 id="csc-title" class="font-lato">Encuentro de Organizaciones<br> Educativas Innovadoras</h1>
             
@@ -26,22 +26,22 @@
 
             <div id="gallery">
                 <div id="photo">
-                    <img src="img/galery1.jpeg">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery1.jpeg">
                 </div>
                 <div id="photo">
-                    <img src="img/galery2.jpeg">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery2.jpeg">
                 </div>
                 <div id="photo">
-                    <img src="img/galery3.jpeg">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery3.jpeg">
                 </div>
                 <div id="photo">
-                    <img src="img/galery4.jpeg">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery4.jpeg">
                 </div>
                 <div id="photo">
-                    <img src="img/galery5.jpeg">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery5.jpeg">
                 </div>
                 <div id="photo">
-                    <img src="img/galery6.jpeg">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery6.jpeg">
                 </div>
             </div>
 

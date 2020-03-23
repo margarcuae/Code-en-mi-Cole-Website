@@ -1,3 +1,11 @@
+<?php 
+/*
+*
+* 	Template Name: Página de Inicio
+* 	
+*/
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>

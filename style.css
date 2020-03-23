@@ -1,9 +1,33 @@
 /*
-Theme Name: Code En mi Cole
-Author: Luis Bernal Ch
-Description: Este es el tema de Code en mi Cole
-Version: 1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: mitemadomain
+Theme Name: Code En Mi Cole
+Author: Rocoto Tech
 */
+
+
+/* single.php */
+
+@media screen and (min-width: 601px) {
+
+    .single-body {
+        max-width: 50%;
+        margin: auto;
+        
+    }
+
+    .single-title h1{
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .single-section-2 h2{
+        font-family: 'Lato', sans-serif;
+    }
+
+    .single-section-2 h3{
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .single-section-2 p{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+}
