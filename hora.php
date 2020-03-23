@@ -17,7 +17,7 @@
 
       
         <div class="center " style="padding-top:45px; margin:0">
-            <img id="img1" src="img/horacod-logo.png" alt="" width="500px"> 
+            <img id="img1" src="<?php echo get_bloginfo('template_directory'); ?>/img/horacod-logo.png" alt="" width="500px"> 
         </div>
         
         <div id="secc1" class="center font-lato">
@@ -30,7 +30,7 @@
                 <iframe id="video2" width="720" height="412" src="https://www.youtube.com/embed/nKIu9yen5nc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div style="display: flex; justify-content: center; align-content: center;">
-                <img id="img2" src="img/hourofcode.png" alt="" >
+                <img id="img2" src="<?php echo get_bloginfo('template_directory'); ?>/img/hourofcode.png" alt="" >
             </div>
         </div>
 

@@ -21,9 +21,9 @@
       <hr id="raya">
     </h2>
     <div id="seccion1-2">
-      <div><img class="img-secc1-2" src="img/workshop/w1.png" alt=""></div>
-      <div><img class="img-secc1-2" src="img/workshop/w2.png" alt=""></div>
-      <div><img class="img-secc1-2" src="img/workshop/w3.png" alt=""></div>
+      <div><img class="img-secc1-2" src="<?php echo get_bloginfo('template_directory'); ?>/img/workshop/w1.png" alt=""></div>
+      <div><img class="img-secc1-2" src="<?php echo get_bloginfo('template_directory'); ?>/img/workshop/w2.png" alt=""></div>
+      <div><img class="img-secc1-2" src="<?php echo get_bloginfo('template_directory'); ?>/img/workshop/w3.png" alt=""></div>
     </div>
     <div id="barra"></div>
   </div>
@@ -34,11 +34,11 @@
     <div class="carousel">
 
       <div class="carousel-cell">
-        <img src="img/workshop/baner1.png" alt="">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/workshop/baner1.png" alt="">
       </div>
 
 
-      <div class="carousel-cell"><img src="img/workshop/baner2.png" alt=""></div>
+      <div class="carousel-cell"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/workshop/baner2.png" alt=""></div>
     </div>
 
   </div>
@@ -54,13 +54,13 @@
     <div class="mySlides fade">
       <div class="grid-container-gallery">
         <div class="grid-item parent">
-          <img src="img/galery1.jpeg">
+          <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery1.jpeg">
         </div>
         <div class="grid-item">
-          <img src="img/galery2.jpeg">
+          <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery2.jpeg">
         </div>
         <div class="grid-item">
-          <img src="img/galery3.jpeg">
+          <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery3.jpeg">
         </div>
       </div>
     </div>
@@ -68,13 +68,13 @@
     <div class="mySlides fade">
       <div class="grid-container-gallery">
         <div class="grid-item parent">
-          <img src="img/galery4.jpeg">
+          <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery4.jpeg">
         </div>
         <div class="grid-item">
-          <img src="img/galery5.jpeg">
+          <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery5.jpeg">
         </div>
         <div class="grid-item">
-          <img src="img/galery3.jpeg">
+          <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery3.jpeg">
         </div>
 
       </div>
@@ -118,7 +118,7 @@
     padding-left: 55px;
     font-weight: bold;
     height: 250px;
-    background-image: url('img/academia/background.png');
+    background-image: url('<?php echo get_bloginfo('template_directory'); ?>/img/academia/background.png');
     background-repeat: no-repeat;
     color: white;
   }
