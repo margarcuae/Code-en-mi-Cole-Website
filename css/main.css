@@ -468,7 +468,7 @@ background-color: #58becc;
     justify-items: center;
     align-items: center;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 40px;
+    grid-gap: 80px;
     margin-bottom: 20px;
 }
 
@@ -479,13 +479,14 @@ background-color: #58becc;
 
 
 .home4-2{
+    margin-top: 90px;
     display: grid;
     justify-items: center;
     align-items: center;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 40px;
-    margin-left: 15%;
-    margin-right: 15%;
+    grid-gap: 80px;
+    margin-left: 17%;
+    margin-right: 17%;
     padding-bottom: 60px;
 
 }
@@ -498,20 +499,25 @@ background-color: #58becc;
 .h4Cont1, .h4Cont2, .h4Cont3, .h4Cont4, .h4Cont5{
     border-radius: 0 0 25px 25px;
 }
-.h-info{
-    height: 230px;
-    background-color: rgba(0, 0, 0, 0.42);
-    -webkit-transition: opacity 0.5s;
-    opacity: 0 ;
+
+.home4 p{
+    margin:0;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 0 10px;
+    transition: all 0.5s
     
 }
-.h4img1:hover{
-    -webkit-transform: rotateY(180deg);
-    -webkit-transform-style: preserve-3d;
-    transform: rotateY(180deg);
-    transform-style: preserve-3d;
+.h4-voltear{
+    display: none;
+    background-color:rgba(0,0,0,0.6);
+    align-items: center;
+    height: 100%    ;
 }
-
+.h4-voltear:hover{
+    transition-duration: 2s;    
+}
 
 
 .h4img1{
@@ -519,6 +525,8 @@ background-color: #58becc;
     background-size: cover;
     background-position: center;
     height: 230px;
+    
+
 }
 
 .h4img2{

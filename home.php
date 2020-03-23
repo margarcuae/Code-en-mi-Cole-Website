@@ -41,6 +41,17 @@
     </div>
 </section>
 
+
+
+
+
+
+
+
+
+
+
+
 <section class="home4">
 
 
@@ -49,45 +60,68 @@
             <h2 class="font-montserrat">¿CÓMO LO HACEMOS?</h2>
         </div>
 
-        <div class="h4Cont1 h4blanco">
-            <div class="h4img1">
-                <div class="h-info" ></div>
-            </div>
-            <div class="h-img-over" >
+        <div class="h4Cont1 h4blanco font-lato">
+            
+            
+                <div class="h4img1" id="h4img1" onmouseover="letra()" onmouseleave="noletra()">
+                    <div class=" h4-voltear"  id="h4-voltear">
+                        <P  >Programa de Ciencia de la Computación para primaria y secundaria</P>
+                    </div>
+                </div>
+            <div class="" >
               <img src="img/home/icon/iconletra-01.png" alt="" width="250px">
             </div>
         </div>
 
         <div class="h4Cont2 h4blanco">
-            <div class="h4img2"></div>
-            <div class="h-img-over">
+            <div class="h4img2" onmouseover="letra2()" onmouseleave="noletra2()">
+            <div class=" h4-voltear"  id="h4-voltear2">
+                        <P>Talleres de creación de tecnología  desde los 4 a 16 años</P>
+                    </div>
+            </div>
+            <div class="">
             <img src="img/home/icon/iconletra-02.png" alt="" width="250px">
             </div>
             </div>
         </div>
 
         <div class="h4Cont3 h4blanco">
-        <div class="h4img3"></div>
-            <div class="h-img-over">
+        <div class="h4img3" onmouseover="letra3()" onmouseleave="noletra3()">
+        <div class=" h4-voltear"  id="h4-voltear3">
+                        <P>Capacitación a docentes, universitarios, profesionales y empresarios</P>
+                    </div>
+        </div>
+            <div class="">
             <img src="img/home/icon/iconletra-03.png" alt="" width="250px">
                 </div>
             </div>
         </div>
     </section>
 
+
+
+
     <section class="home4-2">
         <div class="h4Cont4 h4blanco">
-        <div class="h4img4"></div>
-            <div class="h-img-over">
+        <div class="h4img4 " onmouseover="letra4()" onmouseleave="noletra4()">
+            <div class=" h4-voltear"  id="h4-voltear4">
+                        <P>Desarrollo de proyectos de responsabilidad social</P>
+            </div>
+        </div>
+            <div class="">
             <img src="img/home/icon/iconletra-04.png" alt="" width="250px">
                 </div>
             </div>
         </div>
 
         <div class="h4Cont5 h4blanco">
-        <div class="h4img5"></div>
+        <div class="h4img5"onmouseover="letra5()" onmouseleave="noletra5()">
+        <div class=" h4-voltear"  id="h4-voltear5">
+                        <P>Capacitación en ciencia de la computación</P>
+            </div>
+    </div>
 
-            <div class="h-img-over" >
+            <div class="" >
             <img src="img/home/icon/iconletra-05.png" alt="" width="250px">
                 </div >
                 
@@ -97,6 +131,41 @@
 
 </section>
 
+
+<script>
+            function letra() {
+                document.getElementById("h4-voltear").style.display = "grid";
+            }
+            function noletra() {
+                document.getElementById("h4-voltear").style.display = "none"; 
+            }
+
+            function letra2() {
+                document.getElementById("h4-voltear2").style.display = "grid";
+            }
+            function noletra2() {
+                document.getElementById("h4-voltear2").style.display = "none"; 
+            }
+            function letra3() {
+                document.getElementById("h4-voltear3").style.display = "grid";
+            }
+            function noletra3() {
+                document.getElementById("h4-voltear3").style.display = "none"; 
+            }
+            function letra4() {
+                document.getElementById("h4-voltear4").style.display = "grid";
+            }
+            function noletra4() {
+                document.getElementById("h4-voltear4").style.display = "none"; 
+            }
+            function letra5() {
+                document.getElementById("h4-voltear5").style.display = "grid";
+            }
+            function noletra5() {
+                document.getElementById("h4-voltear5").style.display = "none"; 
+            }
+
+        </script>
 
 
 
