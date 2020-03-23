@@ -12,7 +12,7 @@
 
 <section class="home2" >
     <div class="home-title" >
-    <h2>¿QUÉ OCURRE?</h2>
+    <h2 class="font-montserrat" >¿QUÉ OCURRE?</h2>
     </div>
     <div class="home-foto1">
         <img src="img/home/home-recurso4.png" alt="" width="250px">
@@ -118,7 +118,8 @@
                 <img src="img/home/icon1.png" alt="">
             </div>  
             <div class="h6-n1">
-                +500
+                <p>+</p>
+                <p>500</p>
             </div>
             <div class="h6-d1" >
                 <p>Estudiantes alcanzados</p>
@@ -341,6 +342,22 @@ function proposito() {
 }
 
 </script>
+
+
+
+
+
+<section class="home85">
+<center class="font-montserrat subtitle2" >
+<h2 >ALCANCE
+</h2> <hr>
+</center>
+
+<center>
+<img src="img/home/mapa.png" alt="">
+</center>
+</section>
+
 
 
 <section class="home9">

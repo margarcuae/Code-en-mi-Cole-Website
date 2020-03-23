@@ -395,6 +395,10 @@ z-index:99;
     'hometitle hometitle hometitle'
     'homef homefoto2 homefoto3';
 }
+.home2 h2{
+    color: #1078ff;
+    font-weight: bold;
+}
 
 @media screen and (max-width: 600px) {
     .home2{
@@ -843,6 +847,13 @@ background-color: #58becc;
     color: #009c97;
 }
 
+.subtitle2{
+    color: #0066ff;
+}
+.subtitle2 hr{
+    width: 40px;
+    color: #0066ff;
+}
 
 @media screen and (max-width: 600px){
     .h8-contenidogen{
@@ -862,6 +873,16 @@ background-color: #58becc;
 
 }
 
+
+.home85{
+    padding-top: 30px;
+    background-color: #cfe4ff;
+    margin-bottom:50px ;
+}
+
+.home85 img{
+    margin-top: 50px;
+}
 .home10{
     background-color: #1078ff;
     font-size: 30px;
