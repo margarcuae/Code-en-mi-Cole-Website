@@ -214,7 +214,7 @@ h1 {
 <style>
 /* Seccion 3 */
 #seccion3{
-    background-image: url("img/colegios/recurso14.png");
+    background-image: url("<?php echo get_bloginfo('template_directory'); ?>/img/colegios/recurso14.png");
     background-size: cover;
     background-position: center; 
     margin-top: 3rem;
@@ -474,3 +474,4 @@ $(document).ready(function(){
     }
 }
 </style>
+    

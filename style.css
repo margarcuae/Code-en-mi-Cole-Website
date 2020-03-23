@@ -4,30 +4,220 @@ Author: Rocoto Tech
 */
 
 
+
+/* blog.php  */
+
+@media screen and (min-width: 601px) {
+    .blog-body{
+        max-width: 50%;
+        margin: auto;
+    }
+
+    .blog-section-2{
+        margin-top: 50px;
+    }
+
+    .grid-two-columns {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+        
+}
+
+@media screen and (max-width: 600px) {
+    
+    .blog-body{
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .blog-main-image{
+        text-align: center;
+    }
+    .blog-section-1 img{
+        width: 100%;
+    }
+
+    .blog-section-2 img{
+        width: 100%;
+    }
+
+    .blog-item-2{
+        width: 90%;
+    }
+        
+}
+
+.blog-title h1{
+    font-family: 'Lato', sans-serif;
+}
+.blog-title p{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.blog-section-2 h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.blog-section-2 h3{
+    font-family: 'Lato', sans-serif;
+}
+
+.blog-section-2 p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/* front-page.php  */
+
+@media screen and (min-width: 601px) {
+    .front-page-body{
+        max-width: 50%;
+        margin: auto;
+    }
+}
+
+.front-page-title h1{
+    font-family: 'Lato', sans-serif;
+}
+
+.front-page-section-2 h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.front-page-section-2 h3{
+    font-family: 'Lato', sans-serif;
+}
+
+.front-page-section-2 p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* page.php */
+
+@media screen and (min-width: 601px) {
+    .page-body{
+        max-width: 50%;
+        margin: auto;
+    }
+}
+
+.page-title h1{
+    font-family: 'Lato', sans-serif;
+}
+
+.page-section-2 h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.page-section-2 h3{
+    font-family: 'Lato', sans-serif;
+}
+
+.page-section-2 p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
 /* single.php */
 
 @media screen and (min-width: 601px) {
 
     .single-body {
+        max-width: 60%;
+        margin: auto;
+        align-content: center;
+    }
+
+    .single-grid-two-columns {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .single-body{
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .single-main-image{
+        text-align: center;
+    }
+    .single-section-1 img{
+        width: 100%;
+    }
+
+    .single-section-2 img{
+        width: 100%;
+    }
+
+    .single-item-2{
+        width: 90%;
+    }
+}
+
+
+
+.single-section-2{
+    margin-bottom: 100px;
+}
+
+.single-title h1{
+    font-family: 'Lato', sans-serif;
+}
+
+.single-section-2 h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.single-section-2 h3{
+    font-family: 'Lato', sans-serif;
+}
+
+.single-section-2 p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+
+/* archive.php */
+@media screen and (min-width: 601px) {
+
+    .archive-body {
         max-width: 50%;
         margin: auto;
         
     }
 
-    .single-title h1{
-        font-family: 'Lato', sans-serif;
-    }
-    
-    .single-section-2 h2{
-        font-family: 'Lato', sans-serif;
-    }
+}
 
-    .single-section-2 h3{
-        font-family: 'Lato', sans-serif;
-    }
-    
-    .single-section-2 p{
-        font-family: 'Montserrat', sans-serif;
-    }
+.archive-title h1{
+    font-family: 'Lato', sans-serif;
+}
 
+.archive-section-2 h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.archive-section-2 h3{
+    font-family: 'Lato', sans-serif;
+}
+
+.archive-section-2 p{
+    font-family: 'Montserrat', sans-serif;
 }
