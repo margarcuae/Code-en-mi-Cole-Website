@@ -1,22 +1,22 @@
 function animar() {
     setTimeout(function(){
         docentes.innerHTML = 200;
-    }, 50);
+    }, 1000);
     setTimeout(function(){
         colegios.innerHTML = 15;
-    }, 50);
+    }, 1000);
     setTimeout(function(){
         voluntarios.innerHTML = 100;
-    }, 50);
+    }, 1000);
     setTimeout(function(){
         estudiantes.innerHTML = 1500;
-    }, 50);
+    }, 1000);
     setTimeout(function(){
         organizaciones.innerHTML = 50;
-    }, 50);
+    }, 1000);
     setTimeout(function(){
         estudiantesal.innerHTML = 5000;
-    }, 50);    
+    }, 1000);    
 
 
 }

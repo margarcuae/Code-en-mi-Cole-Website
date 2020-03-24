@@ -451,9 +451,10 @@ background-color: #58becc;
     background-image: url('../img/home/home-recurso3.png');
     background-size: cover;
     background-position: center;
-    padding-right: 10%;
-    padding-left: 10%;
+
+    padding: 60px 10%;
 }
+
 .home4 p{
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -461,6 +462,13 @@ background-color: #58becc;
 }
 .home4 h2{
     color: white;
+    margin: 0;
+}
+.h4title{
+    margin-bottom: 40px;
+}
+.h4title hr{
+    width: 40px;
 }
 
 
@@ -473,9 +481,6 @@ background-color: #58becc;
     margin-bottom: 20px;
 }
 
-.h4Title{
-    grid-column: 1/span 3;
-}
 
 
 
@@ -488,7 +493,7 @@ background-color: #58becc;
     grid-gap: 80px;
     margin-left: 17%;
     margin-right: 17%;
-    padding-bottom: 60px;
+   
 
 }
 .home4 img{
@@ -571,9 +576,7 @@ background-color: #58becc;
         grid-template-columns: repeat(1,1fr);
         margin: 0 0 40px 0;
     }
-    .h4Title{
-        grid-column: 1;
-    }
+
     .home4-2{
         grid-template-columns: repeat(1,1fr);
         margin: 0;

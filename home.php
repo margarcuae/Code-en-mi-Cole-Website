@@ -55,11 +55,13 @@
 
 <section class="home4">
 
-
+<center class="h4title">
+    <h2 class="font-montserrat">¿CÓMO LO HACEMOS?</h2>
+    <hr>
+</center>
+    
     <section class="home4-1">
-        <div class="h4Title">
-            <h2 class="font-montserrat">¿CÓMO LO HACEMOS?</h2>
-        </div>
+        
 
         <div class="h4Cont1 h4blanco font-lato">
             
