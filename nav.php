@@ -23,11 +23,11 @@
                     <a >QUÉ HACEMOS</a>
                 </li>
                 <div class="dropdown-content">
-                    <a href="#">Colegios</a>
+                    <a href="/colegios">Colegios</a>
                     <a href="academia">Academia</a>
-                    <a href="#">Workshop</a>
+                    <a href="/workshop">Workshop</a>
                     <a href="#">Programas Sociales</a>
-                    <a href="#">Formación Docente</a>
+                    <a href="/docentes">Formación Docente</a>
                 </div>
             </div>
             <li class="no-responsive">
@@ -39,7 +39,7 @@
                 </li>
                 <div class="dropdown-content">
                     <a href="#">La hora del código</a>
-                    <a href="#">Conferencia</a>
+                    <a href="/conferencia">Conferencia</a>
                     <a href="#">Encuentro de Organizaciones</a>
                     
                 </div>
@@ -60,7 +60,7 @@
                 <p>|</p>
             </li>
             <li>
-                <a href="blog.php">BLOG</a>
+                <a href="/blog">BLOG</a>
             </li>
             <li class="si-responsive">
                 <input type="checkbox" id="btn-close" onclick="cambiar()">
