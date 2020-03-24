@@ -4,7 +4,7 @@
 <head>
   <?php include("head.php"); ?>
   <link rel="stylesheet" href="css/flick.css" media="screen">
-  <script src="js/flick.js"></script>
+  <script src="<?php echo get_bloginfo('template_directory'); ?>/js/flick.js"></script>
 </head>
 
 <body>

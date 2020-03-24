@@ -1,13 +1,13 @@
 <header class="header">
     <figure class="logotipo">
         <a href="index.php">
-            <img src="img/codecole.png" alt="" width="130">
+            <img src="<?php echo get_bloginfo('template_directory'); ?>/img/codecole.png" alt="" width="130">
         </a>
 
     </figure>
     <!-- MENU - NAVEGADOR  -->
     <input type="checkbox" id="btn-menu">
-    <label for="btn-menu"> <img src="img/menu.png" alt=""> </label>
+    <label for="btn-menu"> <img src="<?php echo get_bloginfo('template_directory'); ?>/img/menu.png" alt=""> </label>
 
     <nav class="menu font-montserrat">
         <ul class="menu2">
@@ -24,7 +24,7 @@
                 </li>
                 <div class="dropdown-content">
                     <a href="#">Colegios</a>
-                    <a href="#">Academia</a>
+                    <a href="academia">Academia</a>
                     <a href="#">Workshop</a>
                     <a href="#">Programas Sociales</a>
                     <a href="#">Formación Docente</a>
@@ -64,7 +64,7 @@
             </li>
             <li class="si-responsive">
                 <input type="checkbox" id="btn-close" onclick="cambiar()">
-                <label for="btn-close"> <img src="img/cancel3.png" alt=""> </label>
+                <label for="btn-close"> <img src="<?php echo get_bloginfo('template_directory'); ?>/img/cancel3.png" alt=""> </label>
             </li>
         </ul>
     </nav>

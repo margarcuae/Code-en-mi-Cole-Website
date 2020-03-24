@@ -1,7 +1,7 @@
 <!-- Odometr includes -->
 <link rel="stylesheet" href="https://github.hubspot.com/odometer/themes/odometer-theme-default.css" />
 <script src="http://github.hubspot.com/odometer/odometer.js"></script>
-<script src="js/movimiento.js"></script>
+<script src="<?php echo get_bloginfo('template_directory'); ?>/js/movimiento.js"></script>
 
 <div class="fondo font-lato " id="animacion1">
     <div></div>
@@ -24,12 +24,12 @@
     <h2 class="font-montserrat" >¿QUÉ OCURRE?</h2>
     </div>
     <div class="home-foto1">
-        <img src="img/home/home-recurso4.png" alt="" width="200px">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-recurso4.png" alt="" width="200px">
     </div>
     <div class="home-foto2">
-    <img src="img/home/home-recurso5.png" alt="" width="200px">    </div>
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-recurso5.png" alt="" width="200px">    </div>
     <div class="home-foto3">
-    <img src="img/home/home-recurso6.png" alt="" width="200px">    </div>
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-recurso6.png" alt="" width="200px">    </div>
 </section>
 
 
@@ -41,13 +41,13 @@
         <h2>¿QUÉ HACEMOS PARA SOLUCIONARLO?</h2>
     </div>
     <div class="h3Img1">
-        <img src="img/home/home-recurso1.png" alt="" width="50px">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-recurso1.png" alt="" width="50px">
     </div>
     <div class="h3Texto font-lato">
         <p>Formamos niños y jóvenes  en Ciencia de la Computación desde la escuela</p>
     </div>
     <div class="h3Img2">
-    <img src="img/home/home-recurso2.png" alt=""  width="30px">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-recurso2.png" alt=""  width="30px">
     </div>
 </section>
 
@@ -82,7 +82,7 @@
                 </div>
             <div class="" >
                 
-              <img onclick="window.location.href='colegios.php'" src="img/home/icon/iconletra-01.png" alt="" width="250px">
+              <img onclick="window.location.href='colegios.php'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-01.png" alt="" width="250px">
             </div>
         </div>
 
@@ -93,7 +93,7 @@
                     </div>
             </div>
             <div class="">
-            <img onclick="window.location.href='academia.php'" src="img/home/icon/iconletra-02.png" alt="" width="250px">
+            <img onclick="window.location.href='academia.php'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-02.png" alt="" width="250px">
             </div>
             </div>
         </div>
@@ -105,7 +105,7 @@
                     </div>
         </div>
             <div class="">
-            <img onclick="window.location.href='workshop.php'" src="img/home/icon/iconletra-03.png" alt="" width="250px">
+            <img onclick="window.location.href='workshop.php'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-03.png" alt="" width="250px">
                 </div>
             </div>
         </div>
@@ -122,7 +122,7 @@
             </div>
         </div>
             <div class="">
-            <img onclick="window.location.href='hora.php'" src="img/home/icon/iconletra-04.png" alt="" width="250px">
+            <img onclick="window.location.href='hora.php'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-04.png" alt="" width="250px">
                 </div>
             </div>
         </div>
@@ -135,7 +135,7 @@
     </div>
 
             <div class="" >
-            <img onclick="window.location.href='docente.php'" src="img/home/icon/iconletra-05.png" alt="" width="250px">
+            <img onclick="window.location.href='docente.php'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-05.png" alt="" width="250px">
                 </div >
                 
             </div>
@@ -199,7 +199,7 @@
         </div>
         <div class="h6-minicont">
             <div class="h6-m2">
-                <img src="img/home/icon1.png" alt="">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="">
             </div>  
             <div class="h6-n1">
                 <p>+</p>
@@ -212,7 +212,7 @@
 
         <div class="h6-minicont">
             <div class="h6-m2">
-                <img src="img/home/icon1.png" alt="">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="">
             </div>  
             <div class="h6-n1">
             <p>+</p>
@@ -225,7 +225,7 @@
 
         <div class="h6-minicont">
             <div class="h6-m2">
-                <img src="img/home/icon1.png" alt="">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="">
             </div>  
             <div class="h6-n1">
             <p>+</p>
@@ -238,7 +238,7 @@
 
         <div class="h6-minicont">
             <div class="h6-m2">
-                <img src="img/home/icon1.png" alt="">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="">
             </div>  
             <div class="h6-n1">
             <p>+</p>
@@ -251,7 +251,7 @@
         
         <div class="h6-minicont">
         <div class="h6-m2">
-                <img src="img/home/icon1.png" alt="">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="">
             </div>  
             <div class="h6-n1">
             <p>+</p>
@@ -264,7 +264,7 @@
 
         <div class="h6-minicont">
         <div class="h6-m2">
-                <img src="img/home/icon1.png" alt="">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="">
             </div>  
             <div class="h6-n1 ">
             <p>+</p>
@@ -300,7 +300,7 @@
             <div class="h7-grid2" >
                     <div class="h7-fonfoverde">
                         <center>      
-                        <img src="img/home/icon1.png" alt="">
+                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="">
                         </center>
                     </div>
                     <div  class="h7-fondoblanco" onclick="window.location.href='hora.php'" >
@@ -316,7 +316,7 @@
             <div class="h7-grid2">
                 <div class="h7-fonfoverde">
                     <center>
-                    <img src="img/home/icon1.png" alt="">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="">
                     </center>
                 </div>
                 <div class="h7-fondoblanco" onclick="window.location.href='conferencia.php'">
@@ -334,7 +334,7 @@
                 <div class="h7-fonfoverde">
                     <center>
                      
-                    <img src="img/home/icon1.png" alt=""> </center>
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt=""> </center>
                 </div>
                 <div class="h7-fondoblanco" onclick="window.location.href='eventos.php'">
                     <p class="font-lato h7-b" >Encuentro de organizaciones</p>
@@ -373,7 +373,7 @@
         </p>
     </div>
     <div>
-        <img src="img/home/home-foto11.png" alt="" width="370px">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-foto11.png" alt="" width="370px">
     </div>
 
 </div>
@@ -385,7 +385,7 @@
         </p>
     </div>
     <div>
-    <img src="img/home/home-foto11.png" alt="" width="370px">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-foto11.png" alt="" width="370px">
     </div>
 </div>
 
@@ -398,7 +398,7 @@
         <p><b>Solidaridad:</b>Para llevar la oportunidad tecnológica a más personas.</p>
     </div>
     <div>
-    <img src="img/home/home-foto11.png" alt="" width="370px">
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-foto11.png" alt="" width="370px">
     </div>
 
 </div>
@@ -442,7 +442,7 @@ function proposito() {
 </center>
 
 <center>
-<img src="img/home/mapa.png" alt="">
+<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/mapa.png" alt="">
 </center>
 </section>
 
@@ -500,7 +500,7 @@ function proposito() {
     </div>
 
     <div>
-        <img src="img/home/home-foto12.png" alt="">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-foto12.png" alt="">
     </div>
 </div>
 

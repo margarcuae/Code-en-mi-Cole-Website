@@ -334,7 +334,7 @@ h1 {
 }
 
 .beneficios-container{
-    background-image: url("img/colegios/recurso14.png");
+    background-image: url("<?php echo get_bloginfo('template_directory'); ?>/img/colegios/recurso14.png");
     background-size: cover;
     background-position: center;    
 }
