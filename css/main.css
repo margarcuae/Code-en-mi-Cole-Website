@@ -525,6 +525,7 @@ background-color: #58becc;
     background-size: cover;
     background-position: center;
     height: 230px;
+    cursor: help;
     
 
 }
@@ -534,6 +535,7 @@ background-color: #58becc;
     background-size: cover;
     background-position: center;
     height: 230px;
+    cursor: help;
 }
 
 .h4img3{
@@ -541,6 +543,7 @@ background-color: #58becc;
     background-size: cover;
     background-position: center;
     height: 230px;
+    cursor: help;
 }
 
 .h4img4{
@@ -548,6 +551,7 @@ background-color: #58becc;
     background-size: cover;
     background-position: center;
     height: 230px;
+    cursor: help;
 }
 
 .h4img5{
@@ -555,6 +559,7 @@ background-color: #58becc;
     background-size: cover;
     background-position: center;
     height: 230px;
+    cursor: help;
 }
 
 @media screen and (max-width: 600px) {
