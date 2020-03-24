@@ -8,7 +8,3 @@
 <link rel="stylesheet" href="css/main.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
 
-<!-- Odometr includes -->
-<link rel="stylesheet" href="https://github.hubspot.com/odometer/themes/odometer-theme-default.css" />
-<script src="http://github.hubspot.com/odometer/odometer.js"></script>
-<script src="js/movimiento.js"></script>

@@ -1,3 +1,8 @@
+<!-- Odometr includes -->
+<link rel="stylesheet" href="https://github.hubspot.com/odometer/themes/odometer-theme-default.css" />
+<script src="http://github.hubspot.com/odometer/odometer.js"></script>
+<script src="js/movimiento.js"></script>
+
 <div class="fondo font-lato " id="animacion1">
     <div></div>
     <div class="center">
