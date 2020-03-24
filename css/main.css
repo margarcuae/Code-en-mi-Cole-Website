@@ -312,17 +312,21 @@ z-index:99;
 
 }
 .contenedor-portada{
-    display: flex;
-    font-size: 40px;
-    height: 50px;
+    
+    
+    height: 60px;
     text-align: center;
     overflow: hidden;
+    
+
 
 }
 .contenedor-portada ul{
     list-style: none ;
     padding: 0 10px;
     margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
     animation: cambiar 7s infinite;
     font-weight: bold;
     color: white;
@@ -337,17 +341,35 @@ z-index:99;
     padding-right: 20px;
 }
 
+#animacion1{
+    display: grid;
+    grid-template-columns: 1fr 250px 520px   1fr; /* no me juzguen */
+    column-gap: 0px;
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+ 
+}
+
+.li-animacion1{
+    height: 60px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 @keyframes cambiar{
     0%{margin-top: 0;}
     20%{margin-top: 0;}
-    25%{margin-top: -50px;    }
-    50%{margin-top: -50px;}
+    25%{margin-top: -60px;    }
+    50%{margin-top: -60px;}
 
-    55%{margin-top: -100px;}
-    80%{margin-top: -100px;}
+    55%{margin-top: -120px;}
+    80%{margin-top: -120px;}
 
-    85%{margin-top: -50px;}
-    95%{margin-top: -50px;}
+    85%{margin-top: -60px;}
+    95%{margin-top: -60px;}
 
     100%{margin-top: 0;}
 }
@@ -356,8 +378,14 @@ z-index:99;
 
 
 @media screen and (max-width: 600px) {
-    .contenedor-portada{
-        flex-direction: column;
+    
+    #animacion1{
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 30px 80px auto;
+        justify-content: center;
+        font-size: 45px;
+
     }
 }
 
@@ -386,14 +414,16 @@ z-index:99;
     display: grid;
     justify-items: center;
     align-items: center;
-    padding-right: 10%;
-    padding-left: 10%;
     text-align: center;
-    padding-bottom: 40px;
+    padding: 60px 10%;
 
     grid-template-areas: 
     'hometitle hometitle hometitle'
     'homef homefoto2 homefoto3';
+}
+.home2 h2{
+    color: #1078ff;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
@@ -422,8 +452,11 @@ z-index:99;
 .h3Texto{
     grid-area: h3Texto;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
+}
+.h3Texto p{
+    margin: 0;
 }
 
 
@@ -432,8 +465,8 @@ z-index:99;
     display: grid;
     justify-items: center;
     align-items: center;
-    padding-right: 10%;
-    padding-left: 10%;
+    
+    padding: 60px 10%;
 
     grid-template-areas: 
     'h3Img1 h3Title h3Img2'
@@ -446,9 +479,10 @@ background-color: #58becc;
     background-image: url('../img/home/home-recurso3.png');
     background-size: cover;
     background-position: center;
-    padding-right: 10%;
-    padding-left: 10%;
+
+    padding: 60px 10%;
 }
+
 .home4 p{
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -456,6 +490,13 @@ background-color: #58becc;
 }
 .home4 h2{
     color: white;
+    margin: 0;
+}
+.h4title{
+    margin-bottom: 40px;
+}
+.h4title hr{
+    width: 40px;
 }
 
 
@@ -464,26 +505,27 @@ background-color: #58becc;
     justify-items: center;
     align-items: center;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 40px;
+    grid-gap: 80px;
     margin-bottom: 20px;
 }
 
-.h4Title{
-    grid-column: 1/span 3;
-}
 
 
 
 .home4-2{
+    margin-top: 90px;
     display: grid;
     justify-items: center;
     align-items: center;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 40px;
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-bottom: 60px;
+    grid-gap: 80px;
+    margin-left: 17%;
+    margin-right: 17%;
+   
 
+}
+.home4 img{
+    cursor: pointer;
 }
 
 .h4blanco{
@@ -494,20 +536,25 @@ background-color: #58becc;
 .h4Cont1, .h4Cont2, .h4Cont3, .h4Cont4, .h4Cont5{
     border-radius: 0 0 25px 25px;
 }
-.h-info{
-    height: 230px;
-    background-color: rgba(0, 0, 0, 0.42);
-    -webkit-transition: opacity 0.5s;
-    opacity: 0 ;
+
+.home4 p{
+    margin:0;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 0 10px;
+    transition: all 0.5s
     
 }
-.h4img1:hover{
-    -webkit-transform: rotateY(180deg);
-    -webkit-transform-style: preserve-3d;
-    transform: rotateY(180deg);
-    transform-style: preserve-3d;
+.h4-voltear{
+    display: none;
+    background-color:rgba(0,0,0,0.6);
+    align-items: center;
+    height: 100%    ;
 }
-
+.h4-voltear:hover{
+    transition-duration: 2s;    
+}
 
 
 .h4img1{
@@ -515,6 +562,9 @@ background-color: #58becc;
     background-size: cover;
     background-position: center;
     height: 230px;
+    cursor: help;
+    
+
 }
 
 .h4img2{
@@ -522,6 +572,7 @@ background-color: #58becc;
     background-size: cover;
     background-position: center;
     height: 230px;
+    cursor: help;
 }
 
 .h4img3{
@@ -529,6 +580,7 @@ background-color: #58becc;
     background-size: cover;
     background-position: center;
     height: 230px;
+    cursor: help;
 }
 
 .h4img4{
@@ -536,6 +588,7 @@ background-color: #58becc;
     background-size: cover;
     background-position: center;
     height: 230px;
+    cursor: help;
 }
 
 .h4img5{
@@ -543,6 +596,7 @@ background-color: #58becc;
     background-size: cover;
     background-position: center;
     height: 230px;
+    cursor: help;
 }
 
 @media screen and (max-width: 600px) {
@@ -550,9 +604,7 @@ background-color: #58becc;
         grid-template-columns: repeat(1,1fr);
         margin: 0 0 40px 0;
     }
-    .h4Title{
-        grid-column: 1;
-    }
+
     .home4-2{
         grid-template-columns: repeat(1,1fr);
         margin: 0;
@@ -575,10 +627,12 @@ background-color: #58becc;
     height: 190px;
     justify-items: center;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 20px;
-    margin-top: 20px;
+   
+    margin: 0px 10%;
+    
+}
+#home5{
+    padding: 60px 0;
 }
 
 .home5 h2{
@@ -647,6 +701,11 @@ background-color: #58becc;
     font-weight: bold;
     font-size: 30px;
     grid-column: 2 / -1;
+    display: flex;
+}
+
+.h6-n1 p{
+    margin:0;
 }
 .h6-d1{
     font-family: 'Lato', sans-serif;
@@ -686,6 +745,8 @@ background-color: #58becc;
     }
     .h6-contenido{
         grid-template-columns: repeat(1,1fr);
+        margin-left: 5%;
+        margin-right: 10%;
     }
     .h6-title{
         grid-column: 1;
@@ -695,7 +756,7 @@ background-color: #58becc;
 
 .home7{
     background-color: #f6f6f6;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 50px;
     
 }
@@ -717,7 +778,6 @@ background-color: #58becc;
 }
 .h7-fondocolor{
     background-color: #4ed3ee;
-    
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 10px;
@@ -733,6 +793,8 @@ background-color: #58becc;
     
 }
 .h7-fondoblanco{
+    cursor: pointer;
+
     grid-area: "h7-fb"; 
     padding-left: 20px;  
     font-size: 23px; 
@@ -790,6 +852,11 @@ background-color: #58becc;
     }
 
 }
+
+
+.home8{
+    padding: 60px 0;
+}
 .h8-contenidogen{
     margin-bottom: 10px;
 }
@@ -843,6 +910,13 @@ background-color: #58becc;
     color: #009c97;
 }
 
+.subtitle2{
+    color: #0066ff;
+}
+.subtitle2 hr{
+    width: 40px;
+    color: #0066ff;
+}
 
 @media screen and (max-width: 600px){
     .h8-contenidogen{
@@ -850,7 +924,8 @@ background-color: #58becc;
     }
     .h8-subtitle{
         grid-gap: 2%;
-        margin: 0 5% 0 5%;
+        margin: 0 1% 0 1%;
+        grid-template-columns: 1fr;
     }
     .h8-contenido{
         grid-template-columns: repeat(1,1fr);
@@ -862,6 +937,18 @@ background-color: #58becc;
 
 }
 
+
+.home85{
+    padding-top: 30px;
+    background-color: #cfe4ff;
+    margin-bottom:50px ;
+}
+
+.home85 img{
+    margin-top: 5%;
+    width: 70%;
+    margin-bottom: 5%;
+}
 .home10{
     background-color: #1078ff;
     font-size: 30px;
@@ -934,5 +1021,9 @@ background-color: #58becc;
     .h11-cont1 button{
         font-size:15px;
 
+    }
+    
+    .home85 img{
+        width: 80%;
     }
 }

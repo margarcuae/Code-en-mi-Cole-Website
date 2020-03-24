@@ -121,6 +121,7 @@
     background-image: url('<?php echo get_bloginfo('template_directory'); ?>/img/academia/background.png');
     background-repeat: no-repeat;
     color: white;
+    background-color: #58BBC9;
   }
 
   #seccion2 {
