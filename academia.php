@@ -117,6 +117,7 @@
         background-image: url('img/academia/background.png');
         background-repeat: no-repeat;
         color: white;
+        background-color: #58BBC9;
     }
 
     #seccion2 {

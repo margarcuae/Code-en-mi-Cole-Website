@@ -386,10 +386,8 @@ z-index:99;
     display: grid;
     justify-items: center;
     align-items: center;
-    padding-right: 10%;
-    padding-left: 10%;
     text-align: center;
-    padding-bottom: 40px;
+    padding: 60px 10%;
 
     grid-template-areas: 
     'hometitle hometitle hometitle'
@@ -426,8 +424,11 @@ z-index:99;
 .h3Texto{
     grid-area: h3Texto;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
+}
+.h3Texto p{
+    margin: 0;
 }
 
 
@@ -436,8 +437,8 @@ z-index:99;
     display: grid;
     justify-items: center;
     align-items: center;
-    padding-right: 10%;
-    padding-left: 10%;
+    
+    padding: 60px 10%;
 
     grid-template-areas: 
     'h3Img1 h3Title h3Img2'
@@ -489,6 +490,9 @@ background-color: #58becc;
     margin-right: 17%;
     padding-bottom: 60px;
 
+}
+.home4 img{
+    cursor: pointer;
 }
 
 .h4blanco{
@@ -592,10 +596,12 @@ background-color: #58becc;
     height: 190px;
     justify-items: center;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 20px;
-    margin-top: 20px;
+   
+    margin: 0px 10%;
+    
+}
+#home5{
+    padding: 60px 0;
 }
 
 .home5 h2{
@@ -719,7 +725,7 @@ background-color: #58becc;
 
 .home7{
     background-color: #f6f6f6;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 50px;
     
 }
@@ -741,7 +747,6 @@ background-color: #58becc;
 }
 .h7-fondocolor{
     background-color: #4ed3ee;
-    
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 10px;
@@ -757,6 +762,8 @@ background-color: #58becc;
     
 }
 .h7-fondoblanco{
+    cursor: pointer;
+
     grid-area: "h7-fb"; 
     padding-left: 20px;  
     font-size: 23px; 
@@ -813,6 +820,11 @@ background-color: #58becc;
         text-align: center;
     }
 
+}
+
+
+.home8{
+    padding: 60px 0;
 }
 .h8-contenidogen{
     margin-bottom: 10px;

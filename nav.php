@@ -19,31 +19,31 @@
                 <p>|</p>
             </li>
             <li class="submenu"> 
-                <a href="quehacemos.php">QUÉ HACEMOS</a>
+                <a href="#quehacemos">QUÉ HACEMOS</a>
             </li>
             <li class="no-responsive">
                 <p>|</p>
             </li>   
             <li>
-                <a href="nosotros.php">NOSOTROS</a>
+                <a href="#eventos">EVENTOS</a>
             </li>
             <li class="no-responsive">
                 <p>|</p>
             </li>
             <li >
-                <a href="eventos.php">EVENTOS</a>
+                <a href="#nosotros">NOSOTROS</a>
+            </li>
+            <li class="no-responsive">
+                <p>|</p>
+            </li>
+            <li>
+                <a href="#contacto">CONTACTO</a>
             </li>
             <li class="no-responsive">
                 <p>|</p>
             </li>
             <li>
                 <a href="blog.php">BLOG</a>
-            </li>
-            <li class="no-responsive">
-                <p>|</p>
-            </li>
-            <li>
-                <a href="blog.php">CONTACTO</a>
             </li>
             <li class ="si-responsive">
                 <input type="checkbox" id="btn-close" onclick="cambiar()" >

@@ -15,18 +15,19 @@
     <h2 class="font-montserrat" >¿QUÉ OCURRE?</h2>
     </div>
     <div class="home-foto1">
-        <img src="img/home/home-recurso4.png" alt="" width="250px">
+        <img src="img/home/home-recurso4.png" alt="" width="200px">
     </div>
     <div class="home-foto2">
-    <img src="img/home/home-recurso5.png" alt="" width="250px">    </div>
+    <img src="img/home/home-recurso5.png" alt="" width="200px">    </div>
     <div class="home-foto3">
-    <img src="img/home/home-recurso6.png" alt="" width="250px">    </div>
+    <img src="img/home/home-recurso6.png" alt="" width="200px">    </div>
 </section>
 
 
 
 
-<section class="home3" >
+
+<section class="home3"  id="quehacemos">
     <div class="h3Title font-montserrat">
         <h2>¿QUÉ HACEMOS PARA SOLUCIONARLO?</h2>
     </div>
@@ -69,7 +70,8 @@
                     </div>
                 </div>
             <div class="" >
-              <img src="img/home/icon/iconletra-01.png" alt="" width="250px">
+                
+              <img onclick="window.location.href='colegios.php'" src="img/home/icon/iconletra-01.png" alt="" width="250px">
             </div>
         </div>
 
@@ -80,7 +82,7 @@
                     </div>
             </div>
             <div class="">
-            <img src="img/home/icon/iconletra-02.png" alt="" width="250px">
+            <img onclick="window.location.href='academia.php'" src="img/home/icon/iconletra-02.png" alt="" width="250px">
             </div>
             </div>
         </div>
@@ -92,7 +94,7 @@
                     </div>
         </div>
             <div class="">
-            <img src="img/home/icon/iconletra-03.png" alt="" width="250px">
+            <img onclick="window.location.href='workshop.php'" src="img/home/icon/iconletra-03.png" alt="" width="250px">
                 </div>
             </div>
         </div>
@@ -101,7 +103,7 @@
 
 
 
-    <section class="home4-2">
+    <section class="home4-2" >
         <div class="h4Cont4 h4blanco">
         <div class="h4img4 " onmouseover="letra4()" onmouseleave="noletra4()">
             <div class=" h4-voltear"  id="h4-voltear4">
@@ -109,7 +111,7 @@
             </div>
         </div>
             <div class="">
-            <img src="img/home/icon/iconletra-04.png" alt="" width="250px">
+            <img onclick="window.location.href='hora.php'" src="img/home/icon/iconletra-04.png" alt="" width="250px">
                 </div>
             </div>
         </div>
@@ -122,7 +124,7 @@
     </div>
 
             <div class="" >
-            <img src="img/home/icon/iconletra-05.png" alt="" width="250px">
+            <img onclick="window.location.href='docente.php'" src="img/home/icon/iconletra-05.png" alt="" width="250px">
                 </div >
                 
             </div>
@@ -168,10 +170,12 @@
         </script>
 
 
+<section id="home5" >
 
-<section class="home5" >
+    <section class="home5" >
         <h2 class="font-lato" >Transformando generaciones en creadores tecnológicos</h2>
-    
+        
+    </section>
 </section>
 
 
@@ -267,7 +271,7 @@
 
 
 
-<section class="home7" >
+<section class="home7"  id="eventos">
     <div class ="h7-margin">
 
     <center>
@@ -288,7 +292,7 @@
                         <img src="img/home/icon1.png" alt="">
                         </center>
                     </div>
-                    <div class="h7-fondoblanco">
+                    <div  class="h7-fondoblanco" onclick="window.location.href='hora.php'" >
                         <p class="font-lato h7-b">Hora del código</p>
                         <p class="font-montserrat h7-colorb">#HourOfCode!</p>
                     </div>
@@ -304,7 +308,7 @@
                     <img src="img/home/icon1.png" alt="">
                     </center>
                 </div>
-                <div class="h7-fondoblanco">
+                <div class="h7-fondoblanco" onclick="window.location.href='conferencia.php'">
                     <p class="font-lato h7-b">Computer Science</p>
                     <p class="font-montserrat h7-colorb">education conference</p>
                 </div>                
@@ -321,7 +325,7 @@
                      
                     <img src="img/home/icon1.png" alt=""> </center>
                 </div>
-                <div class="h7-fondoblanco">
+                <div class="h7-fondoblanco" onclick="window.location.href='eventos.php'">
                     <p class="font-lato h7-b" >Encuentro de organizaciones</p>
                     <p class="font-montserrat h7-colorb">educativas innovadoras</p>
                 
@@ -333,7 +337,7 @@
     </div>
 </section>
 
-<section class="home8">
+<section class="home8" id="nosotros">
 
     <center class="font-montserrat subtitle">
         <h2>NOSOTROS</h2>
@@ -494,7 +498,7 @@ function proposito() {
 
 
 
-<section>
+<section id="contacto">
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.380761206224!2d-71.54248628507567!3d-16.405477442651637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424af631b383af%3A0x42aff66448d2a5cf!2sSalaverry%20301%2C%20Arequipa%2004001!5e0!3m2!1ses-419!2spe!4v1584647749292!5m2!1ses-419!2spe" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
