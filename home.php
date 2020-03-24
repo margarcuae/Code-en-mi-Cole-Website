@@ -1,12 +1,16 @@
-<div class="fondo font-lato ">
-    <div class="contenedor-portada " >
-        <p>Un nuevo</p>
-        <ul>
-            <li>#PENSAMIENTO</li>
-            <li>#LENGUAJE</li>
-            <li>#MUNDO</li>
-        </ul>
+<div class="fondo font-lato " id="animacion1">
+    <div></div>
+    <div class="center">
+        Un nuevo
     </div>
+    <div class="contenedor-portada " >
+            <ul>
+                <li class="li-animacion1">#PENSAMIENTO</li>
+                <li class="li-animacion1">#LENGUAJE</li>
+                <li class="li-animacion1">#MUNDO</li>
+            </ul>
+    </div>
+    <div></div>
 </div>
 
 

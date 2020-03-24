@@ -312,17 +312,21 @@ z-index:99;
 
 }
 .contenedor-portada{
-    display: flex;
-    font-size: 40px;
-    height: 50px;
+    
+    
+    height: 60px;
     text-align: center;
     overflow: hidden;
+    
+
 
 }
 .contenedor-portada ul{
     list-style: none ;
     padding: 0 10px;
     margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
     animation: cambiar 7s infinite;
     font-weight: bold;
     color: white;
@@ -337,17 +341,35 @@ z-index:99;
     padding-right: 20px;
 }
 
+#animacion1{
+    display: grid;
+    grid-template-columns: 1fr 250px 520px   1fr; /* no me juzguen */
+    column-gap: 0px;
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+ 
+}
+
+.li-animacion1{
+    height: 60px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 @keyframes cambiar{
     0%{margin-top: 0;}
     20%{margin-top: 0;}
-    25%{margin-top: -50px;    }
-    50%{margin-top: -50px;}
+    25%{margin-top: -60px;    }
+    50%{margin-top: -60px;}
 
-    55%{margin-top: -100px;}
-    80%{margin-top: -100px;}
+    55%{margin-top: -120px;}
+    80%{margin-top: -120px;}
 
-    85%{margin-top: -50px;}
-    95%{margin-top: -50px;}
+    85%{margin-top: -60px;}
+    95%{margin-top: -60px;}
 
     100%{margin-top: 0;}
 }
@@ -356,8 +378,14 @@ z-index:99;
 
 
 @media screen and (max-width: 600px) {
-    .contenedor-portada{
-        flex-direction: column;
+    
+    #animacion1{
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 30px 80px auto;
+        justify-content: center;
+        font-size: 45px;
+
     }
 }
 
@@ -897,6 +925,7 @@ background-color: #58becc;
     .h8-subtitle{
         grid-gap: 2%;
         margin: 0 1% 0 1%;
+        grid-template-columns: 1fr;
     }
     .h8-contenido{
         grid-template-columns: repeat(1,1fr);
