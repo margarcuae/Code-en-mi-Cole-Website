@@ -27,7 +27,7 @@
                     <a href="academia">Academia</a>
                     <a href="/workshop">Workshop</a>
                     <a href="#">Programas Sociales</a>
-                    <a href="/docentes">Formación Docente</a>
+                    <a href="/formacion-docentes">Formación Docente</a>
                 </div>
             </div>
             <li class="no-responsive">
@@ -38,9 +38,9 @@
                     <a>EVENTOS</a>
                 </li>
                 <div class="dropdown-content">
-                    <a href="#">La hora del código</a>
+                    <a href="/hora">La hora del código</a>
                     <a href="/conferencia">Conferencia</a>
-                    <a href="#">Encuentro de Organizaciones</a>
+                    <a href="/eventos">Encuentro de Organizaciones</a>
                     
                 </div>
             </div>
@@ -48,7 +48,7 @@
                 <p>|</p>
             </li>
             <li>
-                <a href="#nosotros">NOSOTROS</a>
+                <a href="/#nosotros">NOSOTROS</a>
             </li>
             <li class="no-responsive">
                 <p>|</p>

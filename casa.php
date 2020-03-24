@@ -82,7 +82,7 @@
                 </div>
             <div class="" >
                 
-              <img onclick="window.location.href='colegios.php'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-01.png" alt="" width="250px">
+              <img onclick="window.location.href='/colegios'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-01.png" alt="" width="250px">
             </div>
         </div>
 
@@ -93,7 +93,7 @@
                     </div>
             </div>
             <div class="">
-            <img onclick="window.location.href='academia.php'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-02.png" alt="" width="250px">
+            <img onclick="window.location.href='/academia'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-02.png" alt="" width="250px">
             </div>
             </div>
         </div>
@@ -105,7 +105,7 @@
                     </div>
         </div>
             <div class="">
-            <img onclick="window.location.href='workshop.php'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-03.png" alt="" width="250px">
+            <img onclick="window.location.href='/workshop'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-03.png" alt="" width="250px">
                 </div>
             </div>
         </div>
@@ -122,7 +122,7 @@
             </div>
         </div>
             <div class="">
-            <img onclick="window.location.href='hora.php'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-04.png" alt="" width="250px">
+            <img onclick="window.location.href='/hora'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-04.png" alt="" width="250px">
                 </div>
             </div>
         </div>
@@ -135,7 +135,7 @@
     </div>
 
             <div class="" >
-            <img onclick="window.location.href='docente.php'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-05.png" alt="" width="250px">
+            <img onclick="window.location.href='/formacion-docente'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-05.png" alt="" width="250px">
                 </div >
                 
             </div>
@@ -303,7 +303,7 @@
                         <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="">
                         </center>
                     </div>
-                    <div  class="h7-fondoblanco" onclick="window.location.href='hora.php'" >
+                    <div  class="h7-fondoblanco" onclick="window.location.href='/hora'" >
                         <p class="font-lato h7-b">Hora del código</p>
                         <p class="font-montserrat h7-colorb">#HourOfCode!</p>
                     </div>
@@ -319,7 +319,7 @@
                     <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="">
                     </center>
                 </div>
-                <div class="h7-fondoblanco" onclick="window.location.href='conferencia.php'">
+                <div class="h7-fondoblanco" onclick="window.location.href='/conferencia'">
                     <p class="font-lato h7-b">Computer Science</p>
                     <p class="font-montserrat h7-colorb">education conference</p>
                 </div>                
@@ -336,7 +336,7 @@
                      
                     <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt=""> </center>
                 </div>
-                <div class="h7-fondoblanco" onclick="window.location.href='eventos.php'">
+                <div class="h7-fondoblanco" onclick="window.location.href='/eventos'">
                     <p class="font-lato h7-b" >Encuentro de organizaciones</p>
                     <p class="font-montserrat h7-colorb">educativas innovadoras</p>
                 
@@ -509,7 +509,7 @@ function proposito() {
 
 
 
-<section id="contacto">
+<section id="">
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.380761206224!2d-71.54248628507567!3d-16.405477442651637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424af631b383af%3A0x42aff66448d2a5cf!2sSalaverry%20301%2C%20Arequipa%2004001!5e0!3m2!1ses-419!2spe!4v1584647749292!5m2!1ses-419!2spe" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 

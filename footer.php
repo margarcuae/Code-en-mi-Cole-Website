@@ -1,4 +1,4 @@
-<section class="footer font-lato">
+<section class="footer font-lato" id="contacto">
     <section class="" >
             <img src="<?php echo get_bloginfo('template_directory'); ?>/img/codecole.png"  class="footer1" alt="" height="100px">
     </section>
