@@ -212,7 +212,7 @@
     @media screen and (min-width: 601px) {
     .gallery{
         display: grid;
-        grid-template-columns: 1fr 1.2fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         grid-column-gap: 10px;
         grid-row-gap: 0px;
@@ -236,7 +236,6 @@
         height: 270px;
         overflow: hidden;
         margin-bottom: 15px;
-        
     }
 
     #photo-r{
@@ -247,7 +246,6 @@
 
     .dots-group{
         margin-top: 30px;
-
     }
 
     .dot {
