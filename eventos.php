@@ -15,7 +15,7 @@
             <h1 id="csc-title" class="font-lato">Encuentro de Organizaciones<br> Educativas Innovadoras</h1>
             
             <p class="font-lato">
-            En Latinoamérica y el Perú se vienen desarrollando diferentes iniciativas que impulsan cambios que la 
+                En Latinoamérica y el Perú se vienen desarrollando diferentes iniciativas que impulsan cambios que la 
             educación y la formación necesitan para transformarse en la era digital. El reto que asumimos es convocar estas iniciativas. Conocerlas, integrarlas y fortalecerlas, para construir juntos: una nueva era.            
             </p>
         </div>
