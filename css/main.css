@@ -1046,7 +1046,8 @@ background-color: #58becc;
 	align-items: center;
 	justify-content: center;
 	display: flex;
-	visibility: hidden;
+    visibility: hidden;
+    z-index:99;
 }
 
 .overlay.active {
@@ -1062,6 +1063,10 @@ background-color: #58becc;
 	transition: .3s ease all;
 	transform: scale(0.7);
 	opacity: 0;
+}
+
+.popup img{
+    width: 90%;
 }
 
 .popup .btn-cerrar-popup {

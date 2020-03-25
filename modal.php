@@ -2,14 +2,7 @@
     <div class="popup" id="popup-modal">
         <a href="#" id="btn-cerrar-popup-modal" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
 
-        <h2>
-            <?php the_title() ?>
-        </h2>
-
-        Fecha: <?php the_date() ?>
-        <br>
-        Autor: <?php the_author(); ?>
-        <br>
+        
         <?php  the_content(); ?>
 
     </div>
