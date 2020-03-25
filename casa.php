@@ -477,17 +477,6 @@ function proposito() {
 
 
 
-<section class="home10 font-lato" > 
-    <center>
-        <p>
-            Y tú estas listo para ser creador ? 
-        </p>
-    </center>
-
-</section>
-
-
-
 
 <section class="home11">
 <center class="font-montserrat subtitle" >
@@ -536,7 +525,7 @@ function proposito() {
     </div>
 
     <div>
-        <img src="img/home/home-foto12.png" alt="">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-foto12.png" alt="">
     </div>
 </div>
 
