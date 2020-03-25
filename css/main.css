@@ -1064,6 +1064,9 @@ background-color: #58becc;
 	transform: scale(0.7);
 	opacity: 0;
 }
+.popupw2{
+    width: 80%;
+}
 
 .popup img{
     width: 90%;
