@@ -79,7 +79,6 @@
             </div>
         </div>
 
-        
         <div class="dots-group">
             <span  class="dot" id="1" onclick="currentSlide(1)" ></span>
             <span class="dot" id="2" onclick="currentSlide(2)"></span>
