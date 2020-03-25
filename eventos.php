@@ -26,46 +26,46 @@
 
         <div id="gallery-1" class="gallery">
             <div class="photo" id="photo-l">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery1.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery2.jpeg">
             </div>
             <div class="photo" id="photo-c">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery2.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery3.jpeg">
             </div>
             <div class="photo" id="photo-r">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery3.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery4.jpeg">
             </div>
 
             <div class="photo" id="photo-l">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery2.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery5.jpeg">
             </div>
             <div class="photo" id="photo-c">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery1.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery6.jpeg">
             </div>
             <div class="photo" id="photo-r">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery3.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery7.jpeg">
             </div>
         </div>
         
 
         <div id="gallery-2" class="gallery">
             <div class="photo" id="photo-l">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery4.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery4.jpeg">
             </div>
             <div class="photo" id="photo-c">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery5.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery5.jpeg">
             </div>
             <div class="photo" id="photo-r">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery1.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery1.jpeg">
             </div>
 
             <div class="photo" id="photo-l">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery1.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery1.jpeg">
             </div>
             <div class="photo" id="photo-c">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery3.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery3.jpeg">
             </div>
             <div class="photo" id="photo-r">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery2.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery2.jpeg">
             </div>
 
         </div>
@@ -212,13 +212,14 @@
     @media screen and (min-width: 601px) {
     .gallery{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 10px;
-        grid-row-gap: 0px;
-        align-items: center;
+        grid-row-gap: 10px;
         margin-left: 100px;
         margin-right: 100px;
+        justify-items: center;
+        align-items: center;
     }
 
     .gallery img{
@@ -226,10 +227,12 @@
         margin: auto; 
     }
 
+
+
     #photo-l{
         height: 270px;
         overflow: hidden;
-        margin-bottom: 15px;
+        margin-bottom: 15px;    
     }
 
     #photo-c{
