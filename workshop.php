@@ -75,7 +75,7 @@
                 <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery5.jpeg">
             </div>
             <div class="photo" id="photo-r">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery6.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery3.jpeg">
             </div>
         </div>
 
