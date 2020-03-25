@@ -477,6 +477,18 @@ function proposito() {
 
 
 
+<section class="home10 font-lato" > 
+    <center>
+        <p>
+            Y tú estas listo para ser creador ? 
+        </p>
+    </center>
+
+</section>
+
+
+
+
 <section class="home11">
 <center class="font-montserrat subtitle" >
 <h2 >ÚNETE </h2> <hr>
@@ -485,27 +497,117 @@ function proposito() {
 <div class="h11-contenido font-lato">
     <div class="h11-cont1">
         <div>
-            <button>Solicitar el programa</button>
+            <button id="btn-abrir-popup" >Solicitar el programa</button>
+            <div class="overlay" id="overlay">
+                <section class="popup" id="popup">
+                    <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                    <iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__SnT6j1UMjdEWEowT0FXMFhNTUdSQUNZSko0U1hUSC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+                </section>
+		    </div>
         </div>
         <div>
-            <button>Preinscribete en la academia</button>
+            <button id="btn-abrir-popup2" >Preinscribete en la academia</button>
+            <div class="overlay" id="overlay2">
+                <section class="popup" id="popup2">
+                    <a href="#" id="btn-cerrar-popup2" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                    <iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__SnT6j1URFhEN0g5VVlJRzRPR1pKSFRHVEUyUjE0Qy4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+                </section>
+		    </div>
         </div>
         <div>
-            <button>Quiero ser voluntario</button>
+            <button id="btn-abrir-popup3" >Quiero ser voluntario</button>
+            <div class="overlay" id="overlay3">
+                <section class="popup" id="popup3">
+                    <a href="#" id="btn-cerrar-popup3" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                    <iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__SnT6j1UOEZSME5DWlY5MkZYREw2RzZBTVlDOVRGQi4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+                </section>
+		    </div>
         </div>
         <div>
-            <button>Quiero ser sponsor</button>
+            <button id="btn-abrir-popup4">Quiero ser sponsor</button>
+            <div class="overlay" id="overlay4">
+                <section class="popup" id="popup4">
+                    <a href="#" id="btn-cerrar-popup4" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                    <iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__SnT6j1UOEZSME5DWlY5MkZYREw2RzZBTVlDOVRGQi4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+                </section>
+		    </div>
         </div>
 
     </div>
 
     <div>
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-foto12.png" alt="">
+        <img src="img/home/home-foto12.png" alt="">
     </div>
 </div>
 
 
 </section>
+
+
+
+<script>
+    var btnAbrirPopup = document.getElementById('btn-abrir-popup'),
+	overlay = document.getElementById('overlay'),
+	popup = document.getElementById('popup'),
+    btnCerrarPopup = document.getElementById('btn-cerrar-popup');
+    
+    var btnAbrirPopup2 = document.getElementById('btn-abrir-popup2'),
+	overlay2 = document.getElementById('overlay2'),
+	popup2 = document.getElementById('popup2'),
+    btnCerrarPopup2 = document.getElementById('btn-cerrar-popup2');
+    
+    
+    var btnAbrirPopup3 = document.getElementById('btn-abrir-popup3'),
+	overlay3 = document.getElementById('overlay3'),
+	popup3 = document.getElementById('popup3'),
+    btnCerrarPopup3 = document.getElementById('btn-cerrar-popup3');
+    
+    var btnAbrirPopup4 = document.getElementById('btn-abrir-popup4'),
+	overlay4 = document.getElementById('overlay4'),
+	popup4 = document.getElementById('popup4'),
+    btnCerrarPopup4 = document.getElementById('btn-cerrar-popup4');
+    
+
+
+    btnAbrirPopup.addEventListener('click', function(){
+	overlay.classList.add('active');
+	popup.classList.add('active');
+    });
+
+    btnAbrirPopup2.addEventListener('click', function(){
+	overlay2.classList.add('active');
+	popup2.classList.add('active');
+    });
+    btnAbrirPopup3.addEventListener('click', function(){
+	overlay3.classList.add('active');
+	popup3.classList.add('active');
+    });
+    btnAbrirPopup4.addEventListener('click', function(){
+	overlay4.classList.add('active');
+	popup4.classList.add('active');
+    });
+
+    btnCerrarPopup.addEventListener('click', function(e){
+        e.preventDefault();
+        overlay.classList.remove('active');
+        popup.classList.remove('active');
+    });
+    btnCerrarPopup2.addEventListener('click', function(e){
+        e.preventDefault();
+        overlay2.classList.remove('active');
+        popup2.classList.remove('active');
+    });
+    btnCerrarPopup3.addEventListener('click', function(e){
+        e.preventDefault();
+        overlay3.classList.remove('active');
+        popup3.classList.remove('active');
+    });
+    btnCerrarPopup4.addEventListener('click', function(e){
+        e.preventDefault();
+        overlay4.classList.remove('active');
+        popup4.classList.remove('active');
+    });
+</script>
 
 
 
