@@ -36,10 +36,10 @@
             </div>
 
             <div class="photo" id="photo-l">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery1.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery2.jpeg">
             </div>
             <div class="photo" id="photo-c">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery2.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery1.jpeg">
             </div>
             <div class="photo" id="photo-r">
                 <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery3.jpeg">
@@ -62,10 +62,10 @@
                 <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery1.jpeg">
             </div>
             <div class="photo" id="photo-c">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery2.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery3.jpeg">
             </div>
             <div class="photo" id="photo-r">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery3.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery2.jpeg">
             </div>
 
         </div>
@@ -182,9 +182,7 @@
 }
 
 .dot:hover{
-
     background-color: purple;
-
 }
 
 </style>
@@ -305,7 +303,6 @@
     }
 </style>
 
-
 <script>
 
     $(document).ready(function(){
@@ -323,166 +320,3 @@
 </script>
 
 
-
-
-
-
-
-
-
-
-<!--
-
-
-
-<style>
-
-
-.grid-container {
-  display: grid;
-  grid-row-gap: 50px;
-  grid-column-gap: 70px;
-  grid-template-columns: auto auto auto;
-  padding: 150px;
-}
-
-.grid-item {
-    cursor: pointer;
-  padding: 20px;
-  text-align: center;
-  
-    width: 100%; 
-    height:20rem;
-    overflow: hidden;
-    
-    /* Magic */
-    display: flex;
-    align-items: center; /* vertical */
-    justify-content: center; /* horizontal */
-}
-
-.grid-item:hover {background-color: #3e8e41}
-
-
-.grid-item:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-    #line-hr{
-        border: 0.4pt solid #1D4E9B;        
-    }
-
-    #galery-title{
-        margin-top: 100px;
-        font-size: 33;
-        font-weight:bold;
-        color: #1D4E9B;
-    }
-
-    #csc-title{
-        font-size:50pt;
-        font-weight:bold;
-        margin-top: 0;
-    }
-
-    #p-text{
-        margin-top: 10px;
-        padding-left: 15% ;
-        padding-right: 15% ;
-        font-size: 16pt;    
-    }
-
-
-</style>
-
-
-
-
-    <style>
-            /* Slideshow container */
-            .slideshow-container {
-                margin-top: -100px;
-                max-width: 100%;
-                position: relative;
-                
-            }
-
-            /* The dots/bullets/indicators */
-            .dot {
-                
-            cursor: pointer;
-            height: 15px;
-            width: 15px;
-            
-            background-color: #bbb;
-            border-radius: 50%;
-            display: inline-block;
-            transition: background-color 0.6s ease;
-            }
-
-            #dots-group{
-                margin-top: -100px;
-                position: relative;
-                text-align:center; 
-                margin-bottom: 50px;
-            }
-
-            .active, .dot:hover {
-                
-            background-color: #717171;
-            }
-
-            /* Fading animation */
-            .fade {
-            -webkit-animation-name: fade;
-            -webkit-animation-duration: 1.5s;
-            animation-name: fade;
-            animation-duration: 1.5s;
-            }
-
-            @-webkit-keyframes fade {
-            from {opacity: .4} 
-            to {opacity: 1}
-            }
-
-            @keyframes fade {
-            from {opacity: .4} 
-            to {opacity: 1}
-            }
-
-            
-    </style>
-
-
-<script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-    showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-    showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}    
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    }
-</script>
-
--->
