@@ -36,8 +36,10 @@ z-index:99;
 
 .menu{
     font-size: 16px;
+    margin-left: auto;
     
 }
+    
 
 .menu ul{
         margin: 0;
@@ -696,7 +698,7 @@ background-color: #58becc;
 }
 .h6-n1{
 
-    color: #fbe819;
+    color: #000000;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 30px;
