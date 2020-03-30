@@ -1,6 +1,6 @@
 <header class="header">
     <figure class="logotipo">
-        <a href="index.php">
+        <a href="/">
             <img src="<?php echo get_bloginfo('template_directory'); ?>/img/codecole.png" alt="" width="130">
         </a>
 
