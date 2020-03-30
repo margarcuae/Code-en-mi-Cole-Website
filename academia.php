@@ -82,13 +82,10 @@
         </div>
         <div>
             <div id="cuadrito">
-                <p style="font-size: 1rem; font-weight: bold; padding-top: 25px; margin:0"> 
+                <!-- <p style="font-size: 1rem; font-weight: bold; padding-top: 25px; margin:0"> 
                     PREINSCRÍBETE A LA ACADEMIA
-                </p>
-                <iframe src="" frameborder="0">
-
-                    
-                </iframe>
+                </p> -->
+                <iframe width="640px" height= "400px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__SnT6j1URFhEN0g5VVlJRzRPR1pKSFRHVEUyUjE0Qy4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
             </div>
         </div>
     </div>
