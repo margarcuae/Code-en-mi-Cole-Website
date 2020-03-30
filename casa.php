@@ -442,7 +442,7 @@ function proposito() {
 </center>
 
 <center>
-<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/mapa.png" alt="">
+<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/mapa2.png" alt="">
 </center>
 </section>
 
@@ -461,21 +461,14 @@ function proposito() {
 </section>
 
 
-
-
-
-
 <section class="home10 font-lato" > 
     <center>
         <p>
-            Y tú estas listo para ser creador ? 
+            Y tú ¿Estás listo para ser creador ? 
         </p>
     </center>
 
 </section>
-
-
-
 
 
 <section class="home11">
