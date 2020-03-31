@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CSEC</title>
-  <link rel="icon" href="csconference/img/codeicon.png" type="image/png">
+  <link rel="icon" href="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/codeicon.png" type="image/png">
 
   <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/csconference/vendors/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/csconference/css/style.css">
@@ -20,7 +20,7 @@
     <div class="main_menu">
       <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container box_1620">
-          <a class="navbar-brand logo_h" href="csconference.html"><img class="smallImage" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/Recurso.png" alt=""></a>
+          <a class="navbar-brand logo_h" href="/csconference"><img class="smallImage" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/Recurso.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
@@ -1181,10 +1181,10 @@
 
 
 
-  <script src="<?php echo get_bloginfo('template_directory'); ?>/vendors/jquery/jquery-3.2.1.min.js"></script>
-  <script src="<?php echo get_bloginfo('template_directory'); ?>/vendors/bootstrap/bootstrap.bundle.min.js"></script>
-  <script src="<?php echo get_bloginfo('template_directory'); ?>/js/jquery.ajaxchimp.min.js"></script>
-  <script src="<?php echo get_bloginfo('template_directory'); ?>/js/main.js"></script>
+  <script src="<?php echo get_bloginfo('template_directory'); ?>/csconference/vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="<?php echo get_bloginfo('template_directory'); ?>/csconference//vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo get_bloginfo('template_directory'); ?>/csconference//js/jquery.ajaxchimp.min.js"></script>
+  <script src="<?php echo get_bloginfo('template_directory'); ?>/csconference//js/main.js"></script>
 
 
 
