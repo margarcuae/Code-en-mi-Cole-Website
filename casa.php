@@ -44,6 +44,8 @@
 <section class="home3"  id="quehacemos" style="padding-top: 20px;">
     <div class="h3Title font-montserrat">
         <h2>¿QUÉ HACEMOS PARA SOLUCIONARLO?</h2>
+        <div style="height: 1px; width: 40px; background-color: #3bbbb0; margin-bottom: 40px; margin-left: auto; margin-right: auto;" ></div>
+
     </div>
     <div class="h3Img1">
         <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-recurso1.png" alt="" width="50px">
