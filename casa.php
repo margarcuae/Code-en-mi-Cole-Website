@@ -29,7 +29,7 @@
     <div class="home-foto2">
     <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-recurso5.png" alt="" width="200px">    </div>
     <div class="home-foto3">
-    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-recurso6.png" alt="" width="200px">    </div>
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-recurso6-3.png" alt="" width="200px">    </div>
 </section>
 
 
