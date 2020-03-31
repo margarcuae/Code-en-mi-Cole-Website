@@ -299,11 +299,11 @@
     </center>
     <div class="h7-container" >
             <div class="h7-img1" >
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="" width="60px">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/recurso38.png" alt="" width="60px">
                 <p> &#60;Hora del código&#62;</p>
             </div>
             <div class="h7-img2">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt=""width="60px">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/recurso39.png" alt=""width="60px">
                 <p>&#60;Computer Science education conference&#62;</p>
             </div>
             <div class="h7-img3">
