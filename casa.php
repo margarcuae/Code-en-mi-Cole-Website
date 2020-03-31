@@ -292,10 +292,11 @@
 
 
 
-<section class="home7 font-lato"  id="eventos">
+<section class="home7 font-lato"  id="eventos" style="padding-top: 60px;">
 <center class="font-montserrat subtitle">
-        <h2>EVENTOS</h2>
-        <hr>
+        <h2 style="margin-top:0px;">EVENTOS</h2>
+        <div style="height: 1px; width: 40px; background-color: #1078ff; margin-bottom: 60px; margin-left: auto; margin-right: auto;" ></div>
+
     </center>
     <div class="h7-container" >
             <div class="h7-img1" >
