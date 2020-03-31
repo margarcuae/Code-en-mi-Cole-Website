@@ -12,10 +12,12 @@
             <p id="p-text" class="font-lato">
                 Que ocurriría si le damos la oportunidad para que 50,000 niños peruanos tengan las herramientas para mejorar el mundo.
             </p>
-
-            <button id="btn-saber" class="boton">
-                SABER MÁS
-            </button>
+            <a href="/cs-conferencia">
+                <button id="btn-saber" class="boton">
+                    SABER MÁS
+                </button>
+            </a>
+            
         </div>
         <?php include("footer.php"); ?>
 
