@@ -282,70 +282,26 @@
 
 
 
-<section class="home7"  id="eventos">
-    <div class ="h7-margin">
-
-    <center>
+<section class="home7 font-lato"  id="eventos">
+<center class="font-montserrat subtitle">
+        <h2>EVENTOS</h2>
+        <hr>
+    </center>
+    <div class="h7-container" >
+            <div class="h7-img1" >
+                <img src="img/home/icon1.png" alt="" width="60px">
+                <p> &#60;Hora del código&#62;</p>
+            </div>
+            <div class="h7-img2">
+                <img src="img/home/icon1.png" alt=""width="60px">
+                <p>&#60;Computer Science education conference&#62;</p>
+            </div>
+            <div class="h7-img3">
+                <img src="img/home/icon1.png" alt="" width="60px">
+                <p>&#60;Encuentro de organizaciones educativas inovadoras&#62;</p>
+            </div>
+    </div>
    
-        <h2  class="font-montserrat">EVENTOS </h2>
-        <hr width="35px">
-        </center>
-    <div class="h7-fondocolor">
-
-        
-        <div>
-            <div class="h7-fondo1">
-
-            </div>
-            <div class="h7-grid2" >
-                    <div class="h7-fonfoverde">
-                        <center>      
-                        <img src="img/home/icon1.png" alt="">
-                        </center>
-                    </div>
-                    <div  class="h7-fondoblanco" onclick="window.location.href='hora.php'" >
-                        <p class="font-lato h7-b">Hora del código</p>
-                        <p class="font-montserrat h7-colorb">#HourOfCode!</p>
-                    </div>
-                </div>
-            </div>
-
-        <div >
-            <div class="h7-fondo2">
-            </div>
-            <div class="h7-grid2">
-                <div class="h7-fonfoverde">
-                    <center>
-                    <img src="img/home/icon1.png" alt="">
-                    </center>
-                </div>
-                <div class="h7-fondoblanco" onclick="window.location.href='conferencia.php'">
-                    <p class="font-lato h7-b">Computer Science</p>
-                    <p class="font-montserrat h7-colorb">education conference</p>
-                </div>                
-            </div>
-        </div>
-
-        <div >
-            <div class="h7-fondo3">
-
-            </div>
-            <div class="h7-grid2">
-                <div class="h7-fonfoverde">
-                    <center>
-                     
-                    <img src="img/home/icon1.png" alt=""> </center>
-                </div>
-                <div class="h7-fondoblanco" onclick="window.location.href='eventos.php'">
-                    <p class="font-lato h7-b" >Encuentro de organizaciones</p>
-                    <p class="font-montserrat h7-colorb">educativas innovadoras</p>
-                
-                </div>
-                
-            </div>
-        </div>
-    </div>
-    </div>
 </section>
 
 <section class="home8" id="nosotros">

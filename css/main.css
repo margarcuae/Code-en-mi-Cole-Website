@@ -31,11 +31,11 @@ z-index:99;
     margin-left: 40px;
     margin-top: 7px;
     margin-bottom: 3px;
-    margin-right: 41%;
     }
 
 .menu{
     font-size: 16px;
+    margin-left: auto;
     
 }
 
@@ -584,7 +584,7 @@ background-color: #58becc;
 }
 
 .h4img4{
-    background-image: url(../img/home/home-foto4.png);
+    background-image: url(../img/home/recurso65.png);
     background-size: cover;
     background-position: center;
     height: 230px;
@@ -696,7 +696,7 @@ background-color: #58becc;
 }
 .h6-n1{
 
-    color: #fbe819;
+    color: #000000;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 30px;
@@ -755,105 +755,51 @@ background-color: #58becc;
 }
 
 .home7{
-    background-color: #f6f6f6;
-    padding-top: 60px;
-    padding-bottom: 50px;
-    
-}
-.home7 p{
-    margin: 0;
-}
-
-.h7-margin{
-    margin-left: 5%;
-    margin-right: 5%;
-}
-.h7-margin h2{
-    font-size: 25px;
-    color: #1078ff;
+    margin: 0 10%;
     font-weight: bold;
-}
-.h7-margin hr{
-    margin-bottom: 20px;
-}
-.h7-fondocolor{
-    background-color: #4ed3ee;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 10px;
-    padding: 10px;
-   
-    border: 10px solid  #1078ff;
-
-}
-.h7-fonfoverde{
-    background-color: #24b9b7   ;
-    grid-area: "h7-fv";
-    
-    
-}
-.h7-fondoblanco{
-    cursor: pointer;
-
-    grid-area: "h7-fb"; 
-    padding-left: 20px;  
-    font-size: 23px; 
+    color: white;
+    font-size: larger;
     text-align: center;
 }
-.h7-fonfoverde img{
-    height: 70px;
+
+.h7-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 300px;
 }
-.h7-grid2{
-    background-color: white;
-    display: grid;  
-    grid-template-areas: 
-    "h7-fv h7-fb h7-fb h7-fb h7-fb h7-fb"
-    ;
-    align-items: center;
+.h7-container p{
+    align-self: baseline;
+}
+.h7-container img{
+    align-self: flex-end;
+}
+.h7-img1{
+    background-image: url('/img/home/home-foto2.png');
+    display: grid;
+    justify-items: center;
     
+    padding: 10%;
+}
+.h7-img2{
+    background-image: url('/img/home/home-foto2.png');
+    display: grid;
+    justify-items: center;
+    
+    padding: 10%;
+}
+.h7-img3{
+    background-image: url('/img/home/home-foto2.png');
+    display: grid;
+    justify-items: center;
+    
+    padding: 10%;
 }
 
-
-.h7-fondo1{
-    background-image: url(../img/home/home-foto6.png);
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-}
-.h7-fondo2{
-    background-image: url(../img/home/home-foto8.png);
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-}
-.h7-fondo3{
-    background-image: url(../img/home/home-foto10.png);
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-}
-
-.h7-colorb{
-    color: #3bbbb0;
-    font-weight: bold;
-}
-.h7-b{
-    font-weight: bold;
-}
-
-@media screen and (max-width: 600px) {
-    .h7-fondocolor{
+@media screen and (max-width: 600px){
+    .h7-container{
         grid-template-columns: repeat(1,1fr);
-        font-size: 15px;
     }
-    .h7-fondoblanco{
-        font-size: 15px;
-        text-align: center;
-    }
-
 }
-
-
 .home8{
     padding: 60px 0;
 }
