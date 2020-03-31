@@ -316,7 +316,7 @@ z-index:99;
 .contenedor-portada{
     
     
-    height: 60px;
+    height: 100px;
     text-align: center;
     overflow: hidden;
     
@@ -345,16 +345,16 @@ z-index:99;
 
 #animacion1{
     display: grid;
-    grid-template-columns: 1fr 250px 520px   1fr; /* no me juzguen */
+    grid-template-columns: 1fr 300px 520px   1fr; /* no me juzguen */
     column-gap: 0px;
-    font-size: 45px;
+    font-size: 60px;
     color: white;
     font-weight: bold;
  
 }
 
 .li-animacion1{
-    height: 60px;
+    height: 100px;
     display: flex;
   justify-content: center;
   align-items: center;
@@ -364,14 +364,14 @@ z-index:99;
 @keyframes cambiar{
     0%{margin-top: 0;}
     20%{margin-top: 0;}
-    25%{margin-top: -60px;    }
-    50%{margin-top: -60px;}
+    25%{margin-top: -100px;    }
+    50%{margin-top: -100px;}
 
-    55%{margin-top: -120px;}
-    80%{margin-top: -120px;}
+    55%{margin-top: -200px;}
+    80%{margin-top: -200px;}
 
-    85%{margin-top: -60px;}
-    95%{margin-top: -60px;}
+    85%{margin-top: -100px;}
+    95%{margin-top: -100px;}
 
     100%{margin-top: 0;}
 }
