@@ -9,8 +9,8 @@
   <title>CSEC</title>
   <link rel="icon" href="csconference/img/codeicon.png" type="image/png">
 
-  <link rel="stylesheet" href="csconference/vendors/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="csconference/css/style.css">
+  <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/csconference/vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/csconference/css/style.css">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
     <div class="main_menu">
       <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container box_1620">
-          <a class="navbar-brand logo_h" href="csconference.html"><img class="smallImage" src="csconference/img/Recurso.png" alt=""></a>
+          <a class="navbar-brand logo_h" href="csconference.html"><img class="smallImage" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/Recurso.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
@@ -77,7 +77,7 @@
         <div class="row align-items-center">
           <div class="col-xs-7 col-sm-6 col-lg-7 text-center p-2">
             <div class="">
-              <img class="img-fluid" src="csconference/img/banner/sobre.jpg" alt="sobre el evento">
+              <img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/banner/sobre.jpg" alt="sobre el evento">
               <a class="popup cboxElement" href="https://www.youtube.com/embed/XhveHKJWnOQ?autoplay=1&amp;loop=1">
               </a>
             </div>
@@ -571,7 +571,7 @@
 
         <div class="col-lg-4 col-sm-6 mb-3 mb-lg-0">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/DrErnestoCuadros.jpg" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/DrErnestoCuadros.jpg" alt="">
             <div class="speaker-footer">
               <h4>Ernesto Cuadros</h4>
             </div>
@@ -587,7 +587,7 @@
         
 		<div class="col-lg-4 col-sm-6 mb-3 mb-lg-0">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/G2.png" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/G2.png" alt="">
             <div class="speaker-footer">
               <h4>Leonardo Ortiz Villacorta</h4>
             </div>
@@ -601,7 +601,7 @@
 
         <div class="col-lg-4 col-sm-6 mb-3 mb-lg-0">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/josemumos.png" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/josemumos.png" alt="">
             <div class="speaker-footer">
               <h4>Jose Muñoz Meza</h4>
             </div>
@@ -618,7 +618,7 @@
 
 		<div class="col-lg-4 col-sm-6 mb-3 mb-lg-0">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/DrAlex.png" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/DrAlex.png" alt="">
             <div class="speaker-footer">
               <h4>Alex Cuadros</h4>
             </div>
@@ -632,7 +632,7 @@
 		
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/Blacutt.png" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/Blacutt.png" alt="">
             <div class="speaker-footer">
               <h4>William Blacutt Vigil</h4>
             </div>
@@ -648,7 +648,7 @@
 
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/angelepaullo.jpg" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/angelepaullo.jpg" alt="">
             <div class="speaker-footer">
               <h4>Ángel Paullo Nina</h4>
             </div>
@@ -664,7 +664,7 @@
 
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/G7.jpg" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/G7.jpg" alt="">
             <div class="speaker-footer">
               <h4>Alejandra González Cardozo</h4>
             </div>
@@ -679,7 +679,7 @@
 
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/carmem.jpg" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/carmem.jpg" alt="">
             <div class="speaker-footer">
               <h4>Carmen Zamora</h4>
             </div>
@@ -693,7 +693,7 @@
 
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/G9.png" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/G9.png" alt="">
             <div class="speaker-footer">
               <h4>Ana Rocío Cárdenas Maita </h4>
             </div>
@@ -710,7 +710,7 @@
 
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/diegovelez.png" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/diegovelez.png" alt="">
             <div class="speaker-footer">
               <h4>Diego Velez</h4>
             </div>
@@ -724,7 +724,7 @@
 
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/RenzoSousa.jpg" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/RenzoSousa.jpg" alt="">
             <div class="speaker-footer">
               <h4>Renzo Sousa de Madalengoitia</h4>
             </div>
@@ -738,7 +738,7 @@
 
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/Kennylazo.jpeg" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/Kennylazo.jpeg" alt="">
             <div class="speaker-footer">
               <h4>Kenny Lazo Jara</h4>
             </div>
@@ -754,7 +754,7 @@
 
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 mx-auto">
             <div class="card-speaker">
-              <img class="card-img rounded-0" src="csconference/img/guests/CamilaCosta.jpeg" alt="">
+              <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/CamilaCosta.jpeg" alt="">
               <div class="speaker-footer">
                 <h4>Camila Costa</h4>
               </div>
@@ -768,7 +768,7 @@
 
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 mx-auto">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/Elian1.jpg" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/Elian1.jpg" alt="">
             <div class="speaker-footer">
               <h4>Elian Laura Riveros</h4>
             </div>
@@ -782,7 +782,7 @@
 
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 mx-auto">
             <div class="card-speaker">
-              <img class="card-img rounded-0" src="csconference/img/guests/Marisol.png" alt="">
+              <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/Marisol.png" alt="">
               <div class="speaker-footer">
                 <h4>Marisol Galarza</h4>
               </div>
@@ -798,7 +798,7 @@
         
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/AntonioCulqui.png" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/AntonioCulqui.png" alt="">
             <div class="speaker-footer">
               <h4>Antonio Culqui Malca</h4>
             </div>
@@ -815,7 +815,7 @@
 
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
             <div class="card-speaker">
-              <img class="card-img rounded-0" src="csconference/img/guests/ChristianYaranga.jpg" alt="">
+              <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/ChristianYaranga.jpg" alt="">
               <div class="speaker-footer">
                 <h4>Christian Yaranga</h4>
               </div>
@@ -829,7 +829,7 @@
         
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
             <div class="card-speaker">
-              <img class="card-img rounded-0" src="csconference/img/guests/hugorojas.jpg" alt="">
+              <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/hugorojas.jpg" alt="">
               <div class="speaker-footer">
                 <h4>Hugo Rojas Flores</h4>
               </div>
@@ -845,7 +845,7 @@
 
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/ronald.png" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/ronald.png" alt="">
             <div class="speaker-footer">
               <h4>Ronald Bohorquez Aguirre</h4>
             </div>
@@ -859,7 +859,7 @@
 
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/lucero.jpg" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/lucero.jpg" alt="">
             <div class="speaker-footer">
               <h4>Lucero Condori Rivera</h4>
             </div>
@@ -873,7 +873,7 @@
 
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/Juan.jpg" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/Juan.jpg" alt="">
             <div class="speaker-footer">
               <h4>Juan Colonia</h4>
             </div>
@@ -887,7 +887,7 @@
 
         <!--div class="col-lg-4 col-sm-6 mb-4 mb-lg-0 ">
           <div class="card-speaker">
-            <img class="card-img rounded-0" src="csconference/img/guests/photo.png" alt="">
+            <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/guests/photo.png" alt="">
             <div class="speaker-footer">
               <h4>Carlos Luna</h4>
             </div>
@@ -916,20 +916,20 @@
           <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
             <div class="sponsor-single">
               <a href="https://www.facebook.com/sumatecperu/" target="_blank"><img class="img-fluid"
-                  src="csconference/img/sponsors/sumatecaaa.png" alt=""></a>
+                  src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/sumatecaaa.png" alt=""></a>
             </div>
           </div>
 
           <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
             <div class="sponsor-single">
               <a href="http://www.facebook.com/pg/Code.en.mi.Cole" target="_blank"><img class="img-fluid"
-                  src="csconference/img/sponsors/codecole.png" alt=""></a>
+                  src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/codecole.png" alt=""></a>
             </div>
           </div>
 
           <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
             <div class="sponsor-single">
-              <a href="http://code.org" target="_blank"><img class="img-fluid" src="csconference/img/sponsors/icode.png" alt=""></a>
+              <a href="http://code.org" target="_blank"><img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/icode.png" alt=""></a>
             </div>
           </div>
         </div>
@@ -941,13 +941,13 @@
 
           <div class="col-sm-6 col-lg-6 mb-4 mb-lg-0">
             <div class="sponsor-single">
-              <a href="https://www.utec.edu.pe/"><img class="img-fluid" src="csconference/img/sponsors/utec3.png" alt=""></a>
+              <a href="https://www.utec.edu.pe/"><img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/utec3.png" alt=""></a>
             </div>
           </div>
 
           <div class="col-sm-6 col-lg-6 mb-4 mb-lg-0">
             <div class="sponsor-single">
-              <a href="https://cs.ucsp.edu.pe/" target="_blank"><img class="img-fluid" src="csconference/img/sponsors/UCSP.png"
+              <a href="https://cs.ucsp.edu.pe/" target="_blank"><img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/UCSP.png"
                   alt=""></a>
             </div>
           </div>
@@ -960,7 +960,7 @@
         <div class="row">
           <div class="col-sm-6 col-lg-6 mb-3 mb-lg-0 mx-auto">
             <div class="sponsor-single">
-              <a href="https://la.fnst.org/" target="_blank"><img class="img-fluid" src="csconference/img/sponsors/FNF_WB.png"
+              <a href="https://la.fnst.org/" target="_blank"><img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/FNF_WB.png"
                   alt=""></a>
             </div>
           </div>
@@ -975,22 +975,22 @@
 
           <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
             <div class="sponsor-single">
-              <img class="img-fluid" src="csconference/img/sponsors/munilima.png" alt="">
+              <img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/munilima.png" alt="">
             </div>
           </div>
           <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
             <div class="sponsor-single">
-              <img class="img-fluid" src="csconference/img/sponsors/logoUGEL.png" alt="">
+              <img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/logoUGEL.png" alt="">
             </div>
           </div>
           <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
             <div class="sponsor-single">
-              <img class="img-fluid" src="csconference/img/sponsors/gobcusco.png" alt="">
+              <img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/gobcusco.png" alt="">
             </div>
           </div>
           <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
             <div class="sponsor-single">
-              <img class="img-fluid" src="csconference/img/sponsors/cise.png" alt="">
+              <img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/cise.png" alt="">
             </div>
           </div>
 
@@ -1002,22 +1002,22 @@
 
           <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
             <div class="sponsor-single">
-              <img class="img-fluid" target="_blank" src="csconference/img/sponsors/khan.png" alt="">
+              <img class="img-fluid" target="_blank" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/khan.png" alt="">
             </div>
           </div>
           <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
             <div class="sponsor-single">
-              <img class="img-fluid" src="csconference/img/sponsors/UTK.png" alt="">
+              <img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/UTK.png" alt="">
             </div>
           </div>
           <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
             <div class="sponsor-single">
-              <img class="img-fluid" src="csconference/img/sponsors/kamam.png" alt="">
+              <img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/kamam.png" alt="">
             </div>
           </div>
           <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
             <div class="sponsor-single">
-              <img class="img-fluid" src="csconference/img/sponsors/tannder.png" alt="">
+              <img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/tannder.png" alt="">
             </div>
           </div>
 
@@ -1028,22 +1028,22 @@
 
           <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
             <div class="sponsor-single">
-              <img class="img-fluid" src="csconference/img/sponsors/Laboratoria.png" alt="">
+              <img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/Laboratoria.png" alt="">
             </div>
           </div>
           <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
             <div class="sponsor-single">
-              <img class="img-fluid" src="csconference/img/sponsors/pyladies.png" alt="">
+              <img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/pyladies.png" alt="">
             </div>
           </div>
           <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
             <div class="sponsor-single">
-              <img class="img-fluid" src="csconference/img/sponsors/startupperu.png" alt="">
+              <img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/startupperu.png" alt="">
             </div>
           </div>
           <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0">
             <div class="sponsor-single">
-              <img class="img-fluid" src="csconference/img/sponsors/imgine.png" alt="">
+              <img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/imgine.png" alt="">
             </div>
           </div>
         </div>        
@@ -1053,7 +1053,7 @@
         <div class="row">
           <div class="col-sm-6 col-lg-6 mb-3 mb-lg-0 mx-auto">
             <div class="sponsor-single">
-              <img class="img-fluid" src="csconference/img/sponsors/telefonica.png" alt="">
+              <img class="img-fluid" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/sponsors/telefonica.png" alt="">
             </div>
           </div>
       </div>
@@ -1073,7 +1073,7 @@
         <div class="col-sm-6 col-md-4 ">
           <div class="single-place-name shadow">
             <div class="single-imgs relative">
-              <img class="card-img rounded-0" src="csconference/img/lima2.jpg" alt="">
+              <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/lima2.jpg" alt="">
             </div>
             </a>
             <div class="place-text">
@@ -1088,7 +1088,7 @@
         <div class="col-sm-6 col-md-4">
           <div class="single-place-name shadow">
             <div class="single-imgs relative">
-              <img class="card-img rounded-0" src="csconference/img/aqp.jpg" alt="">
+              <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/aqp.jpg" alt="">
             </div>
             </a>
             <div class="place-text">
@@ -1103,7 +1103,7 @@
         <div class="col-sm-6 col-md-4">
           <div class="single-place-name shadow">
             <div class="single-imgs relative">
-              <img class="card-img rounded-0" src="csconference/img/places/cusco.jpg" alt="">
+              <img class="card-img rounded-0" src="<?php echo get_bloginfo('template_directory'); ?>/csconference/img/places/cusco.jpg" alt="">
             </div>
             </a>
             <div class="place-text">
@@ -1130,16 +1130,16 @@
           <ul class="list-unstyled footer-link d-flex footer-social d-flex justify-content-center">
             <li><a 
                 href="https://www.facebook.com/CSEC.PERU" class="p-2" target="_blank">
-                <img src="csconference/favicos/facebook-brands.svg" class="fab fa-facebook-f">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/csconference/favicos/facebook-brands.svg" class="fab fa-facebook-f">
             </a></li>
             <li><a
                 href="https://twitter.com/codenmicole?s=07&fbclid=IwAR39zpu6gEDdIJpCynQdJw_nFqJ4CQym5yVUKigajjaSFdFI_VAUKJxC5ok"
                 class="p-2" target="_blank">
-                <img src="csconference/favicos/twitter-brands.svg" class="fa fa-twitter">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/csconference/favicos/twitter-brands.svg" class="fa fa-twitter">
             </a></li>
             <li><a 
               href="https://www.instagram.com/cseconference" class="p-2" target="_blank">
-              <img src="csconference/favicos/instagram-brands.svg" class="fab fa-instagram-f">
+              <img src="<?php echo get_bloginfo('template_directory'); ?>/csconference/favicos/instagram-brands.svg" class="fab fa-instagram-f">
             </a></li>
           </ul>
         </div>
@@ -1181,10 +1181,10 @@
 
 
 
-  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
-  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
-  <script src="js/jquery.ajaxchimp.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="<?php echo get_bloginfo('template_directory'); ?>/vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="<?php echo get_bloginfo('template_directory'); ?>/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo get_bloginfo('template_directory'); ?>/js/jquery.ajaxchimp.min.js"></script>
+  <script src="<?php echo get_bloginfo('template_directory'); ?>/js/main.js"></script>
 
 
 
