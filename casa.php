@@ -20,8 +20,9 @@
 
 
 <section class="home2" >
-    <div class="home-title" >
-    <h2 class="font-montserrat" style="margin:0px; margin-bottom: 60px;" >¿QUÉ OCURRE?</h2>
+    <div class="home-title center" >
+    <h2 class="font-montserrat" style="margin:0px; margin-bottom: 10px;" >¿QUÉ OCURRE?</h2>
+    <div style="height: 1px; width: 40px; background-color: #1078ff; margin-bottom: 60px; margin-left: auto; margin-right: auto;" ></div>
     </div>
     <div class="home-foto1">
         <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-recurso4.png" alt="" width="200px" height="230px">
@@ -296,7 +297,7 @@
     <center>
    
         <h2  class="font-montserrat">EVENTOS </h2>
-        <hr width="35px">
+        <div style="height: 1px; width: 40px; background-color: #1078ff; margin-bottom: 60px; margin-left: auto; margin-right: auto;" ></div>
         </center>
     <div class="h7-fondocolor">
 
@@ -360,7 +361,7 @@
 
     <center class="font-montserrat subtitle" style="margin:0px">
         <h2>NOSOTROS</h2>
-        <hr>
+        <div style="height: 1px; width: 40px; background-color: #009c97; margin-bottom: 60px; margin-left: auto; margin-right: auto;" ></div>
     </center>
     <div class="h8-subtitle font-montserrat">
 
@@ -446,7 +447,8 @@ function proposito() {
 <section class="home85" style="padding: 60px; margin-bottom:60px">
 <center class="font-montserrat subtitle2" >
 <h2 >ALCANCE
-</h2> <hr>
+</h2>
+<div style="height: 1px; width: 40px; background-color: #1078ff; margin-bottom: 60px; margin-left: auto; margin-right: auto;" ></div>
 </center>
 
 <center>
@@ -469,7 +471,7 @@ function proposito() {
 </section>
 
 
-<section class="home10 font-lato" > 
+<section class="home10 font-lato" style="margin-bottom: 0px;" > 
     <center>
         <p>
             Y tú ¿Estás listo para ser creador ? 
@@ -481,10 +483,11 @@ function proposito() {
 
 <section class="home11" style="padding-top:60px; margin-bottom: 0px;">
 <center class="font-montserrat subtitle" >
-<h2 >ÚNETE </h2> <hr>
+<h2 >ÚNETE </h2> 
+<div style="height: 1px; width: 40px; background-color: #009c97; margin-bottom: 60px; margin-left: auto; margin-right: auto;" ></div>
 </center>
 
-<div class="h11-contenido font-lato" style="padding-top:60px">
+<div class="h11-contenido font-lato" style="padding-top:0px">
     <div class="h11-cont1">
         <div>
             <button id="btn-abrir-popup" >Solicitar el programa</button>
