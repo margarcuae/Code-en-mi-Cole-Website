@@ -21,22 +21,26 @@
 
 <section class="home2" >
     <div class="home-title" >
-    <h2 class="font-montserrat" >¿QUÉ OCURRE?</h2>
+    <h2 class="font-montserrat" style="margin:0px; margin-bottom: 60px;" >¿QUÉ OCURRE?</h2>
     </div>
     <div class="home-foto1">
-        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-recurso4.png" alt="" width="200px">
+        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-recurso4.png" alt="" width="200px" height="230px">
     </div>
     <div class="home-foto2">
-    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-recurso5.png" alt="" width="200px">    </div>
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-recurso5.png" alt="" width="200px" height="230px">    </div>
     <div class="home-foto3">
-    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-recurso6-3.png" alt="" width="200px">    </div>
+    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-recurso6-3.png" alt="" width="200px" height="230px">    </div>
+    
 </section>
+<div id="barra-out">
+    <div id="barra"></div>
+</div>
 
 
 
 
 
-<section class="home3"  id="quehacemos">
+<section class="home3"  id="quehacemos" style="padding-top: 20px;">
     <div class="h3Title font-montserrat">
         <h2>¿QUÉ HACEMOS PARA SOLUCIONARLO?</h2>
     </div>
@@ -62,7 +66,11 @@
 
 
 
-<section class="home4">
+<div id="barra-out2">
+    <div id="barra2"></div>
+</div>
+
+<section class="home4" style="padding-top: 20px;">
 
 <center class="h4title">
     <h2 class="font-montserrat">¿CÓMO LO HACEMOS?</h2>
@@ -350,7 +358,7 @@
 
 <section class="home8" id="nosotros">
 
-    <center class="font-montserrat subtitle">
+    <center class="font-montserrat subtitle" style="margin:0px">
         <h2>NOSOTROS</h2>
         <hr>
     </center>
@@ -435,7 +443,7 @@ function proposito() {
 
 
 
-<section class="home85">
+<section class="home85" style="padding: 60px; margin-bottom:60px">
 <center class="font-montserrat subtitle2" >
 <h2 >ALCANCE
 </h2> <hr>
@@ -471,12 +479,12 @@ function proposito() {
 </section>
 
 
-<section class="home11">
+<section class="home11" style="padding-top:60px; margin-bottom: 0px;">
 <center class="font-montserrat subtitle" >
 <h2 >ÚNETE </h2> <hr>
 </center>
 
-<div class="h11-contenido font-lato">
+<div class="h11-contenido font-lato" style="padding-top:60px">
     <div class="h11-cont1">
         <div>
             <button id="btn-abrir-popup" >Solicitar el programa</button>
@@ -602,3 +610,40 @@ function proposito() {
 
 
 </section>
+
+
+<style>
+#barra-out{
+    background-color: #f3f3f3;
+}
+
+#barra-out2{
+    background-color: white;
+}
+
+ #barra{
+        width:100%;
+        height:40px;
+        clip-path: polygon(0 0,0 100%,100% 100%,100% 0,62% 0, 50% 30px,38% 0);
+        background-color: white ;
+        margin-bottom: -2px;
+    }
+
+    #barra2{
+        width:100%;
+        height:40px;
+        clip-path: polygon(0 0,0 100%,100% 100%,100% 0,62% 0, 50% 30px,38% 0);
+        background-color: #58becc ;
+        margin-bottom: -2px;
+    }
+
+
+    @media screen and (max-width: 600px) {
+        #barra{
+            height: 40px;
+        }
+        #barra2{
+            height: 40px;
+        }
+    }
+</style>
