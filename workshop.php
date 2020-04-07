@@ -56,13 +56,13 @@
 
         <div id="gallery-1" class="gallery">
             <div class="photo" id="photo-l">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery1.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/workshop/Recurso8.png">
             </div>
             <div class="photo" id="photo-c">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery2.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/workshop/Recurso9.png">
             </div>
             <div class="photo" id="photo-r">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/galery3.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/workshop/temp.png">
             </div>
         </div>
         
