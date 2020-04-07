@@ -35,7 +35,7 @@ z-index:99;
     }
 
 .menu{
-    font-size: 14px;
+    font-size: 13.5px;
     margin-left: auto;
     
 }
@@ -795,7 +795,7 @@ background-color: #58becc;
 .h7-img3{
     background-image: url('../img/home/recurso4.png');
     background-size: cover;
-    background-position: center;
+    background-position: center;    
     display: grid;
     justify-items: center;
     
