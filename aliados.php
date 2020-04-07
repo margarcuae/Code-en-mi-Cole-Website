@@ -72,105 +72,105 @@ overflow:hidden;
 	<div class="slide-track">
 		
 		<div class="slide">
-			<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/2.png" height="70" alt="" />
+			<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/2.png" height="70" alt="" />
 		</div>
 		<div class="slide">
-			<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/3.png" height="100" alt="" />
+			<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/3.png" height="100" alt="" />
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/4.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/4.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/5.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/5.png" height="70"/>
 		</div>
 		<div class="slide">
-			<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/1.png" height="70"  alt="" />
+			<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/1.png" height="70"  alt="" />
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/6.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/6.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/7.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/7.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/8.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/8.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/9.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/9.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/10.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/10.png" height="70"/>
 
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/11.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/11.png" height="70"/>
 
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/12.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/12.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/13.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/13.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/14.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/14.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/15.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/15.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/16.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/16.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/17.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/17.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/18.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/18.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/19.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/19.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/20.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/20.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/21.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/21.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/22.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/22.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/23.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/23.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/24.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/24.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/25.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/25.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/26.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/26.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/27.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/27.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/28.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/28.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/29.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/29.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/30.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/30.png" height="70"/>
 		</div>
 		<div class="slide">
-		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/31.png" height="70"/>
+		<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/31.png" height="70"/>
 		</div>
 		<div class="slide">
-			<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/1.png" height="70"  alt="" />
+			<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/6.png" height="70"  alt="" />
 		</div>
 		<div class="slide">
-			<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados/2.png" height="70" alt="" />
+			<img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/aliados2/7.png" height="70" alt="" />
 		</div>
 	</div>
 </div>

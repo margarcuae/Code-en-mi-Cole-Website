@@ -35,7 +35,7 @@ z-index:99;
     }
 
 .menu{
-    font-size: 16px;
+    font-size: 14px;
     margin-left: auto;
     
 }
@@ -794,6 +794,13 @@ background-color: #58becc;
     justify-items: center;
     
     padding: 10%;
+}
+
+.home7 img{
+    cursor: pointer;
+}
+.home7 p{
+    cursor: pointer;
 }
 
 @media screen and (max-width: 600px){
