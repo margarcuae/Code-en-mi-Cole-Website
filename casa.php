@@ -302,15 +302,15 @@
     </center>
     <div class="h7-container" >
             <div class="h7-img1" >
-                <img onclick="window.location.href='/hora'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/recurso2.png" alt="" width="60px">
+                <img onclick="window.location.href='/hora'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/recurso38.png" alt="" width="60px">
                 <p onclick="window.location.href='/hora'" > &#60;Hora del código&#62;</p>
             </div>
             <div class="h7-img2">
-                <img onclick="window.location.href='/conferencia'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/recurso3.png" alt=""width="60px">
+                <img onclick="window.location.href='/conferencia'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/recurso39.png" alt=""width="60px">
                 <p onclick="window.location.href='/conferencia'" >&#60;Computer Science education conference&#62;</p>
             </div>
             <div class="h7-img3">
-                <img onclick="window.location.href='/eventos'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/recurso4.png" alt="" width="60px">
+                <img onclick="window.location.href='/eventos'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="" width="60px">
                 <p onclick="window.location.href='/eventos'" >&#60;Encuentro de organizaciones educativas inovadoras&#62;</p>
             </div>
     </div>
