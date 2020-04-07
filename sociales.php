@@ -1,4 +1,4 @@
-<?php /* Template Name: Eventos */ ?>
+<?php /* Template Name: Programas Sociales */ ?>
 <html>
     <head>
     <?php include("head.php"); ?>
@@ -10,14 +10,8 @@
     <body>
         <?php include("nav.php"); ?>
         <div id="seccion1">
-            <img src="<?php echo get_bloginfo('template_directory'); ?>/img/events.png" alt="Eventos" width="70%" >
 
-            <h1 id="csc-title" class="font-lato">Encuentro de Organizaciones<br> Educativas Innovadoras</h1>
-            
-            <p class="font-lato">
-                En Latinoamérica y el Perú se vienen desarrollando diferentes iniciativas que impulsan cambios que la 
-            educación y la formación necesitan para transformarse en la era digital. El reto que asumimos es convocar estas iniciativas. Conocerlas, integrarlas y fortalecerlas, para construir juntos: una nueva era.            
-            </p>
+            <h1 id="csc-title" class="font-lato">Programas Sociales</h1>
         </div>
 
     <div id="seccion4">

@@ -44,6 +44,8 @@
 <section class="home3"  id="quehacemos" style="padding-top: 20px;">
     <div class="h3Title font-montserrat">
         <h2>¿QUÉ HACEMOS PARA SOLUCIONARLO?</h2>
+        <div style="height: 1px; width: 40px; background-color: #3bbbb0; margin-bottom: 40px; margin-left: auto; margin-right: auto;" ></div>
+
     </div>
     <div class="h3Img1">
         <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-recurso1.png" alt="" width="50px">
@@ -144,7 +146,7 @@
     </div>
 
             <div class="" >
-            <img onclick="window.location.href='/formacion-docente'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-05.png" alt="" width="250px">
+            <img onclick="window.location.href='/formacion-docente'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-05-2.png" alt="" width="250px">
                 </div >
                 
             </div>
@@ -359,10 +361,12 @@
 <div  class=" h8-contenido font-lato" id="valores"  style="display: none;">
     
 <div>
-        <p> <b> Trascedentales:</b>Creemos en las personas y para nosotros cualquier persona puede aprender.</p>
-        <p><b>Innovadores: </b>Nuestra cultural inovadora es una grata consecuencia.</p>
+        <p> <b> Trascendental:</b>Creemos en las personas y para nosotros cualquier persona puede aprender.</p>
+        <p><b>Innovación: </b>Nuestra cultural inovadora es una grata consecuencia.</p>
         <p><b>Compromiso: </b>Con nuestros colaboradores y clientes.</p>
-        <p><b>Solidaridad:</b>Para llevar la oportunidad tecnológica a más personas.</p>
+        <p><b>Solidaridad :</b>Para llevar la oportunidad tecnológica a más personas.</p>
+        <p><b>Trabajo</b></p>
+
     </div>
     <div>
     <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/home-foto11.png" alt="" width="370px">

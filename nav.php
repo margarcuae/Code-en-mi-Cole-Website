@@ -26,7 +26,7 @@
                     <a href="/colegios">Colegios</a>
                     <a href="academia">Academia</a>
                     <a href="/workshop">Workshop</a>
-                    <a href="#">Programas Sociales</a>
+                    <a href="/programas-sociales">Programas Sociales</a>
                     <a href="/formacion-docentes">Formación Docente</a>
                 </div>
             </div>
