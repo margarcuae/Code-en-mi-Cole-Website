@@ -776,6 +776,8 @@ background-color: #58becc;
 }
 .h7-img1{
     background-image: url('../img/home/recurso2.png');
+    background-size: cover;
+    background-position: center;
     display: grid;
     justify-items: center;
     
@@ -783,6 +785,8 @@ background-color: #58becc;
 }
 .h7-img2{
     background-image: url('../img/home/recurso3.png');
+    background-size: cover;
+    background-position: center;
     display: grid;
     justify-items: center;
     
@@ -790,6 +794,8 @@ background-color: #58becc;
 }
 .h7-img3{
     background-image: url('../img/home/recurso4.png');
+    background-size: cover;
+    background-position: center;
     display: grid;
     justify-items: center;
     
