@@ -50,15 +50,8 @@
 
     <div id="consiste" class="font-lato">
         <p>
-            La hora del código es una campaña mundial en la que los alumnos de primaria y secundaria de las escuelas
-            públicas de ocho sedes del Perú y otras organiaciones participarán y serán sumergidos por aproximadamente
-            una hora en el mundo de la programación
-        </p>
-        <br>
-        <p>
-            Dado el carácter social de la campaña es 100% gratuito para los participantes gracias al apoyo de la
-            Fundación Friedrich Naumann para la Libertad y se desarrollará a nivel nacional del 15 al 30 de mayo de
-            2020.
+            LA HORA DEL CÓDIGO es una iniciativa educativa impulsada por Code.org (USA) y Code en mi Cole (Perú), diseñada para demostrar que estudiantes de todas las edades y de cualquier parte del mundo pueden aprender a programar y comprender los fundamentos básicos de la Ciencia de la Computación. Elementos que son fundamentales e imprescindibles introducir en los estudiantes de forma temprana; sea cual sea su futuro desarrollo profesional.
+
         </p>
         <br>
     </div>
@@ -101,18 +94,7 @@
 
             </p>
             <p>
-                <div class="redondo" id="c1">1</div> Llenar el Formulario de inscripción en este <a
-                    id="btn-abrir-popup2" href="#/">link</a> ,
-                hasta el 29 de abril. <br>
-                <div class="overlay" id="overlay2">
-                    <section class="popup" id="popup2">
-                        <a href="#" id="btn-cerrar-popup2" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
-                        <iframe
-                            src="https://docs.google.com/forms/d/e/1FAIpQLSdreHCcEvltCQwwQyWT3I8NL99_1LCKDUhoTx_P6gMTd93ybQ/viewform?embedded=true"
-                             height="520" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-                    </section>
-                </div>
-
+                <div class="redondo" id="c1">1</div> Inscribirse previamente con su UGEL. <br>
                 <div class="redondo" id="c2">2</div> Cumplir con la asistencia a la capacitación presencial. <br>
                 <div class="redondo" id="c3">3</div> Efectuar la Hora del Código en el horario y fecha acordada por su
                 UGEL <br>
@@ -126,66 +108,31 @@
         </div>
 
         <div id="voluntario">
-            La Hora del Código, organizada por Code.org y Code en mi Cole, tendrá lugar en nuestro país a nivel nacional
-            entre el 15 y 30 de Mayo, del presente año, dando la oportunidad a niños y jóvenes de aprender a programar y
-            comprender la importancia de la programación y el pensamiento computacional.
-            <br>
-            <br>
-            <br>
-            Si quieres ser parte como voluntario inscríbete hasta el 31 de Marzo del 2020
-            <br>
-            <button class="boton" id="btn-abrir-popup3" style="height: 40px; background-color: red;">Click Aquí</button>
-            <div class="overlay" id="overlay3">
-                <section class="popup" id="popup3">
-                    <a href="#" id="btn-cerrar-popup3" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
-                    <iframe width="640px" height="480px"
-                        src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__SnT6j1UNTBNRlFKTjVQSFhPQTdHR0c1TERSNjY3TC4u&embed=true"
-                        frameborder="0" marginwidth="0" marginheight="0"
-                        style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen
-                        mozallowfullscreen msallowfullscreen> </iframe>
-                </section>
-            </div>
+            Si quieres ser parte de La Hora del Código, organizada por Code.org y Code en mi Cole, puedes convertirte en voluntario y ayudarnos desde cualquier lugar del país. 
+ Darle la oportunidad a niños y jóvenes de aprender a programar y comprender la importancia de la programación y el pensamiento computacional, es nuestro objetivo. ¡Súmate!
+
 
             <br>
             <br>
             Aprende más sobre la hora del código: <br>
-            <a href="https://code.org"><button class="boton"
+            <a href="https://code.org/es"><button class="boton"
                     style="height: 40px; background-color: yellow; color: black;">Click Aquí</button></a>
         </div>
 
         <div id="embajador" style="text-align: center;">
-            Si eres parte de una institución gubernamental, perteneces al régimen privado, u organizaciones sin fines de
-            lucro y están entusiasmados por llevar a cabo "La hora del Código" en su institución, puede convertirse en
-            Embajador:
+            Los embajadores son personas e instituciones como: colegios, instituciones gubernamentales, universidades, empresas, organizaciones sin fines de lucro, que quieren sumarse a este movimiento mundial.
             <br>
             <br>
-            ¿Cómo?
+Los embajadores apoyan de esta manera: 
             <br>
             <br>
             <div style="text-align: left;">
-                <div class="redondo" style="background-color: red;">1</div> Llenar el Formulario de inscripción en este
-                <a href="#/" id="btn-abrir-popup4">link</a> , hasta el 29 de abril del 2020 <br>
 
-                <div class="overlay" id="overlay4">
-                    <section class="popup" id="popup4">
-                        <a href="#" id="btn-cerrar-popup4" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
-                        <iframe width="640px" height="480px"
-                            src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__SnT6j1UOEZSME5DWlY5MkZYREw2RzZBTVlDOVRGQi4u&embed=true"
-                            frameborder="0" marginwidth="0" marginheight="0"
-                            style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen
-                            mozallowfullscreen msallowfullscreen> </iframe>
-                    </section>
-                </div>
-
-                <div class="redondo" style="background-color: blue;">2</div> Capacitarte de forma virtual o presencial
-                con nostros <br>
-                <div class="redondo" style="background-color: green;">3</div> Gestionar en las instalaciones, las
+                <div class="redondo" style="background-color: green;">1</div> Gestionar en las instalaciones, las
                 computadoras, las fecha y hora en la que se desarrollará "La hora del código" <br>
-                <div class="redondo" style="background-color: orangered;">4</div> Si se trata de instituciones
-                educativas, realizar "La Hora del Código" por lo menos 2 veces al año con mínimo el 10% de su alumnado
-                de nivel primario y secundario <br>
-                <div class="redondo" style="background-color: magenta;">5</div> Apoyar en la difusión de actividades de
-                nuestra organización que se desarrollen en su región <br>
+                <div class="redondo" style="background-color: orangered;">2</div> Apoyar en la difusión de actividades.
+ <br>
+                <div class="redondo" style="background-color: magenta;">3</div>Se capacita y ejecuta La Hora del Código <br>
             </div>
         </div>
     </div>
