@@ -210,7 +210,9 @@
         </div>
         <div class="h6-minicont">
             <div class="h6-m2">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="">
+                <img style="
+    width: 60px;
+" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/recurso60.png" alt="">
             </div>  
             <div class="h6-n1">
                 <p>+</p>
@@ -223,7 +225,9 @@
 
         <div class="h6-minicont">
             <div class="h6-m2">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="">
+                <img  style="
+    width: 80px;
+" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/recurso61.png" alt="">
             </div>  
             <div class="h6-n1">
             <p>+</p>
@@ -236,7 +240,7 @@
 
         <div class="h6-minicont">
             <div class="h6-m2">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/recurso62.png" alt="">
             </div>  
             <div class="h6-n1">
             <p>+</p>
@@ -249,7 +253,7 @@
 
         <div class="h6-minicont">
             <div class="h6-m2">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/recurso63.png" alt="">
             </div>  
             <div class="h6-n1">
             <p>+</p>
@@ -262,7 +266,7 @@
         
         <div class="h6-minicont">
         <div class="h6-m2">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/recurso64.png" alt="">
             </div>  
             <div class="h6-n1">
             <p>+</p>
@@ -275,7 +279,7 @@
 
         <div class="h6-minicont">
         <div class="h6-m2">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon1.png" alt="">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/home/recurso65.png" alt="">
             </div>  
             <div class="h6-n1 ">
             <p>+</p>
