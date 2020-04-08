@@ -32,15 +32,15 @@
 		<div class="container">
 			<form action="<?php echo get_bloginfo('template_directory');?>/send_email.php">
 				
-				<input type="text" id="fname" name="nombres" placeholder="Nombre y Apellidos">
+				<input type="text" id="fname" name="nombres" required placeholder="Nombre y Apellidos">
 
-				<input type="text" id="lname" name="email" placeholder="email">
+				<input type="text" id="lname" name="email" placeholder="email" required>
 				<input type="text" id="lname" name="Teléfono" placeholder="Teléfono o celular">
 
-				<label class="font-montserrat" for="subject">Subject</label>
-				<textarea id="subject" name="subject" placeholder="Mensaje/Consulta" style="height:200px"></textarea>
+				<label class="font-montserrat" for="subject">Mensaje</label>
+				<textarea id="subject" name="subject" placeholder="Mensaje/Consulta" style="height:200px" required></textarea>
 
-				<input class="font-lato"type="submit" value="Consultar">
+				<input class="font-lato	"type="submit" value="Consultar">
 			</form>
 		</div>
 
