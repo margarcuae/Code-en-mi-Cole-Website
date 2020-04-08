@@ -2,10 +2,16 @@
 $to = "lqmyacs@gmail.com";
 $subject = "My subject";
 $txt = "Hello world!";
-$headers = "From: lquincho@unsa.edu.pe" . "\r\n"; 
+$headers = "From: lqmyacs@gmail.com" . "\r\n"; 
 //."CC: somebodyelse@example.com";
 
-mail($to,$subject,$txt,$headers);
+// Sending email
+if(mail($to,$subject,$txt,$headers);){
+    echo 'Your mail has been sent successfully.';
+} else{
+    echo 'Unable to send email. Please try again.';
+}
+
 ?>
 
 Envio
