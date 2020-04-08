@@ -10,7 +10,13 @@
             <img src="<?php echo get_bloginfo('template_directory'); ?>/img/conference.png" alt="Conferencia" width="70%" >
             <h1 id="csc-title" class="font-lato">Computer Science<br>Education Conference</h1>
             <p id="p-text" class="font-lato">
-                Que ocurriría si le damos la oportunidad para que 50,000 niños peruanos tengan las herramientas para mejorar el mundo.
+                Enseñar Ciencia de la Computación desde la escuela se ha convertido en algo fundamental, darle la oportunidad a niños de aprender y aplicar esta disciplina es sin lugar a dudas algo que va a ayudar en su desarrollo futuro.
+<br>
+Como parte de estos esfuerzos por llevar esta educación a más escuelas de Perú y Latinoamérica, es que diversas organizaciones unimos esfuerzos a fin de crear una espacio de difusión y discusión para que los diferentes actores involucrados en la formación de una persona, puedan tomar acciones a fin de llevar esta enseñanza a más lugares.
+<br>
+                <br>
+¿Qué ocurriría si le damos la oportunidad para que 50,000 niños peruanos tengan las herramientas para mejorar el mundo?
+
             </p>
             <a href="/cs-conferencia">
                 <button id="btn-saber" class="boton">
