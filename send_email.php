@@ -12,6 +12,7 @@ if(mail($to,$subject,$txt,$headers)){
     echo 'Unable to send email. Please try again.';
 }
 
+header("Location: http://codenmicole.com/contacto/");
+
 ?>
 
-Envio

@@ -54,7 +54,7 @@
                 <p>|</p>
             </li>
             <li>
-                <a href="#contacto">CONTACTO</a>
+                <a href="/contacto">CONTACTO</a>
             </li>
             <li class="no-responsive">
                 <p>|</p>
