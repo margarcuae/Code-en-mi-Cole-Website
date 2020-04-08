@@ -24,7 +24,7 @@
                     ¿POR QUE ENSEÑAR CIENCIA DE LA COMPUTACIÓN  DESDE LA ETAPA ESCOLAR?
                 </h2>
                 <p class="font-lato" >
-                    Introducir a los estudiantes de forma temprana en las ciencias de la computación, 
+                    Introducir a los estudiantes de forma temprana en las ciencia de la computación, 
                     les permitirá disponer de conocimientos imprescindibles en el siglo XXI: fomentando sus habilidades de
                     resolución de problemas, la lógica y la creatividad, fundamentales sea cual sea su futuro desarrollo profesional.
                 </p>
@@ -107,7 +107,7 @@
 
         <div id="seccion5" class="font-montserrat">
             <div>
-                <p style="font-size: 1.2rem ;">Te gustaría recibir un taller de inducción gratuito? <br> Escríbenos y nos pondremos en contacto contigo.</p>
+                <p style="font-size: 1.2rem ;">¿Te gustaría recibir un taller de inducción gratuito? <br> Escríbenos y nos pondremos en contacto contigo.</p>
                 <img src="<?php echo get_bloginfo('template_directory'); ?>/img/academia/programador.png" alt="" height="300px">
             </div>
             <div>
