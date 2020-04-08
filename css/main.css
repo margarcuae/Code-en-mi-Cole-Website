@@ -78,6 +78,9 @@ z-index:99;
   border-radius: 40px;
   margin: 5px 0;
 }
+.boton:hover{
+	cursor:pointer;
+}
 
 #btn-menu,#btn-close{
     display: none   ;
