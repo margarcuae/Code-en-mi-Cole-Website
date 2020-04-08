@@ -10,7 +10,7 @@
         <?php include("nav.php"); ?>
         <div class="font-lato" id="seccion1">
             <h1>Colegios</h1>
-            <p id="navega">Qué hacemos ? <span style="margin: 0 30px;">></span> Colegios</p>
+            <p id="navega">¿ Qué hacemos ? <span style="margin: 0 30px;">></span> Colegios</p>
         </div>
 
 
