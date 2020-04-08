@@ -10,11 +10,9 @@
             <img id="imagen-n1" src="<?php echo get_bloginfo('template_directory'); ?>/img/docente.png" alt="Conferencia" width="30%" >
             <h1 id="csc-title" class="font-lato">Programa de Formación Docente<br> <span style="color:blue"> en Ciencia de la Computación </span> </h1>
             <p id="p-text" class="font-lato">
-               Buscamos docentes de educación básica regular de nivel inicial, primario y secundario para dictar capacitaciones presenciales sobre Ciencia de la Computación y su pedagogía. La capacitación posee una duración de 120 horas totales, distribuidas en tres meses.
-          
-               <br><br>
+               Buscamos introducir a los participantes al mundo de la Ciencia de la Computación, conocer sus fundamentos y aplicarlos, aprendiendo y desarrollando el pensamiento computacional a través de la programación, de manera que el docente pueda aplicarlo en sus sesiones de aprendizaje, sea que tenga alumnos del nivel primaria o secundaria.
+Nuestro objetivo es que toda escuela en el perú y latinoamérica puedan llevar el curso de ciencias de la computación. 
 
-               Luego de las capacitaciones se espera la aplicación de los conocimientos adquiridos para medir el impacto en los estudiantes.
             </p>
         </div>
 
