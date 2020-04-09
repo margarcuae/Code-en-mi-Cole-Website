@@ -20,46 +20,46 @@
 
         <div id="gallery-1" class="gallery">
             <div class="photo" id="photo-l">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery2.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_1.JPG">
             </div>
             <div class="photo" id="photo-c">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery3.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_2.JPG">
             </div>
             <div class="photo" id="photo-r">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery4.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_3.JPG">
             </div>
 
             <div class="photo" id="photo-l">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery5.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_4.JPG">
             </div>
             <div class="photo" id="photo-c">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery6.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_5.JPG">
             </div>
             <div class="photo" id="photo-r">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery7.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_6.JPG">
             </div>
         </div>
         
 
         <div id="gallery-2" class="gallery">
             <div class="photo" id="photo-l">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery4.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_7.JPG">
             </div>
             <div class="photo" id="photo-c">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery5.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_8.JPG">
             </div>
             <div class="photo" id="photo-r">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery1.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_9.JPG">
             </div>
 
             <div class="photo" id="photo-l">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery1.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_10.JPG">
             </div>
             <div class="photo" id="photo-c">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery3.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_11.JPG">
             </div>
             <div class="photo" id="photo-r">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/eventos/galery2.jpeg">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_12.JPG">
             </div>
 
         </div>
