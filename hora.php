@@ -32,7 +32,7 @@
     </div>
     <div id="secc2">
         <div>
-            <iframe id="video2" width="720" height="412" src="https://www.youtube.com/embed/nKIu9yen5nc" frameborder="0"
+            <iframe id="video2" width="720" height="412" src="https://www.youtube.com/embed/EGgdCryC8Uo" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
