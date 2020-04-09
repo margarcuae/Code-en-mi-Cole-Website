@@ -22,7 +22,7 @@
             </li>
             <div class="dropdown">
                 <li class="submenu">
-                    <a >QUÉ<b style="color: white;">_</b>HACEMOS</a>
+                    <a >QUÉ HACEMOS</a>
                 </li>
                 <div class="dropdown-content">
                     <a href="/colegios">Colegios</a>
