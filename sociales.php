@@ -14,61 +14,61 @@
             <h1 id="csc-title" class="font-lato">Programas Sociales</h1>
         </div>
 
-    <div id="seccion4">
-        <h2 class="font-lato galeria-titulo">GALERÍA</h2> 
-        <hr id="line-hr" width="60">
+        <div id="seccion4">
+            <h2 class="font-lato galeria-titulo">GALERÍA</h2> 
+            <hr id="line-hr" width="60">
 
-        <div id="gallery-1" class="gallery">
-            <div class="photo" id="photo-l">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_1.JPG">
+            <div id="gallery-1" class="gallery">
+                <div class="photo" id="photo-l">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_1.JPG">
+                </div>
+                <div class="photo" id="photo-c">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_2.JPG">
+                </div>
+                <div class="photo" id="photo-r">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_3.jpg">
+                </div>
+
+                <div class="photo" id="photo-l">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_4.jpg">
+                </div>
+                <div class="photo" id="photo-c">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_5.jpg">
+                </div>
+                <div class="photo" id="photo-r">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_6.jpg">
+                </div>
             </div>
-            <div class="photo" id="photo-c">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_2.JPG">
-            </div>
-            <div class="photo" id="photo-r">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_3.jpg">
+            
+
+            <div id="gallery-2" class="gallery">
+                <div class="photo" id="photo-l">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_7.jpg">
+                </div>
+                <div class="photo" id="photo-c">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_8.jpg">
+                </div>
+                <div class="photo" id="photo-r">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_9.jpg">
+                </div>
+
+                <div class="photo" id="photo-l">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_10.jpg">
+                </div>
+                <div class="photo" id="photo-c">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_11.jpg">
+                </div>
+                <div class="photo" id="photo-r">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_12.jpg">
+                </div>
+
             </div>
 
-            <div class="photo" id="photo-l">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_4.jpg">
-            </div>
-            <div class="photo" id="photo-c">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_5.jpg">
-            </div>
-            <div class="photo" id="photo-r">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_6.jpg">
+            <div class="dots-group">
+                <span  class="dot" id="1" onclick="currentSlide(1)" ></span>
+                <span class="dot" id="2" onclick="currentSlide(2)"></span>
             </div>
         </div>
-        
-
-        <div id="gallery-2" class="gallery">
-            <div class="photo" id="photo-l">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_7.jpg">
-            </div>
-            <div class="photo" id="photo-c">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_8.jpg">
-            </div>
-            <div class="photo" id="photo-r">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_9.jpg">
-            </div>
-
-            <div class="photo" id="photo-l">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_10.jpg">
-            </div>
-            <div class="photo" id="photo-c">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_11.jpg">
-            </div>
-            <div class="photo" id="photo-r">
-                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_12.jpg">
-            </div>
-
-        </div>
-
-        <div class="dots-group">
-            <span  class="dot" id="1" onclick="currentSlide(1)" ></span>
-            <span class="dot" id="2" onclick="currentSlide(2)"></span>
-        </div>
-    </div>
         
 
         <?php include("footer.php"); ?>

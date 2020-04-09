@@ -1,7 +1,9 @@
 <?php /* Template Name: Conferencia */ ?>
 <html>
     <head>
-    <?php include("head.php"); ?>
+        <?php include("head.php"); ?>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     </head>
 
     <body>
@@ -24,6 +26,7 @@ Como parte de estos esfuerzos por llevar esta educación a más escuelas de Per�
                 </button>
             </a>
 
+        </div>
 
             <div id="seccion4">
                 <h2 class="font-lato galeria-titulo">GALERÍA</h2> 
@@ -31,59 +34,37 @@ Como parte de estos esfuerzos por llevar esta educación a más escuelas de Per�
 
                 <div id="gallery-1" class="gallery">
                     <div class="photo" id="photo-l">
-                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_1.JPG">
+                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/conferencia/res_1.jpg">
                     </div>
                     <div class="photo" id="photo-c">
-                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_2.JPG">
+                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/conferencia/res_2.JPG">
                     </div>
                     <div class="photo" id="photo-r">
-                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_3.jpg">
+                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/conferencia/res_3.jpg">
                     </div>
 
                     <div class="photo" id="photo-l">
-                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_4.jpg">
+                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/conferencia/res_4.JPG">
                     </div>
                     <div class="photo" id="photo-c">
-                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_5.jpg">
+                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/conferencia/res_5.jpg">
                     </div>
                     <div class="photo" id="photo-r">
-                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_6.jpg">
+                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/conferencia/res_6.JPG">
                     </div>
                 </div>
-                
 
-                <div id="gallery-2" class="gallery">
-                    <div class="photo" id="photo-l">
-                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_7.jpg">
-                    </div>
-                    <div class="photo" id="photo-c">
-                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_8.jpg">
-                    </div>
-                    <div class="photo" id="photo-r">
-                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_9.jpg">
-                    </div>
-
-                    <div class="photo" id="photo-l">
-                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_10.jpg">
-                    </div>
-                    <div class="photo" id="photo-c">
-                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_11.jpg">
-                    </div>
-                    <div class="photo" id="photo-r">
-                        <img src="<?php echo get_bloginfo('template_directory'); ?>/img/programas_sociales/res_12.jpg">
-                    </div>
 
                 </div>
 
                 <div class="dots-group">
                     <span  class="dot" id="1" onclick="currentSlide(1)" ></span>
-                    <span class="dot" id="2" onclick="currentSlide(2)"></span>
+
                 </div>
             </div>
 
 
 
-        </div>
         <?php include("footer.php"); ?>
 
     </body>
@@ -109,8 +90,6 @@ Como parte de estos esfuerzos por llevar esta educación a más escuelas de Per�
         margin-bottom: 60px;
     }
 
-
-
     @media screen and (max-width: 600px) {
         #csc-title{
             font-size:20pt;
@@ -131,8 +110,6 @@ Como parte de estos esfuerzos por llevar esta educación a más escuelas de Per�
            margin-top: 10px;
            margin-bottom: 30px;
         }
-
-
     }
 
 </style>
@@ -213,7 +190,7 @@ Como parte de estos esfuerzos por llevar esta educación a más escuelas de Per�
 
         .dot:hover{
 
-        background-color: purple;
+            background-color: purple;
 
         }
 
