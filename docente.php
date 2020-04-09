@@ -26,32 +26,32 @@ Nuestro objetivo es que toda escuela en el perú y latinoamérica puedan llevar 
                 <div >
                     <img class="img-small" src="<?php echo get_bloginfo('template_directory'); ?>/img/docente-r1.png" >
                     <div style="display: inline-block; vertical-align: middle;">
-                        <h3 class="font-lato small-title">Pensamiento Computacional</h3>
-                        <p class="font-lato small-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h3 class="font-lato small-title">Conocer</h3>
+                        <p class="font-lato small-paragraph">Los principios, diseño, aplicación e impacto de la computación en el mundo.</p>
                     </div>
                 </div>
 
                 <div>
                     <img class="img-small" src="<?php echo get_bloginfo('template_directory'); ?>/img/docente-r2.png" >
                     <div style="display: inline-block; vertical-align: middle;">
-                        <h3 class="font-lato small-title">Programación</h3>
-                        <p class="font-lato small-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h3 class="font-lato small-title">Algoritmos</h3>
+                        <p class="font-lato small-paragraph">Diseñar pasos que nos permitan dar instrucciones para llevar a cabo una tarea específica.</p>
                     </div>
                 </div>
 
                 <div>
                     <img class="img-small" src="<?php echo get_bloginfo('template_directory'); ?>/img/docente-r3.png" >
                     <div style="display: inline-block; vertical-align: middle;">
-                        <h3 class="font-lato small-title">Algoritmos</h3>
-                        <p class="font-lato small-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h3 class="font-lato small-title">Desarrollar pensamiento Computacional</h3>
+                        <p class="font-lato small-paragraph">Lo cual involucra desarrollo de habilidades de resolución de problemas, pensamiento crítico, abstracción y creatividad .</p>
                     </div>
                 </div>
 
                 <div>
                     <img class="img-small" src="<?php echo get_bloginfo('template_directory'); ?>/img/docente-r4.png" >
                     <div style="display: inline-block; vertical-align: middle;">
-                        <h3 class="font-lato small-title">Redes de Computadoras</h3>
-                        <p class="font-lato small-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h3 class="font-lato small-title">Crear tecnología</h3>
+                        <p class="font-lato small-paragraph">Que mejore el mundo a través de la programación.</p>
                     </div>
                 </div>
 
@@ -138,16 +138,18 @@ Nuestro objetivo es que toda escuela en el perú y latinoamérica puedan llevar 
     }
 
     .img-small{
-        width: 80px;
+        width: 60px;
         vertical-align: middle;
     }
 
     .small-title{
         display: inline;
+        color: blue;
     }
 
     .small-paragraph{
         padding:20px;
+        width: 250px;
     }
 
     #seccion3{
