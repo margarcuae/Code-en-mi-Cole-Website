@@ -9,7 +9,9 @@
     <input type="checkbox" id="btn-menu">
     <label for="btn-menu"> <img src="<?php echo get_bloginfo('template_directory'); ?>/img/menu.png" alt=""> </label>
 
-    <nav class="menu font-montserrat">
+    <nav class="menu font-montserrat" style="
+    margin-right: 4%;
+">
         <ul class="menu2">
 
             <li>
