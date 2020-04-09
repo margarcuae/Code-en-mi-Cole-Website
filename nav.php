@@ -10,7 +10,7 @@
     <label for="btn-menu"> <img src="<?php echo get_bloginfo('template_directory'); ?>/img/menu.png" alt=""> </label>
 
     <nav class="menu font-montserrat" style="
-    margin-right: 4%;
+    margin-right: 2%;
 ">
         <ul class="menu2">
 
