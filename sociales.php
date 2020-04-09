@@ -76,113 +76,113 @@
 </html>
 
 <style>
-/**  seccion 1 **/
-#seccion1{
-    text-align: center;
-    
-}
+    /**  seccion 1 **/
+    #seccion1{
+        text-align: center;
+        
+    }
 
-#seccion1 p{
-    margin-top: 10px;
-    padding-left: 15% ;
-    padding-right: 15% ;
-    font-size: 15pt;  
-    
-}
+    #seccion1 p{
+        margin-top: 10px;
+        padding-left: 15% ;
+        padding-right: 15% ;
+        font-size: 15pt;  
+        
+    }
 
-#seccion1 h1{
-    font-size:40pt;
-    font-weight:bold;
-    margin-top: 0;
-}
+    #seccion1 h1{
+        font-size:40pt;
+        font-weight:bold;
+        margin-top: 0;
+    }
 
-@media screen and (max-width: 600px) {
-}
+    @media screen and (max-width: 600px) {
+    }
 </style>
 
 
 <style>
-/**  seccion 1 **/
-#seccion2{
-    margin-bottom: 50px;
-    text-align: center;
-}
+    /**  seccion 1 **/
+    #seccion2{
+        margin-bottom: 50px;
+        text-align: center;
+    }
 
-#seccion2 h2{
-    margin-top: 70px;
-    font-weight:bold;
-    color: #1D4E9B;
-}
+    #seccion2 h2{
+        margin-top: 70px;
+        font-weight:bold;
+        color: #1D4E9B;
+    }
 
-@media screen and (min-width: 601px) {
-    
-    #gallery {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 30px;
-        grid-row-gap: 30px;
-        align-items: center;
-        margin: 50px 100px 50px 100px;
+    @media screen and (min-width: 601px) {
         
+        #gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 30px;
+            grid-row-gap: 30px;
+            align-items: center;
+            margin: 50px 100px 50px 100px;
+            
+        }
+
+        #gallery img{
+            height: 100%;    
+            margin: auto; 
+        }
+
+
+        .photo{
+            height: 300px;
+            overflow: hidden;
+            width: 350px;
+            overflow-x: hidden;
+
+            
+        }
     }
 
-    #gallery img{
-        height: 100%;    
-        margin: auto; 
+    @media screen and (max-width: 600px) {
+        #gallery {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+            grid-column-gap: 30px;
+            grid-row-gap: 30px;
+            align-items: center;
+            margin: 50px 30 50px 30px;
+        }
+
+        #gallery img{
+            height: 100%;    
+            margin: auto; 
+        }
+
+        #photo{
+            height: 300px;
+            overflow: hidden;
+            
+        }
     }
 
+    .dots-group{
+        margin-top: 30px;
+        text-align: center;
 
-    .photo{
-        height: 300px;
-        overflow: hidden;
-        width: 350px;
-        overflow-x: hidden;
-
-        
-    }
-}
-
-@media screen and (max-width: 600px) {
-    #gallery {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        grid-column-gap: 30px;
-        grid-row-gap: 30px;
-        align-items: center;
-        margin: 50px 30 50px 30px;
     }
 
-    #gallery img{
-        height: 100%;    
-        margin: auto; 
+    .dot {
+        height: 15px;
+        width: 15px;
+        background-color: coral;
+        border-radius: 50%;
+        display: inline-block;
     }
 
-    #photo{
-        height: 300px;
-        overflow: hidden;
-        
+    .dot:hover{
+        background-color: purple;
     }
-}
-
-.dots-group{
-    margin-top: 30px;
-    text-align: center;
-
-}
-
-.dot {
-    height: 15px;
-    width: 15px;
-    background-color: coral;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-.dot:hover{
-    background-color: purple;
-}
 
 </style>
 
@@ -203,68 +203,68 @@
     }
     
     #seccion4 hr{
-        border: 0.4pt solid #1D4E9B;    
-        margin-bottom:2%;
+            border: 0.4pt solid #1D4E9B;    
+            margin-bottom:2%;
+        }
+
+        /* Monitor de PC*/
+        @media screen and (min-width: 601px) {
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+            margin-left: 100px;
+            margin-right: 100px;
+            justify-items: center;
+            align-items: center;
+        }
+
+        .gallery img{
+            height: 100%;    
+            margin: auto; 
+        }
+
+
+
+        #photo-l{
+            height: 270px;
+            overflow: hidden;
+            margin-bottom: 15px;    
+        }
+
+        #photo-c{
+            height: 270px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        #photo-r{
+            height: 270px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        .dots-group{
+            margin-top: 30px;
+        }
+
+        .dot {
+            height: 15px;
+            width: 15px;
+            background-color: coral;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .dot:hover{
+
+        background-color: purple;
+
+        }
+
     }
-
-    /* Monitor de PC*/
-    @media screen and (min-width: 601px) {
-    .gallery{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
-        margin-left: 100px;
-        margin-right: 100px;
-        justify-items: center;
-        align-items: center;
-    }
-
-    .gallery img{
-        height: 100%;    
-        margin: auto; 
-    }
-
-
-
-    #photo-l{
-        height: 270px;
-        overflow: hidden;
-        margin-bottom: 15px;    
-    }
-
-    #photo-c{
-        height: 270px;
-        overflow: hidden;
-        margin-bottom: 15px;
-    }
-
-    #photo-r{
-        height: 270px;
-        overflow: hidden;
-        margin-bottom: 15px;
-    }
-
-    .dots-group{
-        margin-top: 30px;
-    }
-
-    .dot {
-        height: 15px;
-        width: 15px;
-        background-color: coral;
-        border-radius: 50%;
-        display: inline-block;
-    }
-
-    .dot:hover{
-
-      background-color: purple;
-
-    }
-
-}
     /* Smatphone */
     @media screen and (max-width: 600px) {
         .gallery{
