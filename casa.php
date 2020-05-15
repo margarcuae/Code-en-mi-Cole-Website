@@ -133,7 +133,7 @@
             </div>
         </div>
             <div class="">
-            <img onclick="window.location.href='/hora'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-04.png" alt="" width="250px">
+            <img onclick="window.location.href='/programas-sociales'" src="<?php echo get_bloginfo('template_directory'); ?>/img/home/icon/iconletra-04.png" alt="" width="250px">
                 </div>
             </div>
         </div>
