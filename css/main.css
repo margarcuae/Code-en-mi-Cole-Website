@@ -768,7 +768,7 @@ background-color: #58becc;
 .h7-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    height: 300px;
+    
 }
 .h7-container p{
     align-self: baseline;
