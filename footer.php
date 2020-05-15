@@ -8,7 +8,7 @@
                 <img src="<?php echo get_bloginfo('template_directory'); ?>/logos/telefono1.png" alt="" height="30px">
             </div>
             <div>
-                <p>+51 987 275 485</p>
+               
                 <p>+51 974 210 246</p>
             
             </div>
