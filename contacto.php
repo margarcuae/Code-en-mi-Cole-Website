@@ -24,8 +24,8 @@
 
 <div class="parent seccion2">
 	<div class="map">
-		<h2 class="font-lato" >Ubicanos</h2>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d804.5900486453462!2d-71.52296116232904!3d-16.409743827962984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a6a6333e8a9%3A0x7091984c884c6f26!2sCode%20en%20mi%20Cole%20Academy!5e0!3m2!1ses-419!2spe!4v1586351177138!5m2!1ses-419!2spe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		<h2 class="font-lato" >Ubícanos</h2>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.3807450383015!2d-71.54213805715123!3d-16.40547826472019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424af631b383af%3A0x42aff66448d2a5cf!2sSalaverry%20301%2C%20Arequipa%2004001!5e0!3m2!1ses-419!2spe!4v1589584104282!5m2!1ses-419!2spe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 	</div>
 	<div class="form" >
 		<h2 class="font-lato" >Dudas y consultas</h2>
