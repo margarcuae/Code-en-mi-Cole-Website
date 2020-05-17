@@ -1,10 +1,10 @@
 <?php
 
 
-$to = "lquincho@unsa.edu.pe";
+$to = "lqmyacs@gmail.com";
 $subject = "My subject";
 $txt = "Hello world!";
-$headers = "From: lqmyacs@gmail.com"; 
+$headers = "CC: lqmyacs@gmail.com"; 
 //."CC: somebodyelse@example.com";
 
 // Sending email
