@@ -4,7 +4,7 @@
 $to = "lqmyacs@gmail.com";
 $subject = "My subject";
 $txt = "Hello world!";
-$headers = "CC: lqmyacs@gmail.com"; 
+$headers = "From: root@ubuntu-s-1vcpu-1gb-nyc1-01";   
 //."CC: somebodyelse@example.com";
 
 // Sending email
