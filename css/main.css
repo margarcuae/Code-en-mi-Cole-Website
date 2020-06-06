@@ -1013,6 +1013,11 @@ background-color: #58becc;
 	display: flex;
     visibility: hidden;
     z-index:99;
+
+}
+.overlay > figure > a{
+    display: grid;
+    justify-items: center;
 }
 
 .overlay.active {

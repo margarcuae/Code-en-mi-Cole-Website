@@ -10,8 +10,7 @@
     <label for="btn-menu"> <img src="<?php echo get_bloginfo('template_directory'); ?>/img/menu.png" alt=""> </label>
 
     <nav class="menu font-montserrat" style="
-    margin-right: 2%;
-">
+    margin-right: 2%; ">
         <ul class="menu2">
 
             <li>
@@ -32,6 +31,12 @@
                     <a href="/formacion-docentes">Formación Docente</a>
                 </div>
             </div>
+            <li class="no-responsive">
+                <p>|</p>
+            </li>
+            <li>
+                <a href="https://tienda.codenmicole.com/">CURSOS</a>
+            </li>
             <li class="no-responsive">
                 <p>|</p>
             </li>
