@@ -5,7 +5,7 @@ figure {display:grid;
 </style>
 
 
-<div class="overlay font-lato" id="overlay-modal">
+<div class="overlay font-lato center" id="overlay-modal">
     <div class="popup popupw2" id="popup-modal">
         <a href="#" id="btn-cerrar-popup-modal" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
 
