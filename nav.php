@@ -69,6 +69,16 @@
             <li>
                 <a href="/blog">BLOG</a>
             </li>
+            <li class="no-responsive">
+                <p>|</p>
+            </li>
+            <li>
+                <a href="https://tienda.codenmicole.com/cesta">
+                <span class="material-icons header__carrito" style="font-size:20px;">
+                    shopping_cart
+                </span>
+                </a>
+            </li>
             <li class="si-responsive">
                 <input type="checkbox" id="btn-close" onclick="cambiar()">
                 <label for="btn-close"> <img src="<?php echo get_bloginfo('template_directory'); ?>/img/cancel3.png" alt=""> </label>
