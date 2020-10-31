@@ -20,7 +20,7 @@ Como parte de estos esfuerzos por llevar esta educación a más escuelas de Per�
 ¿Qué ocurriría si le damos la oportunidad para que 50,000 niños peruanos tengan las herramientas para mejorar el mundo?
 
             </p>
-            <a href="/cs-conferencia">
+            <a href="/conferencia2020">
                 <button id="btn-saber" class="boton">
                     SABER MÁS
                 </button>
