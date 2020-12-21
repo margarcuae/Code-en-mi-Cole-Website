@@ -58,7 +58,8 @@
                 <p class="acompana">12 sesiones</p> <br>
                 <p class="acompana" style="font-size: 0.8rem;">150 minutos cada sesión</p>
             </div>
-            <button class="boton">DESCARGAR PDF</button>
+            
+            <button class="boton" onclick="window.location.href='https://tienda.codenmicole.com/cursos/4'" >Ver Curso</button>
         </div>
         <div style="grid-area: texto3;">
             <h2 class="font-montserrat titulo-sec3">CREACIÓN DE APLICACIONES</h2>
@@ -70,7 +71,7 @@
                 <p class="acompana">12 sesiones</p> <br>
                 <p class="acompana" style="font-size: 0.8rem;">150 minutos cada sesión</p>
             </div>
-            <button class="boton">DESCARGAR PDF</button>
+            <button class="boton" onclick="window.location.href='https://tienda.codenmicole.com/cursos/2'">Ver Curso</button>
         </div>
         
     </div>
